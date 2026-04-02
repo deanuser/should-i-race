@@ -69,7 +69,7 @@ const trackData = allTracks.map((t) => ({
     <!-- Desktop Nav links + controls -->
     <ul class="flex items-center gap-4 md:gap-6 list-none m-0 p-0 flex-shrink-0">
       <!-- Search Toggle -->
-      <li>
+      <li class="hidden md:flex">
         <button
           id="nav-search-toggle"
           aria-label="Search tracks"
@@ -190,6 +190,31 @@ const trackData = allTracks.map((t) => ({
   <div
     class="flex-1 flex flex-col justify-center px-8 pt-24 pb-12 relative z-10"
   >
+    <!-- Mobile Full-Width Search -->
+    <div class="relative mb-8">
+      <svg
+        class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brightcyan pointer-events-none"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2.5"
+        ><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg
+      >
+      <input
+        id="mobile-search-input"
+        type="text"
+        placeholder="Search tracks by name or city..."
+        class="w-full bg-white/5 border border-white/15 focus:border-brightcyan/60 rounded-2xl pl-12 pr-4 py-4 text-base text-white placeholder-slate-500 outline-none transition-all duration-200"
+        autocomplete="off"
+      />
+      <div
+        id="mobile-search-results"
+        class="absolute top-full left-0 right-0 mt-2 bg-deepdark/98 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden hidden z-50 max-h-80 overflow-y-auto"
+      >
+      </div>
+    </div>
+
     <!-- Nav Links -->
     <nav class="flex flex-col gap-2 mb-12">
       {
@@ -503,5 +528,81 @@ const trackData = allTracks.map((t) => ({
     }
 
     searchResults.classList.remove("hidden");
+  });
+
+  // ── Mobile Search ─────────────────────────────────────────────
+  const mobileSearchInput = document.getElementById("mobile-search-input");
+  const mobileSearchResults = document.getElementById("mobile-search-results");
+
+  const renderMobileResults = (matches, query) => {
+    mobileSearchResults.innerHTML = "";
+
+    if (matches.length === 0) {
+      mobileSearchResults.innerHTML = `<div class="px-5 py-4 text-slate-400 text-sm">No tracks found for "<span class="text-white font-bold">${mobileSearchInput.value}</span>"</div>`;
+      mobileSearchResults.classList.remove("hidden");
+      return;
+    }
+
+    const highlighted = (str) =>
+      str.replace(
+        new RegExp(`(${query})`, "gi"),
+        '<mark class="bg-brightcyan/30 text-brightcyan rounded px-0.5">$1</mark>'
+      );
+
+    matches.slice(0, 8).forEach((track) => {
+      const item = document.createElement("a");
+      item.href = track.url;
+      item.className =
+        "flex items-center gap-3 px-5 py-4 hover:bg-brightcyan/10 transition-colors border-b border-white/5 last:border-0 group";
+      item.innerHTML = `
+        <svg class="w-4 h-4 text-slate-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <div>
+          <div class="text-white text-base font-bold group-hover:text-brightcyan transition-colors">${highlighted(track.name)}</div>
+          <div class="text-slate-500 text-sm mt-0.5">${highlighted(track.city)}</div>
+        </div>
+        <svg class="w-4 h-4 text-slate-600 ml-auto group-hover:text-brightcyan transition-colors" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      `;
+      // Close mobile menu when a result is clicked
+      item.addEventListener("click", closeMobileMenu);
+      mobileSearchResults.appendChild(item);
+    });
+
+    if (matches.length > 8) {
+      const more = document.createElement("div");
+      more.className = "px-5 py-3 text-slate-500 text-xs text-center";
+      more.textContent = `+${matches.length - 8} more results. Refine your search.`;
+      mobileSearchResults.appendChild(more);
+    }
+
+    mobileSearchResults.classList.remove("hidden");
+  };
+
+  mobileSearchInput.addEventListener("input", () => {
+    const query = mobileSearchInput.value.trim().toLowerCase();
+    mobileSearchResults.innerHTML = "";
+
+    if (query.length < 2) {
+      mobileSearchResults.classList.add("hidden");
+      return;
+    }
+
+    const matches = trackData.filter(
+      (t) =>
+        t.name.toLowerCase().includes(query) ||
+        t.city.toLowerCase().includes(query)
+    );
+
+    renderMobileResults(matches, query);
+  });
+
+  // Clear mobile search when menu closes
+  const origCloseMobileMenu = closeMobileMenu;
+  // Override closeMobileMenu to also clear mobile search
+  mobileToggle.addEventListener("click", () => {
+    if (menuOpen) {
+      mobileSearchInput.value = "";
+      mobileSearchResults.classList.add("hidden");
+      mobileSearchResults.innerHTML = "";
+    }
   });
 </script>
