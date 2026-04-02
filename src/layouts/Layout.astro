@@ -4,9 +4,16 @@ import Footer from "../components/Footer.astro";
 interface Props {
   title: string;
   description: string;
+  ogImage?: string;
+  canonicalURL?: string;
 }
 
-const { title, description } = Astro.props;
+const { 
+  title, 
+  description, 
+  ogImage = "/images/tracks/Should I Race Sprint Wind Checker.webp",
+  canonicalURL = Astro.url.href
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -14,6 +21,29 @@ const { title, description } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    
+    <!-- Primary Meta Tags -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(ogImage, Astro.site || 'https://shouldirace.com')} />
+    <meta property="og:site_name" content="Should I Race?" />
+    <meta property="og:locale" content="en_GB" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={new URL(ogImage, Astro.site || 'https://shouldirace.com')} />
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,14 +55,6 @@ const { title, description } = Astro.props;
     <!-- Favicon -->
     <link rel="icon" type="image/webp" href="/images/logos/icon.webp" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-    <meta name="description" content={description} />
-
-    <!-- Open Graph -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/images/logos/logo2.webp" />
   </head>
   <body>
     <slot />

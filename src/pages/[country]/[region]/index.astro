@@ -23,7 +23,10 @@ if (tracks.length === 0) {
 const subRegions = [...new Set(tracks.map(t => t.data.subRegion))];
 ---
 
-<Layout title={`Tracks in ${region?.replace(/-/g, ' ')} | Should I Race?`} description={`Explore professional athletics tracks in ${region?.replace(/-/g, ' ')}`}>
+<Layout 
+  title={`Athletics Tracks in ${region?.replace(/-/g, ' ')} | Should I Race?`} 
+  description={`Explore professional athletics tracks in ${region?.replace(/-/g, ' ')}. Check real-time wind conditions and plan your training or competition with live data.`}
+>
   <Navbar />
   
   <main class="container mx-auto px-4 py-12 mt-20 max-w-7xl animate-fade-in">

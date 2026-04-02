@@ -20,7 +20,10 @@ if (tracks.length === 0) {
 const regions = [...new Set(tracks.map(t => t.data.region))];
 ---
 
-<Layout title={`Athletics Tracks in ${country?.toUpperCase()} | Should I Race?`} description={`Explore professional athletics tracks in ${country?.toUpperCase()}`}>
+<Layout 
+  title={`Athletics Tracks in ${country?.toUpperCase()} | Should I Race?`} 
+  description={`Browse the comprehensive directory of professional athletics tracks in ${country?.toUpperCase()}. Check real-time wind data and optimize your sprint performance.`}
+>
   <Navbar />
   
   <main class="container mx-auto px-4 py-12 mt-20 max-w-7xl animate-fade-in">
