@@ -1,0 +1,11 @@
+{
+  "name": "Birmingham Athletics Track (Alexander Stadium)",
+  "slug": "birmingham",
+  "city": "Birmingham",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 150,
+  "lat": 52.5313023,
+  "lng": -1.9051246
+}

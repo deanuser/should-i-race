@@ -1,0 +1,85 @@
+import { c as createComponent } from './consts_DGtZZUut.mjs';
+import 'piccolore';
+import { g as renderComponent, r as renderTemplate, m as maybeRenderHead, e as addAttribute, u as unescapeHTML } from './ssr-function_DFINGRnz.mjs';
+import { $ as $$Layout, a as $$Navbar, b as $$PartnerBanner } from './PartnerBanner_D2JhUW7f.mjs';
+
+const $$About = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "About Us | Should I Race?", "description": "Discover the mission behind Should I Race? and how we provide real-time, high-precision wind monitoring for athletics tracks in the UK." }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Navbar", $$Navbar, {})} ${maybeRenderHead()}<main> <!-- About Hero Section --> <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-24 pb-16"> <!-- Background Elements --> <div class="absolute inset-0 z-0"> <!-- Deep Black Overlay with Glassmorphism --> <div class="absolute inset-0 bg-gradient-to-br from-deepdark 50% via-deepdark/90 80% to-deepdark/40 z-10 backdrop-blur-[2px]"></div> <!-- Track Image Background --> <img src="/images/tracks/Loughborough Athletics Track.webp" alt="Athletics Track Background" class="w-full h-full object-cover opacity-40 mix-blend-luminosity grayscale scale-105"> <!-- Animated Cyan Blur Glows --> <div class="absolute -top-1/4 -right-1/4 w-[500px] h-[500px] bg-brightcyan/10 blur-[140px] rounded-full z-0 animate-pulse" style="animation-duration: 8s;"></div> <div class="absolute -bottom-1/4 -left-1/4 w-[400px] h-[400px] bg-brightcyan/5 blur-[120px] rounded-full z-0 animate-pulse" style="animation-duration: 12s;"></div> </div> <!-- Hero Content Container --> <div class="container relative z-20 mx-auto px-6 max-w-6xl"> <div class="flex flex-col items-center text-center"> <!-- Mission Tag --> <span class="inline-block py-2 px-6 rounded-full bg-brightcyan/10 border border-brightcyan/30 text-brightcyan text-[11px] font-black tracking-[0.3em] uppercase mb-10 animate-fade-in shadow-[0_0_25px_rgba(34,227,213,0.15)] backdrop-blur-md">
+Why I built this tool
+</span> <!-- Main Bold Heading --> <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-8 uppercase tracking-tighter leading-[0.85] animate-fade-in" style="animation-delay: 0.1s;">
+About <span class="bg-gradient-to-br from-brightcyan via-cyan-400 to-cyan-600 bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(34,227,213,0.4)]">Should I Race?</span> </h1> <!-- Modern Subheading with improved line-height --> <p class="text-xl md:text-2xl lg:text-3xl text-slate-400 max-w-4xl mx-auto mb-14 leading-relaxed font-semibold animate-fade-in text-balance" style="animation-delay: 0.2s;">
+A Little bit why I built this tool.
+</p> <!-- Interaction/CTA Area --> <div class="flex flex-col sm:flex-row gap-5 justify-center mt-10 animate-fade-in" style="animation-delay: 0.3s;"> <a href="/#tracks" class="bg-brightcyan text-deepdark px-8 py-4 rounded-full font-black text-sm md:text-base border border-transparent transition-all duration-300 hover:scale-[1.03] uppercase tracking-widest shadow-[0_0_20px_rgba(34,227,213,0.3)]">Explore Tracks</a> </div> </div> </div> </section> <!-- Story Section --> <section class="py-24 relative overflow-hidden bg-deepdark/50"> <div class="container mx-auto px-6 max-w-6xl"> <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center"> <!-- Story Content --> <div class="space-y-8 animate-fade-in" style="animation-delay: 0.2s;"> <div class="space-y-4"> <span class="inline-block py-1.5 px-4 rounded-full bg-brightcyan/10 border border-brightcyan/30 text-brightcyan text-[10px] font-black tracking-[0.2em] uppercase">
+Get the time you deserve
+</span> <h2 class="text-4xl md:text-5xl font-black text-white leading-tight">
+Tired of racing into headwinds? Same.
+</h2> </div> <div class="space-y-6 text-slate-400 text-lg md:text-xl leading-relaxed font-medium"> <p>
+Ever travelled three hours for an SAL or BAL meet… only to get
+                slapped with a -2.0 headwind? Yeah, me too. Lots of times.
+</p> <p>
+That’s why I built Should I Race. So you can stop wasting time,
+                energy, and race fees on conditions you could’ve avoided.
+</p> <p>I wanted to know in advance if it was worth the trip.</p> <p class="text-white font-bold italic border-l-4 border-brightcyan pl-6 py-2">
+Is there going to be a tailwind? Or would you be better off
+                staying home, saving our legs, and trying again next weekend?
+</p> </div> </div> <!-- Highlights Card --> <div class="relative animate-fade-in" style="animation-delay: 0.4s;"> <div class="absolute -inset-4 bg-brightcyan/20 blur-3xl rounded-full opacity-20 pointer-events-none"></div> <div class="bento-card relative z-10 bg-card-bg/80 backdrop-blur-xl border-white/10 p-8 md:p-12"> <h3 class="text-2xl font-black text-white mb-8 border-b border-white/5 pb-4">
+Key Features
+</h3> <ul class="space-y-6"> ${[
+    "Wind Checker",
+    "25 Tracks Added (So far)",
+    "5 Day Wind Forecast"
+  ].map((feature) => renderTemplate`<li class="flex items-center gap-4 group transition-transform hover:translate-x-2"> <div class="flex-shrink-0 w-8 h-8 rounded-lg bg-brightcyan/20 flex items-center justify-center text-brightcyan border border-brightcyan/30 shadow-[0_0_15px_rgba(34,227,213,0.2)]"> <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"> <polyline points="20 6 9 17 4 12"></polyline> </svg> </div> <span class="text-lg md:text-xl font-bold text-slate-200 group-hover:text-white transition-colors capitalize"> ${feature} </span> </li>`)} </ul> </div> </div> </div> </div> </section> <!-- Support / Coffee CTA Section --> <section class="py-24 relative overflow-hidden"> <div class="container mx-auto px-6 max-w-4xl"> <div class="relative animate-fade-in" style="animation-delay: 0.2s;"> <!-- Subtle Glow Background --> <div class="absolute -inset-4 bg-brightcyan/10 blur-3xl rounded-3xl opacity-20 pointer-events-none"></div> <div class="bento-card items-center text-center p-12 md:p-16 border-white/10 bg-gradient-to-br from-brightcyan/[0.08] via-card-bg/95 to-deepdark border shadow-2xl relative overflow-hidden group"> <!-- Subtle Radial Inner Glow --> <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(34,227,213,0.05),transparent_70%)] pointer-events-none"></div> <!-- Decorative Icon --> <div class="mx-auto w-20 h-20 bg-brightcyan/10 rounded-2xl flex items-center justify-center text-brightcyan border border-brightcyan/20 mb-8 transform group-hover:scale-110 transition-transform duration-500 shadow-[0_0_30px_rgba(34,227,213,0.15)]"> <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path> <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path> <line x1="6" y1="2" x2="6" y2="4"></line> <line x1="10" y1="2" x2="10" y2="4"></line> <line x1="14" y1="2" x2="14" y2="4"></line> </svg> </div> <h2 class="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tighter">
+Buy me a coffee
+</h2> <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
+Love what you see? If you’ve found this website helpful, consider
+              showing your support by buying me a coffee! Your small gesture
+              helps keep things running smoothly and is greatly appreciated.
+</p> <a href="https://www.paypal.com/donate/?hosted_button_id=Q3BH2KU2Z7JPY" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 self-center w-fit bg-brightcyan text-deepdark px-8 py-4 rounded-full font-black text-sm md:text-base border border-transparent transition-all duration-300 hover:scale-[1.03] uppercase tracking-widest shadow-[0_0_20px_rgba(34,227,213,0.3)]">
+Support the Project
+<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"></path></svg> </a> </div> </div> </div> </section> <!-- How it Works Section --> <section class="py-24 relative overflow-hidden bg-deepdark"> <div class="container mx-auto px-6 max-w-6xl"> <div class="text-center max-w-3xl mx-auto mb-16 animate-fade-in"> <span class="inline-block py-1.5 px-4 rounded-full bg-brightcyan/10 border border-brightcyan/30 text-brightcyan text-[10px] font-black tracking-[0.2em] uppercase mb-6">
+Check the wind before even packing your spikes
+</span> <h2 class="text-4xl md:text-5xl lg:text-5xl font-black text-white leading-tight mb-8 uppercase tracking-tighter">
+How it Works
+</h2> <p class="text-slate-400 text-lg md:text-xl leading-relaxed font-medium">
+Stop guessing. Discover the wind conditions before your race. Checking whether you’ll be racing with a tailwind or facing a headwind is quick and easy. Check this site before you even pack your spikes.
+</p> </div> <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"> ${[
+    {
+      num: "01",
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>',
+      title: "Search Your Track",
+      desc: "Use the search bar or browse the full list to find your competition track in seconds."
+    },
+    {
+      num: "02",
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>',
+      title: "Check the Forecast",
+      desc: "View a five-day outlook plus today’s forecast in three-hour blocks. No more surprises on race day."
+    },
+    {
+      num: "03",
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.7 7.7 21 11l-3.3 3.3"/><path d="m21 11-18 0"/><path d="m3.5 17 14.2 0"/><path d="m3.5 5 14.2 0"/></svg>',
+      title: "Spot the Tailwind",
+      desc: "We highlight when and where you’ll catch a tailwind, so you can plan to hit your fastest time."
+    },
+    {
+      num: "04",
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>',
+      title: "Skip the Headwind",
+      desc: "If it’s all headwinds, maybe sit this one out. Save your energy for better conditions."
+    }
+  ].map((item, index) => renderTemplate`<div class="bento-card relative group p-8 bg-gradient-to-br from-card-bg/40 to-deepdark border-white/5 hover:border-brightcyan/30 animate-fade-in overflow-hidden"${addAttribute(`animation-delay: ${0.2 + index * 0.1}s;`, "style")}> <!-- Background Number --> <div class="text-7xl font-black text-white/5 group-hover:text-brightcyan/10 transition-colors duration-500 absolute -bottom-4 -right-4 pointer-events-none"> ${item.num} </div> <div class="relative z-10 flex flex-col h-full"> <!-- Icon Indicator --> <div class="w-14 h-14 bg-brightcyan/10 text-brightcyan rounded-2xl flex items-center justify-center mb-6 border border-brightcyan/20 shadow-[0_0_20px_rgba(34,227,213,0.15)] group-hover:scale-110 group-hover:bg-brightcyan/20 transition-all duration-300"> <div class="w-7 h-7">${unescapeHTML(item.icon)}</div> </div> <h3 class="text-xl font-extrabold text-white mb-3 tracking-tight group-hover:text-brightcyan transition-colors"> ${item.title} </h3> <p class="text-slate-400 text-sm leading-relaxed font-medium"> ${item.desc} </p> </div> </div>`)} </div> </div> </section> ${renderComponent($$result2, "PartnerBanner", $$PartnerBanner, { "page": "about" })} </main> ` })}`;
+}, "/Users/deandavis/Documents/Work/Should I Run/astro/src/pages/about.astro", void 0);
+
+const $$file = "/Users/deandavis/Documents/Work/Should I Run/astro/src/pages/about.astro";
+const $$url = "/about";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$About,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

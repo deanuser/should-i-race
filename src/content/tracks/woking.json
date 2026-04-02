@@ -1,0 +1,11 @@
+{
+  "name": "Woking Athletic Track (Sports Box)",
+  "slug": "woking",
+  "city": "Woking",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 20,
+  "lat": 51.2996402,
+  "lng": -0.5749932
+}

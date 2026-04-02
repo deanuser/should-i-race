@@ -1,0 +1,11 @@
+{
+  "name": "Oxford Athletics Track (Horspath)",
+  "slug": "oxford",
+  "city": "Oxford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 165,
+  "lat": 51.7374186,
+  "lng": -1.186850
+}

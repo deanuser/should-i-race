@@ -1,0 +1,11 @@
+{
+  "name": "Finsbury Park Athletics Track",
+  "slug": "finsbury-park",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 98,
+  "lat": 51.5714956,
+  "lng": -0.1010186
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Watford Athletics Track",
+  "slug": "watford",
+  "city": "Watford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 59,
+  "lat": 51.6958299,
+  "lng": -0.394297
+}

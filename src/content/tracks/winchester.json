@@ -1,0 +1,11 @@
+{
+  "name": "Winchester Athletics Track",
+  "slug": "winchester",
+  "city": "Winchester",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 170,
+  "lat": 51.0549482,
+  "lng": -1.3018919
+}

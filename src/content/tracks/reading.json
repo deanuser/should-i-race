@@ -1,0 +1,11 @@
+{
+  "name": "Reading Athletics Track",
+  "slug": "reading",
+  "city": "Reading",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 150,
+  "lat": 51.4518958,
+  "lng": -0.9371172
+}

@@ -1,0 +1,454 @@
+---
+import { getCollection } from "astro:content";
+
+const allTracks = await getCollection("tracks");
+
+// Build a tree of Country -> Region -> SubRegion -> Track
+const trackTree: Record<string, any> = {};
+allTracks.forEach((track) => {
+  const c = track.data.country || "uk";
+  const r = track.data.region || "unknown";
+  const sr = track.data.subRegion || "all";
+
+  if (!trackTree[c]) trackTree[c] = {};
+  if (!trackTree[c][r]) trackTree[c][r] = {};
+  if (!trackTree[c][r][sr]) trackTree[c][r][sr] = [];
+
+  const url =
+    sr === "all"
+      ? `/${c}/${r}/${track.data.slug}`
+      : `/${c}/${r}/${sr}/${track.data.slug}`;
+
+  trackTree[c][r][sr].push({
+    name: track.data.name,
+    city: track.data.city,
+    url: url,
+  });
+});
+---
+
+<div
+  id="track-explorer"
+  class="bento-card border border-white/5 rounded-3xl p-6 md:p-8 relative overflow-hidden mb-16 shadow-lg"
+  data-tree={JSON.stringify(trackTree)}
+>
+  <div
+    class="absolute inset-0 bg-gradient-to-br from-brightcyan/5 to-transparent pointer-events-none"
+  >
+  </div>
+
+  <!-- Header & Breadcrumbs -->
+  <div class="mb-8 relative z-10 border-b border-white/10 pb-6">
+    <div
+      class="flex flex-col md:flex-row justify-between md:items-end gap-4 mb-5"
+    >
+      <div>
+        <h2
+          class="text-3xl md:text-4xl font-black text-white mb-2 flex items-center gap-3"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-8 h-8 text-brightcyan"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            ><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+            ></path><circle cx="12" cy="10" r="3"></circle></svg
+          >
+          Browse Tracks
+        </h2>
+        <p class="text-slate-400 text-lg">
+          Search or click through categories to find your venue.
+        </p>
+      </div>
+
+      <!-- Breadcrumb Container -->
+      <nav
+        id="explorer-breadcrumbs"
+        class="flex flex-wrap text-sm text-slate-300 font-medium bg-black/40 border border-white/5 w-fit px-4 py-2.5 rounded-xl items-center min-h-[44px] shadow-inner"
+      >
+        <!-- JS will populate this -->
+        <span class="text-white font-bold">Loading...</span>
+      </nav>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="relative">
+      <svg
+        class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-brightcyan pointer-events-none"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="2.5"
+        ><circle cx="11" cy="11" r="8"></circle><line
+          x1="21"
+          y1="21"
+          x2="16.65"
+          y2="16.65"></line></svg
+      >
+      <input
+        id="explorer-search-input"
+        type="text"
+        placeholder="Search all tracks by name or city..."
+        class="w-full bg-black/30 border border-white/10 focus:border-brightcyan/50 focus:bg-brightcyan/5 rounded-2xl pl-11 pr-10 py-3.5 text-sm text-white placeholder-slate-500 outline-none transition-all duration-200"
+        autocomplete="off"
+      />
+      <button
+        id="explorer-search-clear"
+        class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white transition-colors hidden"
+        aria-label="Clear search"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-4 h-4"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2.5"
+          ><line x1="18" y1="6" x2="6" y2="18"></line><line
+            x1="6"
+            y1="6"
+            x2="18"
+            y2="18"></line></svg
+        >
+      </button>
+    </div>
+  </div>
+
+  <div class="relative z-10 min-h-[150px]">
+    <!-- Stage Container -->
+    <div
+      id="explorer-content"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 animate-fade-in"
+    >
+      <!-- JS populates items here -->
+    </div>
+  </div>
+
+  <template id="explorer-item-template">
+    <button
+      class="flex items-center justify-between p-5 bg-white/5 border border-white/10 hover:border-brightcyan/50 rounded-xl text-left transition-all duration-300 hover:bg-brightcyan/10 group hover:-translate-y-1 shadow-md"
+    >
+      <div>
+        <span class="block text-white font-black capitalize text-lg item-name"
+          >Name</span
+        >
+        <span
+          class="block text-brightcyan/80 text-xs font-bold uppercase tracking-widest mt-1.5 item-type"
+          >Region</span
+        >
+      </div>
+      <div
+        class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-brightcyan/20 transition-colors"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5 text-brightcyan transform group-hover:translate-x-0.5 transition-transform"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg
+        >
+      </div>
+    </button>
+  </template>
+
+  <template id="explorer-track-template">
+    <a
+      href="#"
+      class="flex flex-col p-5 bg-black/40 border border-white/10 hover:border-brightcyan/50 rounded-xl transition-all duration-300 hover:bg-white/5 group border-l-4 border-l-transparent hover:border-l-brightcyan shadow-md"
+    >
+      <span
+        class="block text-white font-extrabold text-lg group-hover:text-brightcyan transition-colors track-name"
+        >Track Name</span
+      >
+      <span
+        class="block text-slate-400 text-sm mt-2 track-city flex items-center gap-1.5 font-medium"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-4 h-4 text-slate-500"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          ><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+          ></path><circle cx="12" cy="10" r="3"></circle></svg
+        >
+        City
+      </span>
+    </a>
+  </template>
+</div>
+
+<script>
+  interface PathStep {
+    val: string;
+    label: string;
+  }
+
+  const explorer = document.getElementById("track-explorer");
+  if (explorer) {
+    const tree = JSON.parse(explorer.dataset.tree as string);
+    const content = document.getElementById("explorer-content");
+    const breadcrumbs = document.getElementById(
+      "explorer-breadcrumbs",
+    ) as HTMLElement;
+
+    const itemTemplate = document.getElementById(
+      "explorer-item-template",
+    ) as HTMLTemplateElement;
+    const trackTemplate = document.getElementById(
+      "explorer-track-template",
+    ) as HTMLTemplateElement;
+
+    if (content && breadcrumbs && itemTemplate && trackTemplate) {
+      let currentPath: PathStep[] = [];
+
+      function renderStage() {
+        // Fade out effect
+        if (!content) return;
+        content.style.opacity = "0";
+
+        setTimeout(() => {
+          content.innerHTML = "";
+
+          let currentData = tree;
+          for (const step of currentPath) {
+            currentData = currentData[step.val];
+          }
+
+          const nextType =
+            currentPath.length === 0
+              ? "Country"
+              : currentPath.length === 1
+                ? "Region"
+                : currentPath.length === 2
+                  ? "Sub-Region"
+                  : "Track";
+
+          renderBreadcrumbs();
+
+          if (nextType === "Track" || Array.isArray(currentData)) {
+            const tracks = Array.isArray(currentData) ? currentData : [];
+            if (tracks.length === 0) {
+              content.innerHTML =
+                '<p class="text-slate-400 col-span-full py-8 text-center bg-black/20 rounded-xl">No tracks found in this area.</p>';
+            } else {
+              // Change to 2 columns for tracks so they have more space
+              content.className =
+                "grid grid-cols-1 md:grid-cols-2 gap-4 animate-fade-in";
+              tracks.forEach((track) => {
+                const el = trackTemplate.content.cloneNode(
+                  true,
+                ) as DocumentFragment;
+                const a = el.querySelector("a") as HTMLAnchorElement;
+                a.href = track.url;
+                const nameEl = el.querySelector(".track-name") as HTMLElement;
+                nameEl.textContent = track.name;
+                const cityEl = el.querySelector(".track-city") as HTMLElement;
+                if (cityEl.lastChild)
+                  cityEl.lastChild.textContent = " " + track.city;
+                content.appendChild(el);
+              });
+            }
+          } else {
+            content.className =
+              "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 animate-fade-in";
+            const keys = Object.keys(currentData).sort();
+            keys.forEach((key) => {
+              const el = itemTemplate.content.cloneNode(
+                true,
+              ) as DocumentFragment;
+              const btn = el.querySelector("button") as HTMLButtonElement;
+
+              let displayKey = key;
+              if (displayKey === "all") displayKey = "All Areas";
+              if (displayKey === "uk") displayKey = "United Kingdom"; // special case
+
+              const itemNameEl = el.querySelector(".item-name") as HTMLElement;
+              itemNameEl.textContent = displayKey.replace(/-/g, " ");
+              const itemTypeEl = el.querySelector(".item-type") as HTMLElement;
+              itemTypeEl.textContent = nextType;
+
+              btn.addEventListener("click", () => {
+                currentPath.push({
+                  val: key,
+                  label: displayKey.replace(/-/g, " "),
+                });
+                renderStage();
+              });
+
+              content.appendChild(el);
+            });
+          }
+
+          // Fade in effect
+          content.style.opacity = "1";
+        }, 150);
+      }
+
+      function renderBreadcrumbs() {
+        breadcrumbs.innerHTML = "";
+
+        const homeBtn = document.createElement("button");
+        homeBtn.className =
+          currentPath.length === 0
+            ? "text-white font-extrabold border-b-2 border-brightcyan pb-0.5"
+            : "hover:text-brightcyan transition-colors border-b-2 border-transparent hover:border-brightcyan/50 pb-0.5";
+        homeBtn.textContent = "All Tracks";
+        homeBtn.addEventListener("click", () => {
+          currentPath = [];
+          renderStage();
+        });
+        breadcrumbs.appendChild(homeBtn);
+
+        currentPath.forEach((step, index) => {
+          const sep = document.createElement("span");
+          sep.className = "mx-3 opacity-30 text-xs text-brightcyan";
+          sep.innerHTML =
+            '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>';
+          breadcrumbs.appendChild(sep);
+
+          const btn = document.createElement("button");
+          const isActive = index === currentPath.length - 1;
+          btn.className = isActive
+            ? "text-white font-extrabold capitalize border-b-2 border-brightcyan pb-0.5"
+            : "hover:text-brightcyan transition-colors capitalize border-b-2 border-transparent hover:border-brightcyan/50 pb-0.5";
+          btn.textContent = step.label;
+          if (!isActive) {
+            btn.addEventListener("click", () => {
+              currentPath = currentPath.slice(0, index + 1);
+              renderStage();
+            });
+          }
+          breadcrumbs.appendChild(btn);
+        });
+      }
+
+      // Initialize with a slight delay for smooth initial render
+      setTimeout(renderStage, 50);
+    }
+  }
+
+  // --- Inline Search Logic ---
+  const allTracksList: Array<{ name: string; city: string; url: string }> = [];
+  // Flatten tree into a list
+  function flattenTree(tree: Record<string, any>, depth = 0) {
+    for (const key of Object.keys(tree)) {
+      const val = tree[key];
+      if (Array.isArray(val)) {
+        val.forEach((t: { name: string; city: string; url: string }) =>
+          allTracksList.push(t),
+        );
+      } else if (typeof val === "object" && val !== null) {
+        flattenTree(val, depth + 1);
+      }
+    }
+  }
+  const explorerEl = document.getElementById("track-explorer");
+  if (explorerEl) {
+    flattenTree(JSON.parse(explorerEl.dataset.tree as string));
+  }
+
+  const searchInput = document.getElementById(
+    "explorer-search-input",
+  ) as HTMLInputElement;
+  const clearBtn = document.getElementById(
+    "explorer-search-clear",
+  ) as HTMLButtonElement;
+  const explorerContent = document.getElementById(
+    "explorer-content",
+  ) as HTMLElement;
+  const breadcrumbsEl = document.getElementById(
+    "explorer-breadcrumbs",
+  ) as HTMLElement;
+  const trackTpl = document.getElementById(
+    "explorer-track-template",
+  ) as HTMLTemplateElement;
+
+  let isSearching = false;
+
+  function renderSearchResults(query: string) {
+    const q = query.toLowerCase();
+    const matches = allTracksList.filter(
+      (t) =>
+        t.name.toLowerCase().includes(q) || t.city.toLowerCase().includes(q),
+    );
+
+    explorerContent.innerHTML = "";
+    explorerContent.className =
+      "grid grid-cols-1 md:grid-cols-2 gap-4 animate-fade-in";
+
+    if (matches.length === 0) {
+      explorerContent.innerHTML = `<p class="text-slate-400 col-span-full py-8 text-center bg-black/20 rounded-xl">No tracks found for "<strong class="text-white">${query}</strong>"</p>`;
+      return;
+    }
+
+    matches.forEach((track) => {
+      const el = trackTpl.content.cloneNode(true) as DocumentFragment;
+      const a = el.querySelector("a") as HTMLAnchorElement;
+      a.href = track.url;
+
+      const nameEl = el.querySelector(".track-name") as HTMLElement;
+      // Highlight matched text
+      nameEl.innerHTML = track.name.replace(
+        new RegExp(`(${q})`, "gi"),
+        '<mark style="background:rgba(34,227,213,0.25);color:rgb(34,227,213);border-radius:2px;padding:0 2px;">$1</mark>',
+      );
+
+      const cityEl = el.querySelector(".track-city") as HTMLElement;
+      if (cityEl.lastChild) cityEl.lastChild.textContent = " " + track.city;
+      explorerContent.appendChild(el);
+    });
+  }
+
+  function exitSearch() {
+    isSearching = false;
+    searchInput.value = "";
+    clearBtn.classList.add("hidden");
+    breadcrumbsEl.style.opacity = "1";
+    breadcrumbsEl.style.pointerEvents = "";
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("input", () => {
+      const query = searchInput.value.trim();
+
+      if (query.length === 0) {
+        clearBtn.classList.add("hidden");
+        if (isSearching) {
+          isSearching = false;
+          breadcrumbsEl.style.opacity = "1";
+          breadcrumbsEl.style.pointerEvents = "";
+          // Re-render the browse tree at current path
+          const event = new CustomEvent("explorer-reset");
+          document.dispatchEvent(event);
+        }
+        return;
+      }
+
+      clearBtn.classList.remove("hidden");
+
+      if (!isSearching) {
+        isSearching = true;
+        breadcrumbsEl.style.opacity = "0.3";
+        breadcrumbsEl.style.pointerEvents = "none";
+      }
+
+      if (query.length >= 1) {
+        renderSearchResults(query);
+      }
+    });
+
+    clearBtn.addEventListener("click", () => {
+      exitSearch();
+      breadcrumbsEl.style.opacity = "1";
+      breadcrumbsEl.style.pointerEvents = "";
+      const event = new CustomEvent("explorer-reset");
+      document.dispatchEvent(event);
+    });
+  }
+</script>

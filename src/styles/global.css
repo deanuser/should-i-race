@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deepdark: #060913;
+  --color-brightcyan: #22e3d5;
+  --color-card-bg: #252b40;
+  --color-card-border: #1E2336;
+}
+
+@layer base {
+  body {
+    @apply bg-deepdark text-slate-200 antialiased selection:bg-brightcyan selection:text-deepdark;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Outfit', sans-serif;
+    @apply tracking-tighter text-white;
+  }
+}
+
+@layer components {
+
+  /* Bento UI grid elements */
+  .bento-card {
+    @apply bg-card-bg border border-card-border rounded-3xl p-6 md:p-8 flex flex-col shadow-lg;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+
+  .bento-card:hover {
+    @apply border-brightcyan/30 translate-y-[-2px] shadow-brightcyan/5;
+  }
+
+  .glass {
+    background-color: rgba(18, 22, 36, 0.6);
+    @apply backdrop-blur-md border border-white/5;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.6s ease-out forwards;
+}

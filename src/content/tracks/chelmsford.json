@@ -1,0 +1,11 @@
+{
+  "name": "Chelmsford Athletics Track",
+  "slug": "chelmsford",
+  "city": "Chelmsford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 185,
+  "lat": 51.753175,
+  "lng": 0.4515593
+}

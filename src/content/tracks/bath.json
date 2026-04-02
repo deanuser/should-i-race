@@ -1,0 +1,11 @@
+{
+  "name": "Bath Athletics Track (University)",
+  "slug": "bath",
+  "city": "Bath",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 189,
+  "lat": 51.3777922,
+  "lng": -2.3220104
+}

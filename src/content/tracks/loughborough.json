@@ -1,0 +1,11 @@
+{
+  "name": "Loughborough University Stadium",
+  "slug": "loughborough",
+  "city": "Loughborough",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 69,
+  "lat": 52.7690265,
+  "lng": -1.2306796
+}

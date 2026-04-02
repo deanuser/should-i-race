@@ -1,0 +1,11 @@
+{
+  "name": "Stratford Athletics Track (Olympic Park)",
+  "slug": "stratford",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 280,
+  "lat": 51.5367282,
+  "lng": -0.015594
+}

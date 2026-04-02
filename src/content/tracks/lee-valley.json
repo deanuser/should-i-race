@@ -1,0 +1,11 @@
+{
+  "name": "Lee Valley Athletics Centre",
+  "slug": "lee-valley",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 20,
+  "lat": 51.6297278,
+  "lng": -0.0376327
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Bedford Athletics Track",
+  "slug": "bedford",
+  "city": "Bedford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 90,
+  "lat": 52.1465,
+  "lng": -0.4685
+}

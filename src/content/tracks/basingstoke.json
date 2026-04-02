@@ -1,0 +1,11 @@
+{
+  "name": "Basingstoke Athletics Track",
+  "slug": "basingstoke",
+  "city": "Basingstoke",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 176,
+  "lat": 51.2483111,
+  "lng": -1.1264014
+}

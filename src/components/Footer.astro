@@ -1,0 +1,292 @@
+---
+// Footer.astro
+const currentYear = new Date().getFullYear();
+---
+
+<footer
+  class="bg-deepdark pt-24 pb-12 border-t border-white/5 relative overflow-hidden"
+>
+  <!-- Subtle Background Glow -->
+  <div
+    class="absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-64 bg-brightcyan/5 blur-[120px] rounded-full -z-10 pointer-events-none"
+  >
+  </div>
+
+  <div class="container mx-auto px-6 max-w-7xl relative z-10">
+    <!-- Top Footer: CTA Section -->
+    <div
+      class="bento-card mb-20 p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 bg-gradient-to-br from-card-bg to-deepdark border-white/10 group overflow-hidden relative"
+    >
+      <div
+        class="absolute top-0 right-0 w-64 h-64 bg-brightcyan/5 blur-[80px] rounded-full group-hover:bg-brightcyan/10 transition-colors duration-500"
+      >
+      </div>
+
+      <div class="relative z-10 text-center md:text-left">
+        <h2
+          class="text-3xl md:text-5xl font-black text-white mb-4 tracking-tighter uppercase leading-none"
+        >
+          Ready to <span
+            class="text-brightcyan drop-shadow-[0_0_15px_rgba(34,227,213,0.3)]"
+            >PB?</span
+          >
+        </h2>
+        <p class="text-slate-400 text-lg md:text-xl font-medium max-w-xl">
+          Get real-time wind insights for your next race. Don't leave your
+          performance to chance.
+        </p>
+      </div>
+
+      <div class="relative z-10 flex-shrink-0">
+        <a
+          href="/#tracks"
+          class="inline-flex items-center gap-3 bg-brightcyan text-deepdark px-8 py-4 rounded-full font-black text-sm md:text-base transition-all duration-300 hover:scale-[1.05] hover:shadow-[0_0_30px_rgba(34,227,213,0.4)] uppercase tracking-widest"
+        >
+          Find Your Track
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            ><line x1="5" y1="12" x2="19" y2="12"></line><polyline
+              points="12 5 19 12 12 19"></polyline></svg
+          >
+        </a>
+      </div>
+    </div>
+
+    <!-- Middle Footer: Main Links Grid -->
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-20"
+    >
+      <!-- Brand Column -->
+      <div class="lg:col-span-1">
+        <a
+          href="/"
+          class="inline-block mb-8 hover:opacity-80 transition-opacity"
+        >
+          <img
+            src="/images/logos/logo side.webp"
+            alt="Should I Run Logo"
+            class="h-10 md:h-12 w-auto object-contain drop-shadow-lg"
+          />
+        </a>
+        <p
+          class="text-slate-400 text-base leading-relaxed mb-8 max-w-xs font-medium italic"
+        >
+          High-precision wind intel for the world's most elite sprinters and
+          athletics tracks.
+        </p>
+        <div class="flex items-center gap-4">
+          <a
+            href="https://www.facebook.com/deandaviswebdesign"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-brightcyan hover:border-brightcyan/40 hover:bg-brightcyan/[0.05] transition-all duration-300 group shadow-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 group-hover:scale-110 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              ><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg
+            >
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dean-davis-9b84642b/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-brightcyan hover:border-brightcyan/40 hover:bg-brightcyan/[0.05] transition-all duration-300 group shadow-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 group-hover:scale-110 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              ><path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path><rect x="2" y="9" width="4" height="12"></rect><circle
+                cx="4"
+                cy="4"
+                r="2"></circle></svg
+            >
+          </a>
+          <a
+            href="https://www.instagram.com/deanandthat/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-brightcyan hover:border-brightcyan/40 hover:bg-brightcyan/[0.05] transition-all duration-300 group shadow-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 group-hover:scale-110 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              ><rect x="2" y="2" width="20" height="20" rx="5" ry="5"
+              ></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+              ></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg
+            >
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="lg:ml-auto">
+        <h4
+          class="text-white font-black text-sm uppercase tracking-[0.2em] mb-8"
+        >
+          Platform
+        </h4>
+        <ul class="space-y-4">
+          <li>
+            <a
+              href="/#tracks"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >Find Tracks</a>
+          </li>
+          <li>
+            <a
+              href="/about"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >How it Works</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >Pricing</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >API Docs</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- More Links -->
+      <div class="lg:ml-auto">
+        <h4
+          class="text-white font-black text-sm uppercase tracking-[0.2em] mb-8"
+        >
+          Company
+        </h4>
+        <ul class="space-y-4">
+          <li>
+            <a
+              href="/about"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >About Us</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >Terms of Service</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >Privacy Policy</a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+              class="text-slate-400 hover:text-brightcyan font-bold transition-all duration-300 hover:translate-x-1 inline-block"
+              >Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Support Status / Stats -->
+      <div class="lg:ml-auto">
+        <h4
+          class="text-white font-black text-sm uppercase tracking-[0.2em] mb-8"
+        >
+          Live Status
+        </h4>
+        <div
+          class="bg-card-bg/50 border border-white/5 rounded-2xl p-6 backdrop-blur-sm relative overflow-hidden group"
+        >
+          <div
+            class="absolute inset-0 bg-brightcyan/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+          >
+          </div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="relative flex h-3 w-3">
+              <span
+                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brightcyan opacity-75"
+              ></span>
+              <span
+                class="relative inline-flex rounded-full h-3 w-3 bg-brightcyan"
+              ></span>
+            </span>
+            <span
+              class="text-white font-black text-sm uppercase tracking-widest"
+              >Network Live</span
+            >
+          </div>
+          <p class="text-slate-400 text-sm font-medium leading-relaxed">
+            All 50+ tracks are currently transmitting live wind data.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer: Copyright & Fine Print -->
+    <div
+      class="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6"
+    >
+      <p class="text-slate-500 text-sm font-semibold tracking-wide">
+        &copy; {currentYear} SHOULD I RACE. ACCELERATING THE WORLD’S FASTEST ATHLETES.
+      </p>
+      <div class="flex gap-8">
+        <a
+          href="#"
+          class="text-slate-500 hover:text-white text-xs font-bold transition-colors uppercase tracking-widest"
+          >Privacy</a
+        >
+        <a
+          href="#"
+          class="text-slate-500 hover:text-white text-xs font-bold transition-colors uppercase tracking-widest"
+          >Terms</a
+        >
+        <a
+          href="#"
+          class="text-slate-500 hover:text-white text-xs font-bold transition-colors uppercase tracking-widest"
+          >Cookies</a
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* Local styles for unique footer elements if needed, 
+     most covered by Tailwind v4 theme */
+  footer {
+    font-family: "Inter", sans-serif;
+  }
+  h2,
+  h4 {
+    font-family: "Outfit", sans-serif;
+  }
+</style>

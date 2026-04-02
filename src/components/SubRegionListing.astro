@@ -1,0 +1,70 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Navbar from './Navbar.astro';
+import Footer from './Footer.astro';
+import TrackCard from './TrackCard.astro';
+
+interface Props {
+  country: string;
+  region: string;
+  subRegion: string;
+}
+
+const { country, region, subRegion } = Astro.props;
+const allTracks = await getCollection('tracks');
+
+// Filter tracks by matching country & region & subRegion
+const tracks = allTracks.filter(t => 
+  t.data.country.toLowerCase() === country.toLowerCase() &&
+  t.data.region.toLowerCase() === region.toLowerCase() &&
+  t.data.subRegion.toLowerCase() === subRegion.toLowerCase()
+);
+
+if (subRegion === 'all') {
+  return Astro.redirect(`/${country}/${region}`);
+}
+
+if (tracks.length === 0) {
+  return Astro.redirect('/404');
+}
+---
+
+<Layout title={`Tracks in ${subRegion?.replace(/-/g, ' ')} | Should I Race`} description={`Explore professional athletics tracks in ${subRegion?.replace(/-/g, ' ')}`}>
+  <Navbar />
+  
+  <main class="container mx-auto px-4 py-12 mt-20 max-w-7xl animate-fade-in">
+    <!-- Breadcrumbs -->
+    <nav class="flex text-sm text-slate-400 font-medium mb-8 bg-card-bg/50 border border-white/5 w-fit px-4 py-2 rounded-lg flex-wrap items-center gap-2">
+      <a href="/" class="hover:text-brightcyan transition-colors">Home</a>
+      <span class="opacity-50">/</span>
+      <a href={`/${country}`} class="hover:text-brightcyan capitalize transition-colors">{country}</a>
+      <span class="opacity-50">/</span>
+      <a href={`/${country}/${region}`} class="hover:text-brightcyan capitalize transition-colors">{region?.replace(/-/g, ' ')}</a>
+      <span class="opacity-50">/</span>
+      <span class="text-white capitalize font-bold">{subRegion?.replace(/-/g, ' ')}</span>
+    </nav>
+
+    <header class="mb-12">
+      <h1 class="text-5xl md:text-6xl font-black text-white mb-6 uppercase tracking-tight">Tracks in {subRegion?.replace(/-/g, ' ')}</h1>
+    </header>
+
+    <hr class="border-white/5 mb-10" />
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {tracks.map((track) => (
+        <TrackCard 
+          name={track.data.name}
+          city={track.data.city}
+          trackUrl={
+            track.data.subRegion === "all"
+              ? `/${track.data.country}/${track.data.region}/${track.data.slug}`
+              : `/${track.data.country}/${track.data.region}/${track.data.subRegion}/${track.data.slug}`
+          }
+        />
+      ))}
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

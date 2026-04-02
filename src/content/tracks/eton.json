@@ -1,0 +1,11 @@
+{
+  "name": "Eton Athletics Track",
+  "slug": "eton",
+  "city": "Eton",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 50,
+  "lat": 51.4950304,
+  "lng": -0.5967846
+}

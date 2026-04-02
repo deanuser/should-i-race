@@ -1,0 +1,11 @@
+{
+  "name": "Bromley Athletics Track",
+  "slug": "bromley",
+  "city": "Bromley",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 174,
+  "lat": 51.3867276,
+  "lng": 0.0215691
+}

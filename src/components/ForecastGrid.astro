@@ -1,0 +1,92 @@
+---
+import { getRelativeWind, getWindCategory, getWindColor } from "../utils/windLogic";
+
+export interface ForecastItem {
+  dt: number;
+  main: { temp: number };
+  wind: { speed: number; deg: number };
+  weather: Array<{ description: string; icon: string }>;
+}
+
+interface Props {
+  forecasts: ForecastItem[];
+  trackDirection: number;
+}
+
+const { forecasts, trackDirection } = Astro.props;
+---
+
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+  {
+    forecasts.map((f) => {
+      // Determine the hour directly using a timestamp fallback so it always runs properly on SSR
+      const date = new Date(f.dt * 1000);
+      const time = date.toLocaleTimeString("en-GB", {
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZone: "Europe/London",
+      });
+      const iconUrl = `https://openweathermap.org/img/wn/${f.weather[0].icon}@2x.png`;
+      const windCategory = getWindCategory(f.wind.deg, trackDirection);
+      const windDesc = getRelativeWind(f.wind.deg, trackDirection);
+      const windColor = getWindColor(windDesc);
+
+      let borderClass = "border-white/5";
+      if (windColor === "green")
+        borderClass = "border-green-500/40 shadow-[0_0_10px_rgba(34,197,94,0.1)]";
+      else if (windColor === "orange")
+        borderClass = "border-orange-500/40 shadow-[0_0_10px_rgba(249,115,22,0.1)]";
+      else if (windColor === "red")
+        borderClass = "border-red-500/40 shadow-[0_0_10px_rgba(239,68,68,0.1)]";
+
+      return (
+        <div
+          class={`flex flex-col items-center p-4 rounded-2xl bg-gradient-to-br from-card-border/40 to-card-border/10 border-2 transition-all hover:scale-[1.03] ${borderClass}`}
+        >
+          <span class="text-sm font-semibold text-slate-300 mb-1">{time}</span>
+
+          <div class="relative">
+            <img
+              src={iconUrl}
+              alt={f.weather[0].description}
+              class="w-12 h-12 drop-shadow-lg scale-110"
+            />
+          </div>
+
+          <div class="flex flex-col items-center mt-2 text-center w-full">
+            <div class="flex items-center gap-1.5 text-brightcyan">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-4 h-4 mt-0.5 opacity-80"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                style={`transform: rotate(${f.wind.deg + 180}deg)`}
+              >
+                <line x1="12" y1="19" x2="12" y2="5" />
+                <polyline points="5 12 12 5 19 12" />
+              </svg>
+              <span class="font-extrabold text-lg tracking-tight">
+                {f.wind.speed.toFixed(1)}
+                <span class="text-[10px] ml-0.5 opacity-70">m/s</span>
+              </span>
+            </div>
+            <span class="text-xs text-slate-400 mt-1 capitalize leading-tight">
+              {f.weather[0].description}
+            </span>
+            <div class="mt-2.5 pt-2.5 border-t border-white/5 w-full">
+              <span
+                class={`text-[10px] font-bold leading-tight block ${windColor === "red" ? "text-red-400" : windColor === "orange" ? "text-orange-400" : windColor === "green" ? "text-green-400" : "text-slate-300"}`}
+              >
+                {windDesc}
+              </span>
+            </div>
+          </div>
+        </div>
+      );
+    })
+  }
+</div>

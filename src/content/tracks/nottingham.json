@@ -1,0 +1,11 @@
+{
+  "name": "Nottingham Athletics Track",
+  "slug": "nottingham",
+  "city": "Nottingham",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 235,
+  "lat": 52.9677492,
+  "lng": -1.2163926
+}
