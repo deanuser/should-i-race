@@ -107,7 +107,7 @@ const getTrackUrl = (slug: string) => {
           style="animation-delay: 0.3s;"
         >
           <a
-            href="#tracks"
+            href="#explorer"
             class="bg-brightcyan text-deepdark px-8 py-4 rounded-full font-black text-sm md:text-base border border-transparent transition-all duration-300 hover:scale-[1.03] uppercase tracking-widest shadow-[0_0_20px_rgba(34,227,213,0.3)]"
             >Find Your Track</a
           >
@@ -416,11 +416,12 @@ const getTrackUrl = (slug: string) => {
                 </div>
 
                 <div class="relative z-10">
-                  <button
+                  <a
+                    href="/contact"
                     class="w-full bg-white text-deepdark py-3.5 rounded-xl font-black text-xs uppercase tracking-widest hover:bg-brightcyan transition-all duration-300 hover:scale-[1.02] active:scale-95 shadow-xl"
                   >
                     Submit Meet Data
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
