@@ -2,96 +2,186 @@
 // src/components/WindCorrectionCalculator.astro
 ---
 
-<div class="bento-card p-8 md:p-12 border-white/10 bg-gradient-to-br from-card-bg/90 to-deepdark border shadow-2xl relative overflow-hidden group">
+<div
+  class="bento-card p-8 md:p-12 border-white/10 bg-gradient-to-br from-card-bg/90 to-deepdark border shadow-2xl relative overflow-hidden group"
+>
   <!-- Subtle Background Glow -->
-  <div class="absolute -top-24 -right-24 w-64 h-64 bg-brightcyan/5 blur-[80px] rounded-full pointer-events-none group-hover:bg-brightcyan/10 transition-all duration-700"></div>
+  <div
+    class="absolute -top-24 -right-24 w-64 h-64 bg-brightcyan/5 blur-[80px] rounded-full pointer-events-none group-hover:bg-brightcyan/10 transition-all duration-700"
+  >
+  </div>
 
   <div class="relative z-10">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
       <!-- Input: Time -->
       <div class="space-y-4">
-        <label for="race-time" class="flex items-center gap-2 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] ml-1">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-brightcyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <label
+          for="race-time"
+          class="flex items-center gap-2 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] ml-1"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-4 h-4 text-brightcyan"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3"
+            ><circle cx="12" cy="12" r="10"></circle><polyline
+              points="12 6 12 12 16 14"></polyline></svg
+          >
           Recorded Race Time
         </label>
         <div class="relative group/input">
-          <input 
-            type="number" 
-            id="race-time" 
-            step="0.01" 
-            value="10.50" 
+          <input
+            type="number"
+            id="race-time"
+            step="0.01"
+            value="10.50"
             class="w-full bg-white/[0.03] border border-white/10 text-white text-4xl font-black px-6 py-6 rounded-2xl focus:outline-none focus:border-brightcyan focus:ring-1 focus:ring-brightcyan transition-all placeholder:text-slate-700 shadow-inner group-hover/input:bg-white/[0.05]"
           />
-          <span class="absolute right-6 top-1/2 -translate-y-1/2 text-slate-500 font-bold uppercase tracking-widest text-xs pointer-events-none">SEC</span>
+          <span
+            class="absolute right-6 top-1/2 -translate-y-1/2 text-slate-500 font-bold uppercase tracking-widest text-xs pointer-events-none"
+            >SEC</span
+          >
         </div>
       </div>
 
       <!-- Input: Wind -->
       <div class="space-y-4">
-        <label for="wind-speed" class="flex items-center gap-2 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] ml-1">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-brightcyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"></path></svg>
+        <label
+          for="wind-speed"
+          class="flex items-center gap-2 text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] ml-1"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-4 h-4 text-brightcyan"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3"
+            ><path
+              d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"
+            ></path></svg
+          >
           Wind Speed (m/s)
         </label>
         <div class="relative group/input">
-          <input 
-            type="number" 
-            id="wind-speed" 
-            step="0.1" 
-            value="2.0" 
+          <input
+            type="number"
+            id="wind-speed"
+            step="0.1"
+            value="2.0"
             class="w-full bg-white/[0.03] border border-white/10 text-white text-4xl font-black px-6 py-6 rounded-2xl focus:outline-none focus:border-brightcyan focus:ring-1 focus:ring-brightcyan transition-all placeholder:text-slate-700 shadow-inner group-hover/input:bg-white/[0.05]"
           />
-          <span class="absolute right-6 top-1/2 -translate-y-1/2 text-slate-500 font-bold uppercase tracking-widest text-xs pointer-events-none">M/S</span>
+          <span
+            class="absolute right-6 top-1/2 -translate-y-1/2 text-slate-500 font-bold uppercase tracking-widest text-xs pointer-events-none"
+            >M/S</span
+          >
         </div>
-        <p class="text-[9px] text-slate-500 font-bold uppercase tracking-widest ml-2 flex items-center gap-1.5 leading-none">
-            <span class="w-1.5 h-1.5 rounded-full bg-brightcyan/40"></span>
-            Tailwind (+) or Headwind (-)
+        <p
+          class="text-[9px] text-slate-500 font-bold uppercase tracking-widest ml-2 flex items-center gap-1.5 leading-none"
+        >
+          <span class="w-1.5 h-1.5 rounded-full bg-brightcyan/40"></span>
+          Tailwind (+) or Headwind (-)
         </p>
       </div>
     </div>
 
     <!-- Main Result: 0.0 Wind -->
-    <div class="bg-brightcyan/5 border border-brightcyan/15 rounded-[2rem] p-8 md:p-12 mb-10 relative group/result overflow-hidden transition-all duration-500 hover:bg-brightcyan/[0.08] hover:border-brightcyan/30">
-        <div class="absolute top-0 right-0 p-6 opacity-5 group-hover/result:opacity-20 transition-all duration-700 rotate-12 group-hover/result:rotate-0">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-32 h-32 text-brightcyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07L19.07 4.93"/></svg>
-        </div>
+    <div
+      class="bg-brightcyan/5 border border-brightcyan/15 rounded-[2rem] p-8 md:p-12 mb-10 relative group/result overflow-hidden transition-all duration-500 hover:bg-brightcyan/[0.08] hover:border-brightcyan/30"
+    >
       <div class="relative z-10 text-center">
-        <span class="inline-block py-1.5 px-4 rounded-full bg-brightcyan text-deepdark text-[10px] font-black uppercase tracking-[0.2em] mb-6 shadow-[0_0_20px_rgba(34,227,213,0.3)]">The "True" Performance</span>
-        <h3 class="text-slate-400 font-black text-xs uppercase tracking-[0.3em] mb-4">Standardized to 0.0 Wind</h3>
+        <span
+          class="inline-block py-1.5 px-4 rounded-full bg-brightcyan text-deepdark text-[10px] font-black uppercase tracking-[0.2em] mb-6 shadow-[0_0_20px_rgba(34,227,213,0.3)]"
+          >The "True" Performance</span
+        >
+        <h3
+          class="text-slate-400 font-black text-xs uppercase tracking-[0.3em] mb-4"
+        >
+          Standardised to 0.0 Wind
+        </h3>
         <div class="flex items-center justify-center gap-4">
-            <div id="result-0-0" class="text-7xl md:text-9xl font-black text-white tracking-tighter drop-shadow-[0_0_50px_rgba(34,227,213,0.4)]">10.60</div>
-            <div class="text-brightcyan font-black text-3xl md:text-3xl animate-pulse self-end mb-4">s</div>
+          <div
+            id="result-0-0"
+            class="text-7xl md:text-9xl font-black text-white tracking-tighter drop-shadow-[0_0_50px_rgba(34,227,213,0.4)]"
+          >
+            10.60
+          </div>
+          <div
+            class="text-brightcyan font-black text-3xl md:text-3xl animate-pulse self-end mb-4"
+          >
+            s
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Comparison Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-      <div class="bg-white/5 border border-white/10 rounded-2xl p-8 text-center group/card hover:bg-white/[0.08] hover:border-white/20 transition-all duration-300">
-        <h4 class="text-slate-500 font-black text-[10px] uppercase tracking-[0.3em] mb-4 group-hover/card:text-slate-400">Equivalent @ +1.0 m/s</h4>
-        <div id="result-1-0" class="text-4xl font-black text-white group-hover/card:text-brightcyan transition-all duration-300">10.55</div>
-        <p class="text-[9px] text-slate-600 font-bold uppercase tracking-widest mt-2">Strong Legal Wind</p>
+      <div
+        class="bg-white/5 border border-white/10 rounded-2xl p-8 text-center group/card hover:bg-white/[0.08] hover:border-white/20 transition-all duration-300"
+      >
+        <h4
+          class="text-slate-500 font-black text-[10px] uppercase tracking-[0.3em] mb-4 group-hover/card:text-slate-400"
+        >
+          Equivalent @ +1.0 m/s
+        </h4>
+        <div
+          id="result-1-0"
+          class="text-4xl font-black text-white group-hover/card:text-brightcyan transition-all duration-300"
+        >
+          10.55
+        </div>
+        <p
+          class="text-[9px] text-slate-600 font-bold uppercase tracking-widest mt-2"
+        >
+          Strong Legal Wind
+        </p>
       </div>
-      <div class="bg-white/5 border border-white/10 rounded-2xl p-8 text-center group/card hover:bg-white/[0.08] hover:border-white/20 transition-all duration-300">
-        <h4 class="text-slate-500 font-black text-[10px] uppercase tracking-[0.3em] mb-4 group-hover/card:text-slate-400">Equivalent @ +2.0 m/s</h4>
-        <div id="result-2-0" class="text-4xl font-black text-white group-hover/card:text-brightcyan transition-all duration-300">10.50</div>
-        <p class="text-[9px] text-slate-600 font-bold uppercase tracking-widest mt-2">Legal Limit Reach</p>
+      <div
+        class="bg-white/5 border border-white/10 rounded-2xl p-8 text-center group/card hover:bg-white/[0.08] hover:border-white/20 transition-all duration-300"
+      >
+        <h4
+          class="text-slate-500 font-black text-[10px] uppercase tracking-[0.3em] mb-4 group-hover/card:text-slate-400"
+        >
+          Equivalent @ +2.0 m/s
+        </h4>
+        <div
+          id="result-2-0"
+          class="text-4xl font-black text-white group-hover/card:text-brightcyan transition-all duration-300"
+        >
+          10.50
+        </div>
+        <p
+          class="text-[9px] text-slate-600 font-bold uppercase tracking-widest mt-2"
+        >
+          Legal Limit Reach
+        </p>
       </div>
     </div>
 
     <!-- Disclosure / Citation -->
     <div class="mt-12 pt-8 border-t border-white/5 text-center">
-        <p class="text-[10px] text-slate-500 font-medium leading-relaxed max-w-lg mx-auto">
-            Calculation based on standard athletic aerodynamic models (approximately 0.05s per 1.0 m/s). 
-            Values are estimates and can vary based on athlete mass and stadium shielding.
-        </p>
+      <p
+        class="text-[10px] text-slate-500 font-medium leading-relaxed max-w-lg mx-auto"
+      >
+        Calculation based on standard athletic aerodynamic models (approximately
+        0.05s per 1.0 m/s). Values are estimates and can vary based on athlete
+        mass and stadium shielding.
+      </p>
     </div>
   </div>
 </div>
 
 <script>
   function calculateCorrection() {
-    const raceTimeInput = document.getElementById('race-time') as HTMLInputElement;
-    const windSpeedInput = document.getElementById('wind-speed') as HTMLInputElement;
+    const raceTimeInput = document.getElementById(
+      "race-time",
+    ) as HTMLInputElement;
+    const windSpeedInput = document.getElementById(
+      "wind-speed",
+    ) as HTMLInputElement;
 
     const t_w = parseFloat(raceTimeInput.value);
     const w = parseFloat(windSpeedInput.value);
@@ -101,17 +191,17 @@
     // Standardized to 0.0
     // Formula approximation at 10s: 0.05s per 1.0m/s
     // Factoring in pace: diff = 0.05 * w * (t_w / 10)
-    const t_0 = t_w + (0.05 * w * (t_w / 10));
+    const t_0 = t_w + 0.05 * w * (t_w / 10);
 
     // Standardized to +1.0 (A common strong legal wind)
-    const t_1 = t_0 - (0.05 * 1.0 * (t_0 / 10));
+    const t_1 = t_0 - 0.05 * 1.0 * (t_0 / 10);
 
     // Standardized to +2.0 (Max legal)
-    const t_2 = t_0 - (0.05 * 2.0 * (t_0 / 10));
+    const t_2 = t_0 - 0.05 * 2.0 * (t_0 / 10);
 
-    const res0 = document.getElementById('result-0-0');
-    const res1 = document.getElementById('result-1-0');
-    const res2 = document.getElementById('result-2-0');
+    const res0 = document.getElementById("result-0-0");
+    const res1 = document.getElementById("result-1-0");
+    const res2 = document.getElementById("result-2-0");
 
     if (res0) res0.innerText = t_0.toFixed(2);
     if (res1) res1.innerText = t_1.toFixed(2);
@@ -122,7 +212,7 @@
   calculateCorrection();
 
   // Event listeners
-  ['race-time', 'wind-speed'].forEach(id => {
-    document.getElementById(id)?.addEventListener('input', calculateCorrection);
+  ["race-time", "wind-speed"].forEach((id) => {
+    document.getElementById(id)?.addEventListener("input", calculateCorrection);
   });
 </script>
