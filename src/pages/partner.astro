@@ -7,8 +7,11 @@ import PartnerBanner from "../components/PartnerBanner.astro";
 const pricingTiers = [
   {
     name: "Site-Wide Partner",
-    monthly: "10",
-    annual: "120",
+    monthly: "5",
+    originalMonthly: "10",
+    annual: "60",
+    originalAnnual: "120",
+    offer: "50% Off - Limited Time",
     features: [
       "Logo on every single page",
       "Direct link to your website",
@@ -169,16 +172,33 @@ const pricingTiers = [
                   <h3 class="text-2xl font-black text-white mb-4 uppercase tracking-tight">
                     {tier.name}
                   </h3>
-                  <div class="flex items-baseline gap-2">
-                    <span class="text-5xl font-black text-white">
-                      £{tier.monthly}
-                    </span>
-                    <span class="text-slate-500 font-bold uppercase tracking-widest text-xs">
-                      / Month
-                    </span>
+                  <div class="flex flex-col gap-2">
+                    {tier.offer && (
+                      <div class="flex flex-col gap-1.5 mb-2">
+                        <span class="text-[10px] font-black text-brightcyan uppercase tracking-widest bg-brightcyan/10 border border-brightcyan/30 px-3 py-1 rounded-lg w-fit">
+                          {tier.offer}
+                        </span>
+                        <span class="text-[9px] font-bold text-slate-500 uppercase tracking-widest ml-1">
+                          Offer ends 1st May
+                        </span>
+                      </div>
+                    )}
+                    <div class="flex items-baseline gap-2">
+                      <span class="text-5xl font-black text-white">
+                        £{tier.monthly}
+                      </span>
+                      {tier.originalMonthly && (
+                        <span class="text-xl text-slate-500 line-through font-bold">
+                          £{tier.originalMonthly}
+                        </span>
+                      )}
+                      <span class="text-slate-500 font-bold uppercase tracking-widest text-xs">
+                        / Month
+                      </span>
+                    </div>
                   </div>
-                  <p class="text-slate-400 text-sm mt-2 font-bold uppercase tracking-widest">
-                    £{tier.annual} billed annually
+                  <p class="text-slate-400 text-sm mt-3 font-bold uppercase tracking-widest">
+                    £{tier.annual} {tier.originalAnnual && <span class="line-through text-slate-500 ml-1">£{tier.originalAnnual}</span>} billed annually
                   </p>
                 </div>
 
@@ -299,18 +319,25 @@ const pricingTiers = [
                   >
                     Site-Wide<br />Partner
                   </h3>
-                  <div class="flex items-baseline gap-2 mb-2">
-                    <span class="text-4xl font-black text-white">£10</span>
-                    <span
-                      class="text-slate-500 font-bold uppercase tracking-widest text-xs"
-                      >/ Month</span
+                  <div class="flex flex-col gap-1 mb-4">
+                    <span class="text-[10px] font-black text-brightcyan uppercase tracking-widest mb-1 block">50% Discount Applied</span>
+                    <div class="flex items-baseline gap-2">
+                      <span class="text-4xl font-black text-white">£5</span>
+                      <span class="text-2xl text-slate-500 line-through font-bold">£10</span>
+                      <span
+                        class="text-slate-500 font-bold uppercase tracking-widest text-xs"
+                        >/ Month</span
+                      >
+                    </div>
+                    <p
+                      class="text-slate-500 text-xs font-bold uppercase tracking-widest mt-1"
                     >
+                      £60 <span class="line-through opacity-60">£120</span> billed annually
+                    </p>
+                    <p class="text-brightcyan text-[9px] font-black uppercase tracking-[0.2em] mt-2">
+                      * Offer valid until 1st May
+                    </p>
                   </div>
-                  <p
-                    class="text-slate-500 text-xs font-bold uppercase tracking-widest"
-                  >
-                    £120 billed annually
-                  </p>
                 </div>
                 <a
                   href="mailto:info@shouldirace.com?subject=Site-Wide Partner Inquiry"
