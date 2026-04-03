@@ -179,7 +179,7 @@ const trackData = allTracks.map((t) => ({
 <!-- Full-Screen Mobile Menu Overlay -->
 <div
   id="mobile-menu"
-  class="fixed inset-0 z-40 bg-deepdark flex flex-col pointer-events-none opacity-0"
+  class="fixed inset-0 z-40 bg-deepdark flex flex-col pointer-events-none opacity-0 overflow-y-auto"
   style="transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);"
   aria-hidden="true"
 >
@@ -193,9 +193,9 @@ const trackData = allTracks.map((t) => ({
   >
   </div>
 
-  <!-- Menu content: centred vertically -->
+  <!-- Menu content: aligned to top for scrolling -->
   <div
-    class="flex-1 flex flex-col justify-center px-8 pt-24 pb-12 relative z-10"
+    class="flex-1 flex flex-col justify-start px-8 pt-24 pb-12 relative z-10"
   >
     <!-- Mobile Full-Width Search -->
     <div class="relative mb-8">
