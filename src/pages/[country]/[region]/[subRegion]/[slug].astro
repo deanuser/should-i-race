@@ -186,7 +186,7 @@ const currentWindCategory = getWindCategory(
 
 <Layout
   title={`${track.data.name} Wind Conditions | Should I Race?`}
-  description={`Live wind directions for ${track.data.name}`}
+  description={`Live & 5 day forcast wind directions checker for ${track.data.name}`}
 >
   <Navbar />
 
@@ -283,15 +283,17 @@ const currentWindCategory = getWindCategory(
 
         <div class="relative z-10 flex justify-between items-start mb-6">
           <div class="flex items-center gap-4">
-            {currentWind.icon && (
-              <div class="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center border border-white/5">
-                <img 
-                  src={`https://openweathermap.org/img/wn/${currentWind.icon}@2x.png`} 
-                  alt={currentWind.desc}
-                  class="w-full h-full object-contain"
-                />
-              </div>
-            )}
+            {
+              currentWind.icon && (
+                <div class="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center border border-white/5">
+                  <img
+                    src={`https://openweathermap.org/img/wn/${currentWind.icon}@2x.png`}
+                    alt={currentWind.desc}
+                    class="w-full h-full object-contain"
+                  />
+                </div>
+              )
+            }
             <div>
               <h2 class="text-2xl font-bold text-white mb-1">Live Wind</h2>
               <p class="text-slate-400 capitalize">{currentWind.desc}</p>

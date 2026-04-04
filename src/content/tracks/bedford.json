@@ -1,11 +1,11 @@
 {
-  "name": "Bedford Athletics Track",
+  "name": "Bedford International Athletics Stadium",
   "slug": "bedford",
   "city": "Bedford",
   "region": "england",
   "subRegion": "south",
   "country": "uk",
-  "trackDirection": 90,
-  "lat": 52.1465,
-  "lng": -0.4685
+  "trackDirection": 119,
+  "lat": 52.1344061,
+  "lng": -0.4411643
 }
