@@ -346,18 +346,24 @@ if (track) {
               {track.data.trackDirection}°
             </p>
           </div>
-          <div class="bg-brightcyan/20 p-2 rounded-lg text-brightcyan">
+          <div class="bg-brightcyan/20 p-2 rounded-lg text-brightcyan shadow-[0_0_15px_rgba(34,227,213,0.2)]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-5 h-5"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2.5"
-              ><path
-                d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"
-              ></path><line x1="4" y1="22" x2="4" y2="15"></line></svg
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              style={{
+                transform: `rotate(${track.data.trackDirection}deg)`,
+                transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+              }}
             >
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
           </div>
         </div>
 
