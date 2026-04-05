@@ -37,8 +37,8 @@ const pricingTiers = [
 ];
 ---
 
-<Layout 
-  title="Partner with Should I Race? | Elite Sponsorship" 
+<Layout
+  title="Partner with Should I Race? | Elite Sponsorship"
   description="Connect your brand with the fastest athletes in the world. Discover advertising, sponsorship, and technical partnership opportunities."
 >
   <Navbar />
@@ -128,7 +128,7 @@ const pricingTiers = [
         </div>
       </div>
     </section>
-
+    <PartnerBanner page="partner" heading="Featured Partners" />
     <!-- Pricing Section -->
     <section class="py-24 relative overflow-hidden bg-deepdark/50">
       <div class="container relative z-10 mx-auto px-6 max-w-6xl">
@@ -198,7 +198,13 @@ const pricingTiers = [
                     </div>
                   </div>
                   <p class="text-slate-400 text-sm mt-3 font-bold uppercase tracking-widest">
-                    £{tier.annual} {tier.originalAnnual && <span class="line-through text-slate-500 ml-1">£{tier.originalAnnual}</span>} billed annually
+                    £{tier.annual}{" "}
+                    {tier.originalAnnual && (
+                      <span class="line-through text-slate-500 ml-1">
+                        £{tier.originalAnnual}
+                      </span>
+                    )}{" "}
+                    billed annually
                   </p>
                 </div>
 
@@ -320,10 +326,16 @@ const pricingTiers = [
                     Site-Wide<br />Partner
                   </h3>
                   <div class="flex flex-col gap-1 mb-4">
-                    <span class="text-[10px] font-black text-brightcyan uppercase tracking-widest mb-1 block">50% Discount Applied</span>
+                    <span
+                      class="text-[10px] font-black text-brightcyan uppercase tracking-widest mb-1 block"
+                      >50% Discount Applied</span
+                    >
                     <div class="flex items-baseline gap-2">
                       <span class="text-4xl font-black text-white">£5</span>
-                      <span class="text-2xl text-slate-500 line-through font-bold">£10</span>
+                      <span
+                        class="text-2xl text-slate-500 line-through font-bold"
+                        >£10</span
+                      >
                       <span
                         class="text-slate-500 font-bold uppercase tracking-widest text-xs"
                         >/ Month</span
@@ -332,9 +344,12 @@ const pricingTiers = [
                     <p
                       class="text-slate-500 text-xs font-bold uppercase tracking-widest mt-1"
                     >
-                      £60 <span class="line-through opacity-60">£120</span> billed annually
+                      £60 <span class="line-through opacity-60">£120</span> billed
+                      annually
                     </p>
-                    <p class="text-brightcyan text-[9px] font-black uppercase tracking-[0.2em] mt-2">
+                    <p
+                      class="text-brightcyan text-[9px] font-black uppercase tracking-[0.2em] mt-2"
+                    >
                       * Offer valid until 1st May
                     </p>
                   </div>
@@ -637,7 +652,5 @@ const pricingTiers = [
         </div>
       </div>
     </section>
-
-    <PartnerBanner page="partner" heading="Featured Partners" />
   </main>
 </Layout>
