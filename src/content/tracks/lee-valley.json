@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 20,
   "lat": 51.6297278,
-  "lng": -0.0376327
+  "lng": -0.0376327,
+  "metaTitle": "Lee Valley Athletics Centre Track Information & Wind Speed",
+  "metaDescription": "Check the latest wind speed and stadium information for Lee Valley Athletics Centre to optimise your track performance.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Monday to Friday 6am - 9pm, Saturday & Sunday 8:30am - 3:30pm"
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Indoor and Outdoor Combined Track ticket - Adult Anytime £11.50"
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking"
+    },
+    {
+      "heading": "Phone",
+      "text": "0300 003 0630"
+    },
+    {
+      "heading": "Address",
+      "text": "Lee Valley Athletics Centre, 61 Meridian Way, Edmonton, London, N9 0AR"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official stadium website.",
+      "linkUrl": "https://www.leevalleypark.org.uk/venues/lee-valley-athletics-centre",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

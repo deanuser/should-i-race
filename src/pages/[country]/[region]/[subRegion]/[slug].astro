@@ -185,8 +185,8 @@ const currentWindCategory = getWindCategory(
 ---
 
 <Layout
-  title={`${track.data.name} Wind Conditions | Should I Race?`}
-  description={`Live & 5 day forcast wind directions checker for ${track.data.name}`}
+  title={track.data.metaTitle || `${track.data.name} Wind Conditions | Should I Race?`}
+  description={track.data.metaDescription || `Live & 5 day forcast wind directions checker for ${track.data.name}`}
 >
   <Navbar />
 
@@ -449,5 +449,38 @@ const currentWindCategory = getWindCategory(
     </div>
 
     <PartnerBanner page="tracks" />
+
+    {track.data.trackInfo && track.data.trackInfo.length > 0 && (
+      <section class="mt-12">
+        <h2 class="text-2xl font-black text-white mb-6 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-brightcyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          Information about the Track
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
+          {track.data.trackInfo.map((info) => (
+            <div class="bento-card relative overflow-hidden group hover:border-brightcyan/40 transition-colors duration-300">
+               <div class="absolute inset-0 bg-gradient-to-br from-brightcyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div class="relative z-10 h-full flex flex-col justify-between">
+                  <div>
+                    <h3 class="text-lg font-bold text-white mb-2">{info.heading}</h3>
+                    <p class="text-slate-300 leading-relaxed">{info.text}</p>
+                  </div>
+                  {info.linkUrl && (
+                    <a 
+                      href={info.linkUrl} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      class="mt-4 text-brightcyan hover:text-white transition-colors flex items-center gap-1 group/link w-fit"
+                    >
+                      <span class="font-bold">{info.linkLabel || "Learn More"}</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 transform group-hover/link:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </a>
+                  )}
+               </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
   </main>
 </Layout>

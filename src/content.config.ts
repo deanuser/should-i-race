@@ -13,6 +13,15 @@ const trackCollection = defineCollection({
     trackDirection: z.number(),
     lat: z.number(),
     lng: z.number(),
+    metaTitle: z.string().optional(),
+    metaDescription: z.string().optional(),
+    trackInfo: z.array(z.object({
+      heading: z.string(),
+      text: z.string(),
+      icon: z.string().optional(),
+      linkUrl: z.string().optional(),
+      linkLabel: z.string().optional(),
+    })).optional(),
   }),
 });
 

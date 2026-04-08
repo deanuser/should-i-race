@@ -7,5 +7,31 @@
   "country": "uk",
   "trackDirection": 98,
   "lat": 51.5714956,
-  "lng": -0.1010186
+  "lng": -0.1010186,
+  "metaTitle": "Finsbury Park Athletics Track | Wind Speed, Opening Times and More",
+  "metaDescription": "Check the latest wind speed and direction at Finsbury Park Athletics Track to optimise your track performance.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Monday to Friday 6am - 9pm, Saturday & Sunday 8:30am - 3:30pm"
+    },
+    {
+      "heading": "Entry Price",
+      "text": "£8 per Session"
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking"
+    },
+    {
+      "heading": "Address",
+      "text": "Track, Field and Gym, Hornsey Gate, Endymion Rd, Finsbury Park, Athletics N4 1EE"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official stadium website.",
+      "linkUrl": "https://www.better.org.uk/venue/finsbury-park-athletics-track",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

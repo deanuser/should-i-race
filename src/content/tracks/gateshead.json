@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 164,
   "lat": 54.9609,
-  "lng": -1.5796115
+  "lng": -1.5796115,
+  "metaTitle": "Gateshead International Stadium Track info & Wind Speed",
+  "metaDescription": "Check the latest wind speed and stadium info for Gateshead International Stadium to optimise your track performance.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Monday to Thursday 6.15am to 10pm, Friday 6.15am to 8pm, Saturday 8am to 6.30pm, Sunday 8am to 5.30pm"
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Adults £5.60, Concessions £3.40. GO Gateshead members run for free."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking available with ample spaces right next to the stadium entrance."
+    },
+    {
+      "heading": "Phone",
+      "text": "0191 433 5700"
+    },
+    {
+      "heading": "Address",
+      "text": "Gateshead International Stadium, Neilson Road, Gateshead, NE10 0EF"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official stadium website.",
+      "linkUrl": "https://www.gateshead.gov.uk/article/1027/Gateshead-International-Stadium",
+      "linkLabel": "Official Website"
+    }
+  ]
 }
