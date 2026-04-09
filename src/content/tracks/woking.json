@@ -7,5 +7,31 @@
   "country": "uk",
   "trackDirection": 20,
   "lat": 51.2996402,
-  "lng": -0.5749932
+  "lng": -0.5749932,
+  "metaTitle": "Woking Athletics Track Sportsbox Stadium Information & Wind Speed",
+  "metaDescription": "Check the latest wind speed and stadium information for the Woking Athletics Track at Woking Sportsbox.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Monday to Friday 06:00 - 22:30, Saturday 08:00 - 20:00, Sunday 08:00 - 21:30 (Check for club bookings)."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Casual track use sessions available. Typically around £6.00 for adult non-members."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking is available for visitors and members at the Woking Sportsbox."
+    },
+    {
+      "heading": "Address",
+      "text": "Woking Sportsbox, Egley Road, Mayford, Woking, GU22 0AF"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official facility page for current timetables and casual session availability.",
+      "linkUrl": "https://www.everyoneactive.com/centre/woking-sportsbox/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

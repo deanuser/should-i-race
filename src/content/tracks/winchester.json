@@ -7,5 +7,31 @@
   "country": "uk",
   "trackDirection": 170,
   "lat": 51.0549482,
-  "lng": -1.3018919
+  "lng": -1.3018919,
+  "metaTitle": "Winchester Athletics Track | Stadium Information & Wind Speed",
+  "metaDescription": "Check the latest wind speed and direction at Winchester Athletics Track to optimise your track performance.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Monday to Friday 06:00 - 22:00, Weekends 07:00 - 20:00 (Subject to bookings/casual use availability)"
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Approximately £5.50 for adult casual use sessions."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Dedicated parking facilities available at Winchester Sport and Leisure Park."
+    },
+    {
+      "heading": "Address",
+      "text": "Winchester Sport & Leisure Park, Bar End Road, Winchester, SO23 9NR"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official facility page for the latest updates and timetables.",
+      "linkUrl": "https://www.everyoneactive.com/centre/winchester-sport-leisure-park/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

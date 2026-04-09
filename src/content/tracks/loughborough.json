@@ -7,5 +7,31 @@
   "country": "uk",
   "trackDirection": 69,
   "lat": 52.7690265,
-  "lng": -1.2306796
+  "lng": -1.2306796,
+  "metaTitle": "Loughborough University Track (Paula Radcliffe Stadium) Information",
+  "metaDescription": "Check the latest wind speed and stadium information for the Paula Radcliffe Stadium at Loughborough University.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Access is primarily for clubs, schools, and university performance squads. Casual public use is limited and subject to scheduled 'pay and play' sessions."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access typically requires a Loughborough Sport membership or affiliation with a local club like Charnwood AC."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Paid visitor parking is available on the Loughborough University campus (Epinal Way entrance)."
+    },
+    {
+      "heading": "Address",
+      "text": "Paula Radcliffe Stadium, Loughborough University, Epinal Way, Loughborough, LE11 3TU"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Loughborough Sport page for facility details and booking enquiries.",
+      "linkUrl": "https://www.lboro.ac.uk/sport/facilities/stadium/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

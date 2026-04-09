@@ -7,5 +7,31 @@
   "country": "uk",
   "trackDirection": 176,
   "lat": 51.2483111,
-  "lng": -1.1264014
+  "lng": -1.1264014,
+  "metaTitle": "Basingstoke Athletics Track | Down Grange Track Information",
+  "metaDescription": "Check the latest wind speed and facility information for the Basingstoke Athletics Track at Down Grange Sports Complex.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The site is generally open for use, however, please note that car park gates are locked between 10:00 pm and 8:00 am."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access to the athletics track at Down Grange is generally free for casual use."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free car parking is available on-site at the Down Grange Sports Complex (Gates locked 10:00 pm - 8:00 am)."
+    },
+    {
+      "heading": "Address",
+      "text": "Down Grange Sports Complex, Pack Lane, Basingstoke, Hampshire, RG22 5SN"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Basingstoke and Deane Borough Council page for facility details and bookings.",
+      "linkUrl": "https://www.basingstoke.gov.uk/downgrange",
+      "linkLabel": "Official Website"
+    }
+  ]
 }
