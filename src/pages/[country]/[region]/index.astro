@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.astro';
-import Footer from '../../../components/Footer.astro';
 import TrackCard from '../../../components/TrackCard.astro';
 import PartnerBanner from '../../../components/PartnerBanner.astro';
 
@@ -75,6 +74,4 @@ const subRegions = [...new Set(tracks.map(t => t.data.subRegion))];
 
     <PartnerBanner page="tracks" />
   </main>
-
-  <Footer />
 </Layout>
