@@ -1,0 +1,41 @@
+{
+  "name": "Guildford Athletics Track",
+  "slug": "guildford",
+  "city": "Guildford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 87,
+  "lat": 51.2503337,
+  "lng": -0.5615379,
+  "metaTitle": "Guildford Athletics Track | Spectrum Track Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Guildford Athletics Track at the Guildford Spectrum leisure complex.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Availability depends on club bookings and events. Managed by Freedom Leisure; check the Guildford Spectrum website for updated daily public track times."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay-as-you-go track sessions are available for visitors. Contact the centre or check online for current rates and membership options."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A high-quality 8-lane 400m synthetic track with full field event facilities, home to many regional competitions and clubs."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "1,000 free car parking spaces are available on-site at Guildford Spectrum, including parent/toddler and accessible bays."
+    },
+    {
+      "heading": "Address",
+      "text": "Guildford Spectrum, Parkway, Guildford, Surrey, GU1 1UP"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Guildford Spectrum website for track timetables, booking info, and facility updates.",
+      "linkUrl": "https://www.guildfordspectrum.co.uk/",
+      "linkLabel": "Official Website"
+    }
+  ]
+}
