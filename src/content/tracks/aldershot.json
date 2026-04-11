@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 215,
   "lat": 51.2645437,
-  "lng": -0.7545275
+  "lng": -0.7545275,
+  "metaTitle": "Aldershot Athletics Track (Military Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Aldershot Military Stadium athletics track.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The stadium is primarily used by the British Army and affiliated clubs. It is not a standard pay-and-play facility; access is generally via bookings or organized club sessions."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is managed via club memberships (such as Aldershot, Farnham & District AC) or specific facility bookings. Contact the Garrison Sports Centre for inquiries."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A floodlit, 8-lane 400m synthetic track. Please note that field event availability may be restricted during the winter months (Sept–April) due to football use."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Dedicated on-site parking is available at the Military Stadium, with additional overflow parking within the wider Aldershot Garrison sports complex."
+    },
+    {
+      "heading": "Address",
+      "text": "Queen's Avenue, Aldershot, GU11 2JL"
+    },
+    {
+      "heading": "Website",
+      "text": "View facility details and contact information via the Aldershot Garrison Sports Centre.",
+      "linkUrl": "https://aldershotgarrisonsc.co.uk/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

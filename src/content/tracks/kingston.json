@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 310,
   "lat": 51.4047266,
-  "lng": -0.2834385
+  "lng": -0.2829054,
+  "metaTitle": "Kingston Athletics Track - Weir Archer | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Weir Archer Athletics Centre in Kingston.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Thu 08:00–22:00, Fri 08:00–20:00, Sat–Sun 09:00–16:30. Note: Restricted on Chelsea FC Women matchdays."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access via pay-as-you-go sessions or memberships via Places Leisure. Contact the centre for current track rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "An 8-lane 400m track equipped with full field event facilities and a modern fitness suite."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking for centre users. Parking is extremely limited during home football matches at the adjacent stadium."
+    },
+    {
+      "heading": "Address",
+      "text": "422A Kingston Road, Kingston-upon-Thames, KT1 3PB"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Places Leisure page for the Weir Archer Centre for track bookings.",
+      "linkUrl": "https://www.placesleisure.org/centres/weir-archer-athletics-and-fitness-centre/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

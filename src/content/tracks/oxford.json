@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 165,
   "lat": 51.7374186,
-  "lng": -1.186850
+  "lng": -1.1969634,
+  "metaTitle": "Horspath Athletics Ground Oxford | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Horspath Athletics Ground in Oxford.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The track is open year-round for pass holders. Check the Oxford City AC calendar for club training times and closures."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is managed via a track pass system. You must purchase a daily or annual pass online before arriving at the venue."
+    },
+    {
+      "heading": "Track Details",
+      "text": "Managed by Oxford City Athletic Club, this facility serves as the primary track and field complex for the Oxford area."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking for up to 200 cars. Alternative parking may be arranged at the adjacent BMW plant for major events."
+    },
+    {
+      "heading": "Address",
+      "text": "Horspath Road, Oxford, OX4 2RR"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Oxford City AC website to purchase track passes and view the live schedule.",
+      "linkUrl": "https://www.oxfordcityac.com/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

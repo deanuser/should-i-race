@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 150,
   "lat": 51.4518958,
-  "lng": -0.9371172
+  "lng": -0.933333,
+  "metaTitle": "Palmer Park Stadium Reading | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Palmer Park Stadium in Reading.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 06:30–22:00, Sat–Sun 08:00–18:00. Note the track is used for club sessions and may have restricted public access."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Casual track use is available for approximately £6.50 (£4.60 for residents). Included for Better monthly members."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A 400m synthetic track within Palmer Park. The facility provides high jump beds and long jump equipment for users."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking is available within the Palmer Park grounds. Always check local signage for parking rules upon arrival."
+    },
+    {
+      "heading": "Address",
+      "text": "Wokingham Road, Reading, RG6 1LF"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Better page for Palmer Park Stadium for track timetables and booking.",
+      "linkUrl": "https://www.better.org.uk/leisure-centre/reading/palmer-park-leisure-centre-and-stadium",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

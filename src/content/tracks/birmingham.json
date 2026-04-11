@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 150,
   "lat": 52.5313023,
-  "lng": -1.9051246
+  "lng": -1.907999,
+  "metaTitle": "Alexander Stadium Birmingham | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the world-renowned Alexander Stadium in Birmingham.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 06:30–21:00, Sat–Sun 08:00–17:00. Please note that the stadium is a major competition venue and may be closed for events."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is managed via memberships and club sessions. Contact the stadium for current casual hire and track use rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A world-class Class 1 venue featuring a 9-lane international track and a separate 6-lane community track."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking is available. Arrangements may vary during major sporting events or competitions."
+    },
+    {
+      "heading": "Address",
+      "text": "Walsall Road, Perry Barr, Birmingham, B42 2LR"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Alexander Stadium website for facility hire information and event bookings.",
+      "linkUrl": "https://www.alexander-stadium.co.uk/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

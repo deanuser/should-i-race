@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 185,
   "lat": 51.753175,
-  "lng": 0.4515593
+  "lng": 0.457000,
+  "metaTitle": "Chelmsford Sport & Athletics Centre | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Chelmsford Sport & Athletics Centre at Melbourne Park.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 06:30–22:00, Sat–Sun 08:00–18:00. Note that the athletics track may be reserved for club sessions or events."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via pay-as-you-go or various membership packages. Managed by Chelmsford City Council."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A premier 8-lane 400m floodlit track. The centre also features state-of-the-art indoor training facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site car parking is available for visitors, including dedicated accessible parking spaces."
+    },
+    {
+      "heading": "Address",
+      "text": "Salerno Way, Chelmsford, Essex, CM1 2EH"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Chelmsford City Council page for CSAC for timings and facility bookings.",
+      "linkUrl": "https://www.chelmsford.gov.uk/leisure-centres/csac/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

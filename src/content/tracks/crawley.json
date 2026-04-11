@@ -7,5 +7,31 @@
   "country": "uk",
   "trackDirection": 177,
   "lat": 51.0974037,
-  "lng": -0.1899792
+  "lng": -0.1899792,
+  "metaTitle": "Crawley Athletics Track (K2) | Facility Information & Wind Speed",
+  "metaDescription": "Check the latest wind speed and facility information for the Crawley Athletics Track at K2 Crawley.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The centre is open Mon-Fri 06:00-22:00 and Sat-Sun 07:00-18:00. Please check the specific track timetable for availability."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via pay-as-you-go or membership. Contact the centre for the latest track-specific pricing."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking is available for centre users, including accessible Blue Badge parking bays."
+    },
+    {
+      "heading": "Address",
+      "text": "K2 Crawley, Pease Pottage Hill, Crawley, RH11 9BQ"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Everyone Active page for K2 Crawley for bookings and facility details.",
+      "linkUrl": "https://www.everyoneactive.com/centre/k2-crawley/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

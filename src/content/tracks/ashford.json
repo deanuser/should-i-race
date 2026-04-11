@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 200,
   "lat": 51.1559783,
-  "lng": 0.9014988
+  "lng": 0.895000,
+  "metaTitle": "Julie Rose Stadium Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Julie Rose Stadium in Ashford, Kent.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 07:00–20:30, Sat 08:00–16:00, Sun 08:00–14:00. Check the Freedom Leisure schedule for event closures."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay-as-you-go sessions are available. Contact the stadium for current track use pricing and membership options."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A high-quality 400m synthetic track with a 1,000-seat grandstand and complete field event facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking is available for visitors, including electric vehicle charging points."
+    },
+    {
+      "heading": "Address",
+      "text": "Willesborough Road, Ashford, Kent, TN24 9QX"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Freedom Leisure page for the Julie Rose Stadium for opening updates.",
+      "linkUrl": "https://www.freedom-leisure.co.uk/centres/julie-rose-stadium/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

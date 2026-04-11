@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 174,
   "lat": 51.3867276,
-  "lng": 0.0215691
+  "lng": 0.0163351,
+  "metaTitle": "Norman Park Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Norman Park Athletics Track in Bromley.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Managed by Norman Park Track Management Ltd. Availability depends on club sessions and event bookings; contact for daily hours."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay-as-you-go sessions available for individuals. Contact the track management at 020 8462 5134 for current rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A fully floodlit 8-lane 400m synthetic track with a full range of jumping and throwing facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free car parking is available on-site within the Norman Park sports ground."
+    },
+    {
+      "heading": "Address",
+      "text": "Hayes Lane, Bromley, BR2 9EF"
+    },
+    {
+      "heading": "Website",
+      "text": "Check the official Bromley council website or contact track management for facility updates.",
+      "linkUrl": "https://www.bromley.gov.uk",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

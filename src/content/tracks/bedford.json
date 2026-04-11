@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 119,
   "lat": 52.1344061,
-  "lng": -0.4411643
+  "lng": -0.440266,
+  "metaTitle": "Bedford International Athletics Stadium | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and tracking information for the Bedford International Athletics Stadium.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Tue–Fri 09:00–22:00, Sat–Sun 09:00–17:30. Please note the stadium is closed on Mondays."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay-as-you-go options and memberships are available through Better. Contact the stadium for current rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A premier competition venue featuring an 8-lane 400m track and comprehensive field event facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking is available for 115 vehicles, including designated disabled parking spaces."
+    },
+    {
+      "heading": "Address",
+      "text": "Barkers Lane, Bedford, MK41 9SB"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Better page for the Bedford International Athletics Stadium for bookings.",
+      "linkUrl": "https://www.better.org.uk/leisure-centre/bedford/bedford-international-athletic-stadium",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

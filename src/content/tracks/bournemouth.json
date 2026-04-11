@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 54,
   "lat": 50.7338223,
-  "lng": -1.8342629
+  "lng": -1.8480398,
+  "metaTitle": "Kings Park Athletic Centre | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for Kings Park Athletic Centre in Bournemouth.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "**Current Status:** The track is currently undergoing repairs (expected reopening late Spring 2026). Normally open for club sessions and events."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pricing is managed by BCP Council. Contact the Sports Booking Centre for information on future track use and club hire."
+    },
+    {
+      "heading": "Track Details",
+      "text": "An 8-lane 400m synthetic track with full field facilities, serving as the primary athletics hub for the Bournemouth area."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Limited free parking is available at the centre. Pay-and-display parking is available in the adjoining Kings Park car parks."
+    },
+    {
+      "heading": "Address",
+      "text": "Kings Park Drive, Bournemouth, Dorset, BH7 7AF"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official BCP Council page for Kings Park Athletics Centre for updates on repair works.",
+      "linkUrl": "https://www.bcpcouncil.gov.uk/Leisure-culture-and-local-heritage/Sports-and-activities/Kings-Park-Athletics-Centre.aspx",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

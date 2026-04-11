@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 189,
   "lat": 51.3777922,
-  "lng": -2.3220104
+  "lng": -2.327500,
+  "metaTitle": "University of Bath Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the University of Bath Sports Training Village (STV).",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 06:00–22:00, Sat–Sun 08:00–19:00. Public availability depends on peak training schedules; check live timetables."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay-as-you-go sessions are available via the Team Bath Connect online booking system or at reception."
+    },
+    {
+      "heading": "Track Details",
+      "text": "World-class facilities featuring an 8-lane 400m outdoor track and a 132m indoor sprint straight."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Pay-and-display parking is available on the University of Bath campus near the Sports Training Village."
+    },
+    {
+      "heading": "Address",
+      "text": "Sports Training Village, University of Bath, Claverton Down, Bath, BA2 7AY"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Team Bath website for memberships, facility bookings, and live schedules.",
+      "linkUrl": "https://www.teambath.com",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

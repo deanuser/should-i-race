@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 197,
   "lat": 51.5564653,
-  "lng": 0.2384202
+  "lng": 0.231999,
+  "metaTitle": "Hornchurch Stadium Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Hornchurch Stadium athletics track.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Primary blocks: Mon/Wed 18:00–21:00, Sun 10:00–13:00. Please check for football matchday changes at Hornchurch FC."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Standard track fees are approximately £3.00 for adults and £2.00 for juniors per session. Loyalty cards are available."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A 6-lane athletics track serving as the training base for Havering Athletic Club. Fully floodlit for winter training."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking available on a first-come, first-served basis. Street parking is available on Bridge Avenue."
+    },
+    {
+      "heading": "Address",
+      "text": "Bridge Avenue, Upminster, Essex, RM14 2LX"
+    },
+    {
+      "heading": "Website",
+      "text": "Check the Havering Athletic Club website for training updates and facility news.",
+      "linkUrl": "https://haveringac.org/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

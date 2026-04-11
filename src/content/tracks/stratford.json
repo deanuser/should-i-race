@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 280,
   "lat": 51.5367282,
-  "lng": -0.015594
+  "lng": -0.015594,
+  "metaTitle": "Stratford London Marathon Community Track | Facility Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Stratford London Marathon Community Track in Stratford.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Open for public use on Thursdays 16:30 – 19:00. Note that the track is frequently used for events and school sessions; check ahead for closures."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Approximately £3.20 per person. Please note that payments are card/cashless only. No advance booking is required."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A world-class 6-lane 400m synthetic track with an 8-lane 110m straight, located in the Queen Elizabeth Olympic Park."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Very limited on-site parking. It is strongly recommended to use public transport via Stratford Station or Hackney Wick."
+    },
+    {
+      "heading": "Address",
+      "text": "London Stadium, Queen Elizabeth Olympic Park, London, E20 2ST"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official London Stadium community track page for the latest opening updates and FAQs.",
+      "linkUrl": "https://www.london-stadium.com/community-track",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 220,
   "lat": 51.4726581,
-  "lng": -3.2105753
+  "lng": -3.2105753,
+  "metaTitle": "Cardiff International Athletics Stadium | Facility Info & Wind Speed",
+  "metaDescription": "Check the latest wind speed and facility information for the Cardiff International Athletics Stadium in Leckwith.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Evening access is generally available for public sessions. Please check the Cardiff City House of Sport online booking system for today's available slots."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pricing varies by session. Visit the official website for the latest pay-as-you-go rates and concessions."
+    },
+    {
+      "heading": "Track Details",
+      "text": "An international standard facility featuring a certified 8-lane 400m track and a full range of field event facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking is available. IMPORTANT: You must enter your vehicle registration at the reception desk to avoid a parking fine."
+    },
+    {
+      "heading": "Address",
+      "text": "Cardiff International Sports Campus, Leckwith Road, Cardiff, CF11 8AZ"
+    },
+    {
+      "heading": "Website",
+      "text": "Check availability and book sessions via the Cardiff City House of Sport website.",
+      "linkUrl": "https://www.cardiffcityhouseofsport.co.uk/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

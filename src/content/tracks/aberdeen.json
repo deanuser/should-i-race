@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 172,
   "lat": 57.1628558,
-  "lng": -2.0919698
+  "lng": -2.091000,
+  "metaTitle": "Aberdeen Sports Village Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Aberdeen Sports Village athletics track.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 05:30–22:30, Sat–Sun 08:30–17:00. Note that specific areas may be reserved for club sessions (4pm-8pm weekdays)."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via membership or paid drop-in sessions. Contact ASV for current track-specific rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A certified 8-lane 400m outdoor track with full field facilities and an indoor 135m sprint straight."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking for up to 3 hours for users and visitors across four large car parks."
+    },
+    {
+      "heading": "Address",
+      "text": "Linksfield Road, Aberdeen, AB24 5RU"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Aberdeen Sports Village website for memberships and facility bookings.",
+      "linkUrl": "https://www.aberdeensportsvillage.com",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

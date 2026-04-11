@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 152,
   "lat": 50.9518897,
-  "lng": -2.6383148
+  "lng": -2.631000,
+  "metaTitle": "Bill Whistlecroft Athletics Arena | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Bill Whistlecroft Athletics Arena in Yeovil.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The arena is open daily from 06:00. Home to Yeovil Olympiads AC; check the Recreation Centre site for event closures."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Casual users can access the track by purchasing an annual track pass from the Yeovil Recreation Centre office."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A dedicated 400m athletics arena with a synthetic track and complete field event areas for all disciplines."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking is available via Pickett Lane or the main Chilton Grove entrance."
+    },
+    {
+      "heading": "Address",
+      "text": "Pickett Lane, Yeovil, Somerset, BA21 3DS"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Yeovil Recreation Centre website for annual pass applications and facility details.",
+      "linkUrl": "https://yeovilrec.co.uk/athletics-arena/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

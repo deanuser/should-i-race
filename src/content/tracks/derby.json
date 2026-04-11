@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 323,
   "lat": 52.89076,
-  "lng": -1.4578812
+  "lng": -1.4587974,
+  "metaTitle": "Moorways Stadium Derby | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Moorways Stadium in Derby.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Thu 09:00–21:00, Fri 09:00–20:00, Sat–Sun 09:00–15:00. Note these hours are specific to the stadium track."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via Everyone Active memberships or pre-booked club sessions. Contact the stadium for personal hire rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A comprehensive athletics stadium managed by Everyone Active, featuring a 400m track and full field event facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking is available for centre users, including 14 designated accessible bays."
+    },
+    {
+      "heading": "Address",
+      "text": "Moor Lane, Allenton, Derby, DE24 9HY"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Everyone Active page for Moorways Stadium for track bookings and enquiries.",
+      "linkUrl": "https://www.everyoneactive.com/centre/moorways-stadium/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

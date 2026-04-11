@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 24,
   "lat": 51.6071517,
-  "lng": 0.0500001
+  "lng": 0.0500001,
+  "metaTitle": "Woodford Green Athletics Track | Facility Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Woodford Green athletics track at Ashton Playing Fields.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Opening times vary; the track is used by clubs and schools. Please check the Vision RCL timetable for specific public session availability."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "The facility offers pay-as-you-go access and annual memberships. Contact the centre for current pay-and-play rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "An 8-lane 400m synthetic track with full field event facilities including jumping pits and throwing circles."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking is available for centre users. Be aware of potential restrictions during major athletic events or club meets."
+    },
+    {
+      "heading": "Address",
+      "text": "Ashton Playing Fields, 598 Chigwell Road, Woodford Green, IG8 8AA"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Vision RCL page for Ashton Playing Fields for timetables and booking information.",
+      "linkUrl": "https://www.visionrcl.org.uk/centre/ashton-playing-fields",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

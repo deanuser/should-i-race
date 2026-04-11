@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 235,
   "lat": 52.9677492,
-  "lng": -1.2163926
+  "lng": -1.2185244,
+  "metaTitle": "Harvey Hadden Sports Village | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for Harvey Hadden Sports Village in Nottingham.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 06:00–22:00, Sat 06:00–18:00, Sun 08:00–18:00. Last admission is 30 minutes before closing time."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay-as-you-go sessions and various membership packages are available via the Active Nottingham network."
+    },
+    {
+      "heading": "Track Details",
+      "text": "An improved Grade A athletics stadium with an 8-lane track, serving as the city's premier athletics venue."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site car parking is available with dedicated disability and parent/child bays."
+    },
+    {
+      "heading": "Address",
+      "text": "Wigman Road, Bilborough, Nottingham, NG8 4PB"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Active Nottingham page for Harvey Hadden for track timetables and booking.",
+      "linkUrl": "https://www.activenottingham.com/centres/harvey-hadden-sports-village/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

@@ -5,9 +5,37 @@
   "region": "england",
   "subRegion": "south",
   "country": "uk",
-  "trackDirection": 78,
-  "lat": 50.825691,
-  "lng": -1.082294,
-  "metaTitle": "Portsmouth Athletics Track | Mountbatten Centre Running Track",
-  "metaDescription": "Check the latest wind speed and stadium info for Portsmouth Athletics Track to optimise your track performance."
+  "trackDirection": 140,
+  "lat": 50.8170281,
+  "lng": -1.0847936,
+  "metaTitle": "Mountbatten Leisure Centre | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Mountbatten Centre in Portsmouth.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 06:00–22:00, Sat–Sun 07:00–20:00. Note the track is occasionally booked for exclusive club or event sessions."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay-as-you-go sessions for the athletics track are available. Contact the centre or check online for current visitor rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "An 8-lane 400m synthetic track with a 50m indoor straight and complete track and field facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Ample free on-site parking is provided for all centre visitors at the Mountbatten Leisure Centre."
+    },
+    {
+      "heading": "Address",
+      "text": "Alexandra Park, Twyford Avenue, Portsmouth, PO2 9QA"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official BH Live Active page for Mountbatten Leisure Centre for the latest track availability.",
+      "linkUrl": "https://www.bhliveactive.org.uk/centres/mountbatten-leisure-centre/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

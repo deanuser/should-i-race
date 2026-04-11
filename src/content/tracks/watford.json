@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 59,
   "lat": 51.6958299,
-  "lng": -0.394297
+  "lng": -0.385000,
+  "metaTitle": "Woodside Stadium Watford | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Woodside Stadium in Watford.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The track is the home of Watford Harriers AC. Public use is subject to club training times and school event bookings."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is primarily via club membership. Contact Watford Harriers or the council for information on individual track hire."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A high-quality 8-lane 400m synthetic track with a full complement of field event facilities."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "A large car park is available at the Horseshoe Lane entrance, serving the wider Woodside Playing Fields complex."
+    },
+    {
+      "heading": "Address",
+      "text": "Horseshoe Lane, Watford, Hertfordshire, WD25 7HH"
+    },
+    {
+      "heading": "Website",
+      "text": "Check the official Watford Harriers website or Watford Borough Council page for facility availability.",
+      "linkUrl": "https://www.watfordharriers.org.uk/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

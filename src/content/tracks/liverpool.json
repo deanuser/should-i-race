@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 183,
   "lat": 53.3957447,
-  "lng": -2.9240624
+  "lng": -2.9248238,
+  "metaTitle": "Wavertree Athletics Centre Liverpool | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Wavertree Athletics Centre in Liverpool.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Opening hours vary; the facility is a major regional hub for clubs and schools. Check the Lifestyles website for session availability."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via Lifestyles memberships or pay-as-you-go sessions. Contact the centre for current visitor rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A world-class Hub venue featuring an 8-lane track and a state-of-the-art indoor athletics training facility."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking at Wavertree Sports Park. Access to the Athletics Centre is via the Liverpool Tennis Centre."
+    },
+    {
+      "heading": "Address",
+      "text": "Wavertree Sports Park, Wellington Road, Liverpool, L15 4LE"
+    },
+    {
+      "heading": "Website",
+      "text": "Check facility updates and timetables via the Liverpool City Council Lifestyles website.",
+      "linkUrl": "https://liverpool.gov.uk/leisure-parks-and-events/leisure-centres/lifestyles-wavertree-aquatics-centre/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

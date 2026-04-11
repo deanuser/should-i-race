@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 50,
   "lat": 51.4950304,
-  "lng": -0.5967846
+  "lng": -0.5967846,
+  "metaTitle": "Thames Valley Athletics Centre (TVAC) | Track Info & Wind Speed",
+  "metaDescription": "Check live wind speed and facility information for the Thames Valley Athletics Centre (TVAC) in Eton.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 06:30–21:45, Sat–Sun 09:00–18:00. Bank Holidays 09:00–15:00. Please check with the centre for event closures."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via membership or pay-as-you-go sessions. Contact the centre for current track-specific pricing."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A premier 8-lane 400m outdoor track. The facility also features an indoor 60m sprint straight and indoor field event areas."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Parking is included for track users. IMPORTANT: You must register your vehicle registration at reception or via the RingGo app to avoid a fine."
+    },
+    {
+      "heading": "Address",
+      "text": "Pococks Lane, Eton, Windsor, SL4 6HN"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Datchet & Eton Leisure website for facility details and membership options.",
+      "linkUrl": "https://www.deleisure.com/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }

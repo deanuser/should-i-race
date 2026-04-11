@@ -7,5 +7,35 @@
   "country": "uk",
   "trackDirection": 93,
   "lat": 52.0619726,
-  "lng": -0.7677257
+  "lng": -0.767980,
+  "metaTitle": "Stantonbury Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Stantonbury Athletics Track in Milton Keynes.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The track is used by the school during school hours. Public/Club access is available in the evenings and at weekends."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is managed via club sessions (e.g. MKAC) or pre-booked hire. Contact the facility for current casual user rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A key regional athletics facility and the home training base for Marshall Milton Keynes Athletic Club."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Ample free parking is available at the Stantonbury Campus. Dedicated track-side parking is also located on Soskin Drive."
+    },
+    {
+      "heading": "Address",
+      "text": "Purbeck, Stantonbury, Milton Keynes, MK14 6BN"
+    },
+    {
+      "heading": "Website",
+      "text": "Check the official Stantonbury Leisure Centre or MKAC websites for track timetables and booking enquireis.",
+      "linkUrl": "https://www.stantonburyleisure.co.uk/",
+      "linkLabel": "Official Website"
+    }
+  ]
 }
