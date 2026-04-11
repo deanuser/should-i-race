@@ -1,0 +1,41 @@
+{
+  "name": "Cambridge University Athletics Track",
+  "slug": "cambridge",
+  "city": "Cambridge",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 94,
+  "lat": 52.2068733,
+  "lng": 0.0963827,
+  "metaTitle": "Cambridge University Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Wilberforce Road Athletics Track in Cambridge.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Mon–Fri 07:30–22:00, Sat 10:00–19:00, Sun 09:00–21:00. Note that the facility can be booked for exclusive events."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via membership or pay-as-you-train sessions (approx. £5.00 for community users). Pre-booking is mandatory."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A premier 8-lane 400m synthetic track managed by the University of Cambridge Sports Service at Wilberforce Road."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site car parking is available for users. The car park includes designated Blue Badge parking spaces."
+    },
+    {
+      "heading": "Address",
+      "text": "Wilberforce Road Athletics Track, Wilberforce Road, Cambridge, CB3 0EQ"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Sport at Cambridge website for track booking apps and facility updates.",
+      "linkUrl": "https://www.sport.cam.ac.uk/facilities/athletics-track",
+      "linkLabel": "Official Website"
+    }
+  ]
+}
