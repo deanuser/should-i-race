@@ -15,8 +15,11 @@ const featuredTracks = allTracks
   .filter((t) => featuredSlugs.includes(t.data.slug))
   .sort((a, b) => featuredSlugs.indexOf(a.data.slug) - featuredSlugs.indexOf(b.data.slug));
 
-// Reverse the array to get 'last added' visualization
-const lastAddedTracks = [...allTracks].reverse().slice(0, 5);
+// Manually set newly added tracks
+const lastAddedSlugs = ["guildford", "cambridge"];
+const lastAddedTracks = allTracks
+  .filter((t) => lastAddedSlugs.includes(t.data.slug))
+  .sort((a, b) => lastAddedSlugs.indexOf(a.data.slug) - lastAddedSlugs.indexOf(b.data.slug));
 
 // Mock data for upcoming competitions with track slugs for linking
 const upcomingCompetitions = [
