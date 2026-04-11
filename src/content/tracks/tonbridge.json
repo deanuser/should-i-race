@@ -1,0 +1,41 @@
+{
+  "name": "Tonbridge School Athletics Track",
+  "slug": "tonbridge",
+  "city": "Tonbridge",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 306,
+  "lat": 51.2007481,
+  "lng": 0.270313,
+  "metaTitle": "Tonbridge School Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Tonbridge School Athletics Track, home of Tonbridge AC.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "This is a private facility used by Tonbridge School and Tonbridge Athletic Club. There is no general public access outside of club sessions and events."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is restricted to school students and members of Tonbridge AC. Guest entry is usually only available during organized open track meetings."
+    },
+    {
+      "heading": "Track Details",
+      "text": "A high-performance synthetic 400m track with 8 lanes, serving as a primary training and competition hub in Kent."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking is available within the Tonbridge School grounds for authorized visitors, club members, and centre users."
+    },
+    {
+      "heading": "Address",
+      "text": "Tonbridge School, London Road, Tonbridge, Kent, TN9 1JP"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Tonbridge School Centre or Tonbridge Athletic Club websites for membership and event information.",
+      "linkUrl": "https://www.tonbridgeschoolcentre.co.uk/",
+      "linkLabel": "Official Website"
+    }
+  ]
+}
