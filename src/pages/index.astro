@@ -9,18 +9,22 @@ import PartnerBanner from "../components/PartnerBanner.astro";
 // Fetch tracks from collections
 const allTracks = await getCollection("tracks");
 
-// Assume featured tracks are the first 6 or max available
-const featuredTracks = allTracks.slice(0, 6);
-// Reverse the array to get 'last added' mock visualization
+// Specific featured tracks
+const featuredSlugs = ["loughborough", "lee-valley", "basingstoke", "bedford"];
+const featuredTracks = allTracks
+  .filter((t) => featuredSlugs.includes(t.data.slug))
+  .sort((a, b) => featuredSlugs.indexOf(a.data.slug) - featuredSlugs.indexOf(b.data.slug));
+
+// Reverse the array to get 'last added' visualization
 const lastAddedTracks = [...allTracks].reverse().slice(0, 5);
 
 // Mock data for upcoming competitions with track slugs for linking
 const upcomingCompetitions = [
   {
-    date: "04 Apr",
-    name: "Bedfordshire AAA Track & Field Open Meeting",
-    track: "Bedford International Stadium",
-    slug: "bedford",
+    date: "18 Apr",
+    name: "Loughborough Outdoor Open",
+    track: "Loughborough University Track",
+    slug: "loughborough",
     type: "Full Track & Field",
   },
   {
