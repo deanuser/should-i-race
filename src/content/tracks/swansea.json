@@ -1,0 +1,41 @@
+{
+  "name": "Swansea University Athletics Track",
+  "slug": "swansea",
+  "city": "Swansea",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 255,
+  "lat": 51.6069,
+  "lng": -3.9878,
+  "metaTitle": "Swansea University Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for the Swansea University Athletics Track at Sketty Lane.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The track is open for university use, club training, and public sessions. Please check the Swansea Bay Sports Park website for today's specific timetable."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Access is available via membership or pay-as-you-go sessions. Contact the sports park for current track use rates."
+    },
+    {
+      "heading": "Track Details",
+      "text": "An international standard 8-lane 400m track, home to the Swansea Harriers Athletics Club and high-performance training."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-site parking is managed via ANPR. Pay-to-park charges apply during restricted hours (typically weekdays 08:00–16:00)."
+    },
+    {
+      "heading": "Address",
+      "text": "Swansea Bay Sports Park, Sketty Lane, Sketty, Swansea, SA2 8QG"
+    },
+    {
+      "heading": "Website",
+      "text": "Check facility updates and book sessions via the official Swansea Bay Sports Park website.",
+      "linkUrl": "https://swanseabaysportspark.wales/",
+      "linkLabel": "Official Website"
+    }
+  ]
+}
