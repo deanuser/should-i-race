@@ -1,0 +1,154 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+
+const lastUpdated = "April 17, 2026";
+---
+
+<Layout
+  title="Privacy Policy | Should I Race?"
+  description="Our commitment to your privacy. Learn how Should I Race? handles data and utilizes Google Analytics to improve your experience."
+>
+  <Navbar />
+
+  <main class="bg-deepdark min-h-screen">
+    <!-- Privacy Hero Section -->
+    <section class="relative pt-32 pb-16 overflow-hidden">
+      <!-- Background Elements -->
+      <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-gradient-to-b from-brightcyan/5 to-transparent pointer-events-none"></div>
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-brightcyan/10 blur-[120px] rounded-full opacity-50"></div>
+      </div>
+
+      <div class="container relative z-10 mx-auto px-6 max-w-4xl text-center">
+        <span class="inline-block py-2 px-6 rounded-full bg-brightcyan/10 border border-brightcyan/30 text-brightcyan text-[11px] font-black tracking-[0.3em] uppercase mb-8 shadow-[0_0_25px_rgba(34,227,213,0.15)]">
+          Legal Information
+        </span>
+        <h1 class="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tighter leading-tight">
+          Privacy <span class="bg-gradient-to-br from-brightcyan via-cyan-400 to-cyan-600 bg-clip-text text-transparent">Policy</span>
+        </h1>
+        <p class="text-slate-400 text-lg font-medium">
+          Last updated: {lastUpdated}
+        </p>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="pb-24 relative z-10">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <div class="bento-card p-8 md:p-12 bg-card-bg/50 backdrop-blur-xl border-white/5 shadow-2xl space-y-12">
+          
+          <!-- Introduction -->
+          <div class="space-y-4">
+            <h2 class="text-2xl font-black text-white uppercase tracking-tight flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brightcyan/20 flex items-center justify-center text-brightcyan text-sm">01</span>
+              Introduction
+            </h2>
+            <p class="text-slate-400 leading-relaxed font-medium">
+              At <strong class="text-white">Should I Race?</strong>, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you visit our website. By using our site, you agree to the practices described in this policy.
+            </p>
+          </div>
+
+          <!-- Data We Collect -->
+          <div class="space-y-4">
+            <h2 class="text-2xl font-black text-white uppercase tracking-tight flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brightcyan/20 flex items-center justify-center text-brightcyan text-sm">02</span>
+              Data We Collect
+            </h2>
+            <p class="text-slate-400 leading-relaxed font-medium">
+              We do not require users to create accounts or provide personal identification to use our core wind-checking tools. However, we do collect certain non-identifiable technical data to improve our service.
+            </p>
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-6 mt-4">
+              <h3 class="text-white font-bold mb-3">Analytics & Tracking</h3>
+              <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                We use <strong class="text-brightcyan">Google Analytics</strong> and <strong class="text-brightcyan">Google Search Console</strong> to understand how users interact with our site. This helps us optimize performance, identify popular tracks, and improve the overall user experience.
+              </p>
+              <ul class="space-y-2 text-sm text-slate-400">
+                <li class="flex items-start gap-2 italic">
+                  <span class="text-brightcyan">•</span> We track page views, session duration, and general geographic location.
+                </li>
+                <li class="flex items-start gap-2 italic">
+                  <span class="text-brightcyan">•</span> We analyze search terms that lead users to our platform.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Cookies -->
+          <div class="space-y-4">
+            <h2 class="text-2xl font-black text-white uppercase tracking-tight flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brightcyan/20 flex items-center justify-center text-brightcyan text-sm">03</span>
+              Cookies
+            </h2>
+            <p class="text-slate-400 leading-relaxed font-medium">
+              Our website uses cookies (small text files stored on your device) to enhance your browsing experience. This includes cookies used by Google Analytics to distinguish unique users and throttle request rates.
+            </p>
+            <p class="text-slate-400 leading-relaxed font-medium">
+              You can choose to disable cookies through your browser settings, although this may affect certain features of the site.
+            </p>
+          </div>
+
+          <!-- Legal Basis -->
+          <div class="space-y-4">
+            <h2 class="text-2xl font-black text-white uppercase tracking-tight flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brightcyan/20 flex items-center justify-center text-brightcyan text-sm">04</span>
+              Legal Basis for Processing
+            </h2>
+            <p class="text-slate-400 leading-relaxed font-medium">
+              Under GDPR, our legal basis for processing your data is our <strong class="text-white">legitimate interest</strong> in providing and improving a free, high-quality athletics information service.
+            </p>
+          </div>
+
+          <!-- Your Rights -->
+          <div class="space-y-4">
+            <h2 class="text-2xl font-black text-white uppercase tracking-tight flex items-center gap-3">
+              <span class="w-8 h-8 rounded-lg bg-brightcyan/20 flex items-center justify-center text-brightcyan text-sm">05</span>
+              Your Rights (GDPR)
+            </h2>
+            <p class="text-slate-400 leading-relaxed font-medium">
+              As a resident of the UK or EU, you have the following rights regarding your data:
+            </p>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              {[
+                "The right to access your data",
+                "The right to rectification",
+                "The right to erasure ('right to be forgotten')",
+                "The right to object to processing"
+              ].map(right => (
+                <li class="bg-white/5 border border-white/10 p-4 rounded-xl text-slate-300 text-sm font-semibold flex items-center gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brightcyan" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  {right}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="pt-8 border-t border-white/5">
+            <div class="bg-gradient-to-br from-brightcyan/10 to-transparent p-8 rounded-3xl border border-brightcyan/20 text-center">
+              <h2 class="text-2xl font-black text-white uppercase tracking-tight mb-4">Contact</h2>
+              <p class="text-slate-400 mb-6 font-medium">
+                If you have any questions about this Privacy Policy or our data practices, please get in touch:
+              </p>
+              <a href="mailto:info@shouldirace.com" class="text-xl md:text-2xl font-black text-white hover:text-brightcyan transition-colors underline decoration-brightcyan/30 underline-offset-8 decoration-2">
+                info@shouldirace.com
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  h1, h2 {
+    font-family: 'Outfit', sans-serif;
+  }
+  main {
+    font-family: 'Inter', sans-serif;
+  }
+</style>
