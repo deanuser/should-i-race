@@ -1,0 +1,41 @@
+{
+  "name": "Abingdon (Tilsley Park)",
+  "slug": "abingdon",
+  "city": "Abingdon",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 81,
+  "lat": 51.6903908,
+  "lng": -1.2855414,
+  "metaTitle": "Abingdon Athletics Track (Tilsley Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Tilsley Park in Abingdon.",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "The facility follows a weekly schedule, though weekend hours may change if a private event or competition is taking place.\n\nMonday – Thursday: 9:00 am – 10:00 pm\nFriday: 9:00 am – 9:00 pm\nSaturday: 8:30 am – 5:00 pm\nSunday: 9:00 am – 4:00 pm"
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Casual users can purchase track passes at the main reception.\n\nAdult Track Pass (18+): £6.00 per session\nJunior Track Pass (Under 18): £5.00 per session\nEquipment Hire: Starting blocks are available for £1.50 (plus a £10 refundable deposit)."
+    },
+    {
+      "heading": "Track Details",
+      "text": "Surface: 8-lane, floodlit artificial synthetic track.\nField Facilities: Includes equipment for steeplechase, pole vault, high jump, long jump, and a dedicated throws area for javelin, shot put, discus, and hammer.\nSpectator Seating: A 500-seat covered grandstand overlooks the finish line.\nCertification: UK Athletics 'A' Grade track."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "On-Site Parking: There is a dedicated car park at the sports complex for visitors and athletes.\nAccessibility: The site includes designated disability parking bays.\nNavigation: Follow the brown tourism signs for \"Tilsley Park\" when approaching via Dunmore Road."
+    },
+    {
+      "heading": "Address",
+      "text": "Tilsley Park, Dunmore Road, Abingdon, Oxfordshire, OX14 1PU"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the official Tilsley Park website for more information and session bookings.",
+      "linkUrl": "https://www.abingdon.org.uk/sports-leisure/tilsley-park/",
+      "linkLabel": "Official Website"
+    }
+  ]
+}
