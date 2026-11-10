@@ -1,0 +1,15 @@
+{
+  "name": "Steòrnabhagh Athletics Track",
+  "slug": "steornabhagh",
+  "city": "Steòrnabhagh",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 163,
+  "lat": 58.2097957,
+  "lng": -6.3775724,
+  "metaTitle": "Steòrnabhagh Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Steòrnabhagh Athletics Track in Steòrnabhagh.",
+  "directionVerified": false,
+  "osmId": "relation/5297634"
+}

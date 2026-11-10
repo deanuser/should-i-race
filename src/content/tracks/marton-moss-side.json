@@ -1,0 +1,15 @@
+{
+  "name": "Blackpool Athletics Track",
+  "slug": "marton-moss-side",
+  "city": "Blackpool",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 230,
+  "lat": 53.7973557,
+  "lng": -3.0116733,
+  "metaTitle": "Blackpool Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Blackpool Athletics Track in Blackpool.",
+  "directionVerified": false,
+  "osmId": "way/997155580"
+}

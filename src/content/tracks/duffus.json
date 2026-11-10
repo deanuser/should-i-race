@@ -1,0 +1,15 @@
+{
+  "name": "Duffus Athletics Track",
+  "slug": "duffus",
+  "city": "Duffus",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 157,
+  "lat": 57.7046792,
+  "lng": -3.3639349,
+  "metaTitle": "Duffus Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Duffus Athletics Track in Duffus.",
+  "directionVerified": false,
+  "osmId": "way/165756312"
+}

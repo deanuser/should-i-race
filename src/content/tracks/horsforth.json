@@ -1,0 +1,15 @@
+{
+  "name": "Horsforth Athletics Track",
+  "slug": "horsforth",
+  "city": "Horsforth",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 331,
+  "lat": 53.8274481,
+  "lng": -1.596446,
+  "metaTitle": "Horsforth Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Horsforth Athletics Track in Horsforth.",
+  "directionVerified": false,
+  "osmId": "relation/2193755"
+}

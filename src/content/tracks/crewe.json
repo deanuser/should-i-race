@@ -1,0 +1,43 @@
+{
+  "name": "Crewe Athletics Track (Cumberland Arena)",
+  "slug": "crewe",
+  "city": "Crewe",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 173,
+  "lat": 53.1014159,
+  "lng": -2.4375819,
+  "metaTitle": "Crewe Athletics Track (Cumberland Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Crewe Athletics Track (Cumberland Arena) in Crewe.",
+  "directionVerified": false,
+  "osmId": "relation/4691757",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Public track sessions:\n\nMonday: 5:00 pm – 6:00 pm, 6:30 pm – 8:00 pm\nWednesday: 4:30 pm – 6:00 pm, 7:00 pm – 8:30 pm\nFriday: 5:00 pm – 6:30 pm, 6:30 pm – 8:00 pm\nSaturday: 9:00 am – 12:00 pm\nSunday: 8:30 am – 10:00 am, then 2:00 pm – 8:00 pm\n\nCrewe & Nantwich Athletics Club trains on Tuesdays and Thursdays, 5:30 pm – 8:00 pm. Hours can change for events and bank holidays, so check with the venue before travelling."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Pay as you go, per 60-minute session:\n\nAdult: £4.90\nJunior / Senior: £4.15\nWild Card holder: £3.90\n\nNo membership is needed. Track use is included in some Everybody memberships."
+    },
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nField Facilities: Full field event equipment is available during allocated times."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "There is no on-site parking. The nearest car park is the Thomas Street public car park, about 0.2 miles away, which has 9 disabled bays. Blue Badge holders can park there free with no time limit."
+    },
+    {
+      "heading": "Address",
+      "text": "Cumberland Arena, Thomas Street, Crewe, CW1 2BD"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the Everybody Health & Leisure website for session bookings and current times.",
+      "linkUrl": "https://everybody.org.uk/locations/cumberland/play-sport/athletics",
+      "linkLabel": "Official Website"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Moreton Athletics Track",
+  "slug": "moreton",
+  "city": "Moreton",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 318,
+  "lat": 53.3792746,
+  "lng": -3.0792546,
+  "metaTitle": "Moreton Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Moreton Athletics Track in Moreton.",
+  "directionVerified": false,
+  "osmId": "way/41777580"
+}

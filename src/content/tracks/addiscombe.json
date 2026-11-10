@@ -1,0 +1,15 @@
+{
+  "name": "Addiscombe Athletics Track (Lloyd Park)",
+  "slug": "addiscombe",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 94,
+  "lat": 51.3660271,
+  "lng": -0.0790359,
+  "metaTitle": "Addiscombe Athletics Track (Lloyd Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Addiscombe Athletics Track (Lloyd Park) in London.",
+  "directionVerified": false,
+  "osmId": "relation/15036921"
+}

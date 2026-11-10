@@ -1,0 +1,21 @@
+{
+  "name": "Blackpool Athletics Track (Stanley Park)",
+  "slug": "blackpool",
+  "city": "Blackpool",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 134,
+  "lat": 53.8134102,
+  "lng": -3.0262027,
+  "metaTitle": "Blackpool Athletics Track (Stanley Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Blackpool Athletics Track (Stanley Park) in Blackpool.",
+  "directionVerified": false,
+  "osmId": "relation/20600514",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

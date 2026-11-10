@@ -1,0 +1,21 @@
+{
+  "name": "Springfield Athletics Track",
+  "slug": "springfield",
+  "city": "Chelmsford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 359,
+  "lat": 51.7657322,
+  "lng": 0.5068948,
+  "metaTitle": "Springfield Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Springfield Athletics Track in Chelmsford.",
+  "directionVerified": false,
+  "osmId": "relation/1561121",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

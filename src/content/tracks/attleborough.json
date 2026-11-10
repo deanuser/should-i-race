@@ -1,0 +1,15 @@
+{
+  "name": "Attleborough Athletics Track (Gaymers Field)",
+  "slug": "attleborough",
+  "city": "Attleborough",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 251,
+  "lat": 52.5098271,
+  "lng": 1.0187981,
+  "metaTitle": "Attleborough Athletics Track (Gaymers Field) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Attleborough Athletics Track (Gaymers Field) in Attleborough.",
+  "directionVerified": false,
+  "osmId": "relation/20506228"
+}

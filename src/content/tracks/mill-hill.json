@@ -1,0 +1,15 @@
+{
+  "name": "Mill Hill Athletics Track (StoneX Stadium)",
+  "slug": "mill-hill",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 158,
+  "lat": 51.6035161,
+  "lng": -0.2236163,
+  "metaTitle": "Mill Hill Athletics Track (StoneX Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Mill Hill Athletics Track (StoneX Stadium) in London.",
+  "directionVerified": false,
+  "osmId": "relation/12919191"
+}

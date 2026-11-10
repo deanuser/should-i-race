@@ -1,0 +1,15 @@
+{
+  "name": "Wigan Athletics Track (Robin Park Arena)",
+  "slug": "wigan",
+  "city": "Wigan",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 165,
+  "lat": 53.5463892,
+  "lng": -2.6513015,
+  "metaTitle": "Wigan Athletics Track (Robin Park Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Wigan Athletics Track (Robin Park Arena) in Wigan.",
+  "directionVerified": false,
+  "osmId": "relation/1831101"
+}

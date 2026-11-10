@@ -1,0 +1,15 @@
+{
+  "name": "Torpoint Athletics Track",
+  "slug": "torpoint",
+  "city": "Torpoint",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 72,
+  "lat": 50.3695464,
+  "lng": -4.2175547,
+  "metaTitle": "Torpoint Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Torpoint Athletics Track in Torpoint.",
+  "directionVerified": false,
+  "osmId": "way/41201959"
+}

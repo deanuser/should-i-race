@@ -1,0 +1,15 @@
+{
+  "name": "Canvey Island Athletics Track",
+  "slug": "canvey-island",
+  "city": "Canvey Island",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 206,
+  "lat": 51.5338978,
+  "lng": 0.5639527,
+  "metaTitle": "Canvey Island Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Canvey Island Athletics Track in Canvey Island.",
+  "directionVerified": false,
+  "osmId": "way/101537949"
+}

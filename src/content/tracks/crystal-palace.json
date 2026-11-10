@@ -1,0 +1,21 @@
+{
+  "name": "Crystal Palace Athletics Track",
+  "slug": "crystal-palace",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 200,
+  "lat": 51.4190638,
+  "lng": -0.0687909,
+  "metaTitle": "Crystal Palace Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Crystal Palace Athletics Track in London.",
+  "directionVerified": false,
+  "osmId": "relation/18741800",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Asphalt\nFloodlights: Yes"
+    }
+  ]
+}

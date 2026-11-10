@@ -1,0 +1,21 @@
+{
+  "name": "Leek Athletics Track (Birchall Playing Fields)",
+  "slug": "leek",
+  "city": "Leek",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 90,
+  "lat": 53.0931255,
+  "lng": -2.0257546,
+  "metaTitle": "Leek Athletics Track (Birchall Playing Fields) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Leek Athletics Track (Birchall Playing Fields) in Leek.",
+  "directionVerified": false,
+  "osmId": "way/385540285",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Compacted cinder\nFloodlights: Yes"
+    }
+  ]
+}

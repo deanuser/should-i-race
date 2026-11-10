@@ -1,0 +1,21 @@
+{
+  "name": "Winsford Athletics Track (Knights Grange Sports Centre)",
+  "slug": "winsford",
+  "city": "Winsford",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 336,
+  "lat": 53.1995687,
+  "lng": -2.5434296,
+  "metaTitle": "Winsford Athletics Track (Knights Grange Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Winsford Athletics Track (Knights Grange Sports Centre) in Winsford.",
+  "directionVerified": false,
+  "osmId": "way/329197809",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Gravel"
+    }
+  ]
+}

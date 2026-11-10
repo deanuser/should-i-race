@@ -1,0 +1,15 @@
+{
+  "name": "Kingsknowe Athletics Track",
+  "slug": "kingsknowe",
+  "city": "Kingsknowe",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 70,
+  "lat": 55.9130793,
+  "lng": -3.2566333,
+  "metaTitle": "Kingsknowe Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Kingsknowe Athletics Track in Kingsknowe.",
+  "directionVerified": false,
+  "osmId": "way/373872355"
+}

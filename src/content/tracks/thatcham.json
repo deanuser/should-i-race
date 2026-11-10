@@ -1,0 +1,15 @@
+{
+  "name": "Thatcham Athletics Track (Crookham Common)",
+  "slug": "thatcham",
+  "city": "Thatcham",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 27,
+  "lat": 51.3803438,
+  "lng": -1.2519778,
+  "metaTitle": "Thatcham Athletics Track (Crookham Common) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Thatcham Athletics Track (Crookham Common) in Thatcham.",
+  "directionVerified": false,
+  "osmId": "relation/2732836"
+}

@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
-import TrackCard from '../../components/TrackCard.astro';
+import TrackList from '../../components/TrackList.astro';
 import PartnerBanner from '../../components/PartnerBanner.astro';
 
 const { country } = Astro.params;
@@ -53,19 +53,7 @@ const regions = [...new Set(tracks.map(t => t.data.region))];
 
     <hr class="border-white/5 mb-10" />
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {tracks.map((track) => (
-        <TrackCard 
-          name={track.data.name}
-          city={track.data.city}
-          trackUrl={
-            track.data.subRegion === "all"
-              ? `/${track.data.country}/${track.data.region}/${track.data.slug}`
-              : `/${track.data.country}/${track.data.region}/${track.data.subRegion}/${track.data.slug}`
-          }
-        />
-      ))}
-    </div>
+    <TrackList tracks={tracks} />
 
     <PartnerBanner page="tracks" />
   </main>

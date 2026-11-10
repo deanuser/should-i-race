@@ -1,0 +1,15 @@
+{
+  "name": "Aylesbury Athletics Track (Walton)",
+  "slug": "walton",
+  "city": "Aylesbury",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 50,
+  "lat": 51.8080359,
+  "lng": -0.796234,
+  "metaTitle": "Aylesbury Athletics Track (Walton) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Aylesbury Athletics Track (Walton) in Aylesbury.",
+  "directionVerified": false,
+  "osmId": "way/1544675744"
+}

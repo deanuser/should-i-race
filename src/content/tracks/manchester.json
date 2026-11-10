@@ -1,0 +1,21 @@
+{
+  "name": "Manchester Athletics Track (Manchester Regional Arena)",
+  "slug": "manchester",
+  "city": "Manchester",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 350,
+  "lat": 53.4838446,
+  "lng": -2.2039679,
+  "metaTitle": "Manchester Athletics Track (Manchester Regional Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Manchester Athletics Track (Manchester Regional Arena) in Manchester.",
+  "directionVerified": false,
+  "osmId": "relation/1833789",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

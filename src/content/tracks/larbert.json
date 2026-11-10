@@ -1,0 +1,21 @@
+{
+  "name": "Larbert Athletics Track",
+  "slug": "larbert",
+  "city": "Larbert",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 0,
+  "lat": 56.0080871,
+  "lng": -3.8143367,
+  "metaTitle": "Larbert Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Larbert Athletics Track in Larbert.",
+  "directionVerified": false,
+  "osmId": "relation/2790061",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Compacted cinder"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Lakenheath Athletics Track (Liberty Field)",
+  "slug": "lakenheath",
+  "city": "Lakenheath",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 190,
+  "lat": 52.3914836,
+  "lng": 0.5429489,
+  "metaTitle": "Lakenheath Athletics Track (Liberty Field) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Lakenheath Athletics Track (Liberty Field) in Lakenheath.",
+  "directionVerified": false,
+  "osmId": "relation/17873433",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

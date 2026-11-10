@@ -1,0 +1,15 @@
+{
+  "name": "Edinburgh Athletics Track (Meadowbank Sports Centre)",
+  "slug": "edinburgh",
+  "city": "Edinburgh",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 80,
+  "lat": 55.9570168,
+  "lng": -3.1585866,
+  "metaTitle": "Edinburgh Athletics Track (Meadowbank Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Edinburgh Athletics Track (Meadowbank Sports Centre) in Edinburgh.",
+  "directionVerified": false,
+  "osmId": "relation/2874496"
+}

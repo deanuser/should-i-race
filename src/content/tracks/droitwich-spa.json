@@ -1,0 +1,21 @@
+{
+  "name": "Droitwich Spa Athletics Track",
+  "slug": "droitwich-spa",
+  "city": "Droitwich Spa",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 49,
+  "lat": 52.2648196,
+  "lng": -2.1679671,
+  "metaTitle": "Droitwich Spa Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Droitwich Spa Athletics Track in Droitwich Spa.",
+  "directionVerified": false,
+  "osmId": "relation/3764027",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

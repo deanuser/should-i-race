@@ -1,0 +1,21 @@
+{
+  "name": "Stevenage Athletics Track (Ridlins)",
+  "slug": "stevenage",
+  "city": "Stevenage",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 243,
+  "lat": 51.8875693,
+  "lng": -0.16302,
+  "metaTitle": "Stevenage Athletics Track (Ridlins) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stevenage Athletics Track (Ridlins) in Stevenage.",
+  "directionVerified": false,
+  "osmId": "way/4156011",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

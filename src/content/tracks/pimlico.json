@@ -1,0 +1,21 @@
+{
+  "name": "Pimlico Athletics Track (Battersea Park Millennium Arena)",
+  "slug": "pimlico",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 104,
+  "lat": 51.4811205,
+  "lng": -0.1514767,
+  "metaTitle": "Pimlico Athletics Track (Battersea Park Millennium Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Pimlico Athletics Track (Battersea Park Millennium Arena) in London.",
+  "directionVerified": false,
+  "osmId": "relation/3272107",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

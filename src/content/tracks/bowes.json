@@ -1,0 +1,21 @@
+{
+  "name": "Bowes Athletics Track (New River Stadium)",
+  "slug": "bowes",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 64,
+  "lat": 51.6051192,
+  "lng": -0.1004535,
+  "metaTitle": "Bowes Athletics Track (New River Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bowes Athletics Track (New River Stadium) in London.",
+  "directionVerified": false,
+  "osmId": "relation/18174468",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (rubber)\nFloodlights: Yes"
+    }
+  ]
+}

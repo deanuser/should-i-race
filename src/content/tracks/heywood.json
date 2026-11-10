@@ -1,0 +1,15 @@
+{
+  "name": "Heywood Athletics Track (Springfield Park)",
+  "slug": "heywood",
+  "city": "Heywood",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 46,
+  "lat": 53.6054282,
+  "lng": -2.196087,
+  "metaTitle": "Heywood Athletics Track (Springfield Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Heywood Athletics Track (Springfield Park) in Heywood.",
+  "directionVerified": false,
+  "osmId": "way/5007758"
+}

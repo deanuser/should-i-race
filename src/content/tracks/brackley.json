@@ -1,0 +1,21 @@
+{
+  "name": "Brackley Athletics Track",
+  "slug": "brackley",
+  "city": "Brackley",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 171,
+  "lat": 51.9917962,
+  "lng": -1.1915559,
+  "metaTitle": "Brackley Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Brackley Athletics Track in Brackley.",
+  "directionVerified": false,
+  "osmId": "relation/2371775",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

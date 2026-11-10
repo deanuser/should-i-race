@@ -1,0 +1,43 @@
+{
+  "name": "Sutton Athletics Track (David Weir Leisure Centre)",
+  "slug": "st-helier",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 45,
+  "lat": 51.3842986,
+  "lng": -0.182558,
+  "metaTitle": "Sutton Athletics Track (David Weir Leisure Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sutton Athletics Track (David Weir Leisure Centre) in London.",
+  "directionVerified": false,
+  "osmId": "relation/2104118",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Centre opening hours:\n\nMonday – Friday: 7:00 am – 10:00 pm\nSaturday – Sunday: 8:00 am – 6:00 pm\nBank Holidays: 10:00 am – 6:00 pm\n\nTrack session times are published separately by the operator. Hours can change for events and bank holidays, so check with the venue before travelling."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Track prices and bookings are listed on the operator's athletics page."
+    },
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m outdoor oval, plus indoor athletics facilities that are available all year.\nField Facilities: Jump pits, throwing cages, pole vault and javelin equipment."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Four accessible parking bays are available at the centre."
+    },
+    {
+      "heading": "Address",
+      "text": "David Weir Leisure Centre, Middleton Road, Carshalton, SM5 1SL"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the Everyone Active website for athletics times, prices and bookings.",
+      "linkUrl": "https://www.everyoneactive.com/centre/david-weir-leisure-centre/",
+      "linkLabel": "Official Website"
+    }
+  ]
+}

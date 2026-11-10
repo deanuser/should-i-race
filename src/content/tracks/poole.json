@@ -1,0 +1,15 @@
+{
+  "name": "Poole Athletics Track",
+  "slug": "poole",
+  "city": "Poole",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 76,
+  "lat": 50.7489186,
+  "lng": -1.9695835,
+  "metaTitle": "Poole Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Poole Athletics Track in Poole.",
+  "directionVerified": false,
+  "osmId": "relation/4202091"
+}

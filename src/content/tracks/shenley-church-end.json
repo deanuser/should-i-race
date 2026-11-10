@@ -1,0 +1,15 @@
+{
+  "name": "Milton Keynes Athletics Track",
+  "slug": "shenley-church-end",
+  "city": "Milton Keynes",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 9,
+  "lat": 52.0245805,
+  "lng": -0.7927741,
+  "metaTitle": "Milton Keynes Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Milton Keynes Athletics Track in Milton Keynes.",
+  "directionVerified": false,
+  "osmId": "way/1457893140"
+}

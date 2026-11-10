@@ -1,0 +1,21 @@
+{
+  "name": "Stockton-on-Tees Athletics Track",
+  "slug": "swimming-pool-athletics-track",
+  "city": "Stockton-on-Tees",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 271,
+  "lat": 54.5698555,
+  "lng": -1.3456073,
+  "metaTitle": "Stockton-on-Tees Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stockton-on-Tees Athletics Track in Stockton-on-Tees.",
+  "directionVerified": false,
+  "osmId": "way/99325068",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Fine gravel\nFloodlights: No"
+    }
+  ]
+}

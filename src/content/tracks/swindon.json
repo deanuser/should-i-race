@@ -1,0 +1,21 @@
+{
+  "name": "Swindon Athletics Track (Swindon Harriers)",
+  "slug": "swindon",
+  "city": "Swindon",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 103,
+  "lat": 51.5668136,
+  "lng": -1.7695329,
+  "metaTitle": "Swindon Athletics Track (Swindon Harriers) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Swindon Athletics Track (Swindon Harriers) in Swindon.",
+  "directionVerified": false,
+  "osmId": "relation/7414482",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

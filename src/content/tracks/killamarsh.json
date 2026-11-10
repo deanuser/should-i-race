@@ -1,0 +1,15 @@
+{
+  "name": "Killamarsh Athletics Track",
+  "slug": "killamarsh",
+  "city": "Killamarsh",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 197,
+  "lat": 53.3058979,
+  "lng": -1.3192464,
+  "metaTitle": "Killamarsh Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Killamarsh Athletics Track in Killamarsh.",
+  "directionVerified": false,
+  "osmId": "way/1276455419"
+}

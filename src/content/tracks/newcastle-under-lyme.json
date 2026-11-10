@@ -1,0 +1,15 @@
+{
+  "name": "Newcastle-under-Lyme Athletics Track",
+  "slug": "newcastle-under-lyme",
+  "city": "Newcastle-under-Lyme",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 226,
+  "lat": 53.0043436,
+  "lng": -2.2779188,
+  "metaTitle": "Newcastle-under-Lyme Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Newcastle-under-Lyme Athletics Track in Newcastle-under-Lyme.",
+  "directionVerified": false,
+  "osmId": "relation/4001630"
+}

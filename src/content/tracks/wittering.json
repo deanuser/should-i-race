@@ -1,0 +1,15 @@
+{
+  "name": "Wittering Athletics Track",
+  "slug": "wittering",
+  "city": "Wittering",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 305,
+  "lat": 52.6127301,
+  "lng": -0.4434038,
+  "metaTitle": "Wittering Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Wittering Athletics Track in Wittering.",
+  "directionVerified": false,
+  "osmId": "way/89203387"
+}

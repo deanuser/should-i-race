@@ -1,0 +1,15 @@
+{
+  "name": "Consett Athletics Track",
+  "slug": "consett",
+  "city": "Consett",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 282,
+  "lat": 54.8638565,
+  "lng": -1.8397576,
+  "metaTitle": "Consett Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Consett Athletics Track in Consett.",
+  "directionVerified": false,
+  "osmId": "way/1365267717"
+}

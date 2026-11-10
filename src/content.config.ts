@@ -15,6 +15,10 @@ const trackCollection = defineCollection({
     lng: z.number(),
     metaTitle: z.string().optional(),
     metaDescription: z.string().optional(),
+    // Set to false by scripts/import-tracks.mjs until the direction has been checked on satellite imagery.
+    directionVerified: z.boolean().optional(),
+    // OpenStreetMap element the track was imported from, e.g. "way/123456".
+    osmId: z.string().optional(),
     trackInfo: z.array(z.object({
       heading: z.string(),
       text: z.string(),

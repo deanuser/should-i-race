@@ -1,0 +1,21 @@
+{
+  "name": "Plaistow Athletics Track (Terence McMillan Stadium)",
+  "slug": "plaistow",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 184,
+  "lat": 51.5198127,
+  "lng": 0.0366309,
+  "metaTitle": "Plaistow Athletics Track (Terence McMillan Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Plaistow Athletics Track (Terence McMillan Stadium) in London.",
+  "directionVerified": false,
+  "osmId": "relation/17403836",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (Mondo)\nFloodlights: Yes"
+    }
+  ]
+}

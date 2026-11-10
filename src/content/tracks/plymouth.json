@@ -1,0 +1,15 @@
+{
+  "name": "Plymouth Athletics Track (Foulston Park)",
+  "slug": "plymouth",
+  "city": "Plymouth",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 140,
+  "lat": 50.3715225,
+  "lng": -4.1691378,
+  "metaTitle": "Plymouth Athletics Track (Foulston Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Plymouth Athletics Track (Foulston Park) in Plymouth.",
+  "directionVerified": false,
+  "osmId": "way/40861399"
+}

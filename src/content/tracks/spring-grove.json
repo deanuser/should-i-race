@@ -1,0 +1,21 @@
+{
+  "name": "Spring Grove Athletics Track (Osterley Sports & Athletics Centre)",
+  "slug": "spring-grove",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 68,
+  "lat": 51.4816595,
+  "lng": -0.3396454,
+  "metaTitle": "Spring Grove Athletics Track (Osterley Sports & Athletics Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Spring Grove Athletics Track (Osterley Sports & Athletics Centre) in London.",
+  "directionVerified": false,
+  "osmId": "relation/17001238",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

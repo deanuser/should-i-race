@@ -1,0 +1,96 @@
+---
+/**
+ * "Find my nearest track" button. The visitor's location is only used in
+ * their browser to pick the closest track; it is never sent anywhere.
+ */
+interface Props {
+  variant?: "hero" | "compact";
+}
+
+const { variant = "compact" } = Astro.props;
+const buttonClass =
+  variant === "hero"
+    ? "bg-white/5 border border-brightcyan/40 text-brightcyan px-8 py-4 rounded-full font-bold text-sm md:text-base transition-colors hover:bg-brightcyan/10 uppercase tracking-widest backdrop-blur-md"
+    : "bg-deepdark border border-brightcyan/40 text-brightcyan px-6 py-3 rounded-full font-bold transition-colors hover:bg-brightcyan/10";
+---
+
+<div class={`nearest-track flex flex-col gap-2 ${variant === "hero" ? "items-center" : "items-start"}`}>
+  <button type="button" class={`nearest-track-button inline-flex items-center gap-2 cursor-pointer ${buttonClass}`}>
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+    <span class="nearest-track-label">Nearest Track</span>
+  </button>
+  <p class="nearest-track-message text-sm text-slate-400 hidden" role="status"></p>
+</div>
+
+<script>
+  type Track = { name: string; city: string; lat: number; lng: number; url: string };
+
+  function distanceKm(aLat: number, aLng: number, bLat: number, bLng: number) {
+    const rad = Math.PI / 180;
+    const dLat = (bLat - aLat) * rad;
+    const dLng = (bLng - aLng) * rad;
+    const h =
+      Math.sin(dLat / 2) ** 2 +
+      Math.cos(aLat * rad) * Math.cos(bLat * rad) * Math.sin(dLng / 2) ** 2;
+    return 6371 * 2 * Math.asin(Math.sqrt(h));
+  }
+
+  document.querySelectorAll<HTMLElement>(".nearest-track").forEach((root) => {
+    const button = root.querySelector<HTMLButtonElement>(".nearest-track-button")!;
+    const label = root.querySelector<HTMLElement>(".nearest-track-label")!;
+    const message = root.querySelector<HTMLElement>(".nearest-track-message")!;
+
+    const say = (text: string) => {
+      message.textContent = text;
+      message.classList.remove("hidden");
+    };
+    const reset = () => {
+      button.disabled = false;
+      label.textContent = "Nearest Track";
+    };
+
+    button.addEventListener("click", () => {
+      if (!("geolocation" in navigator)) {
+        say("Your browser can't share a location. Use the search to find a track.");
+        return;
+      }
+      button.disabled = true;
+      label.textContent = "Locating…";
+      message.classList.add("hidden");
+
+      navigator.geolocation.getCurrentPosition(
+        async (position) => {
+          try {
+            const tracks: Track[] = await (await fetch("/tracks.json")).json();
+            const { latitude, longitude } = position.coords;
+            let nearest: Track | null = null;
+            let best = Infinity;
+            for (const track of tracks) {
+              const d = distanceKm(latitude, longitude, track.lat, track.lng);
+              if (d < best) {
+                best = d;
+                nearest = track;
+              }
+            }
+            if (!nearest) throw new Error("no tracks");
+            const miles = best * 0.621371;
+            say(`${nearest.name}, ${nearest.city} (${miles < 10 ? miles.toFixed(1) : Math.round(miles)} miles away). Opening…`);
+            window.location.href = nearest.url;
+          } catch {
+            say("Couldn't load the track list. Please try again.");
+            reset();
+          }
+        },
+        (error) => {
+          say(
+            error.code === error.PERMISSION_DENIED
+              ? "Location access was blocked. Allow it in your browser, or use the search."
+              : "Couldn't get your location. Please try again, or use the search.",
+          );
+          reset();
+        },
+        { timeout: 10000, maximumAge: 600000 },
+      );
+    });
+  });
+</script>

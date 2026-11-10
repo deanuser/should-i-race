@@ -1,0 +1,21 @@
+{
+  "name": "Llanelli Athletics Track (Stebonheath Park)",
+  "slug": "llanelli",
+  "city": "Llanelli",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 255,
+  "lat": 51.6838892,
+  "lng": -4.1477098,
+  "metaTitle": "Llanelli Athletics Track (Stebonheath Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Llanelli Athletics Track (Stebonheath Park) in Llanelli.",
+  "directionVerified": false,
+  "osmId": "way/156275224",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 4\nSurface: Compacted cinder\nFloodlights: Yes"
+    }
+  ]
+}

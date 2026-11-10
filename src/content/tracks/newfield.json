@@ -1,0 +1,15 @@
+{
+  "name": "Chester-le-Street Athletics Track",
+  "slug": "newfield",
+  "city": "Chester-le-Street",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 155,
+  "lat": 54.8689525,
+  "lng": -1.62115,
+  "metaTitle": "Chester-le-Street Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Chester-le-Street Athletics Track in Chester-le-Street.",
+  "directionVerified": false,
+  "osmId": "way/133626848"
+}

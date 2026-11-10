@@ -1,0 +1,21 @@
+{
+  "name": "Enniskillen Athletics Track",
+  "slug": "enniskillen",
+  "city": "Enniskillen",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 328,
+  "lat": 54.3437549,
+  "lng": -7.6420633,
+  "metaTitle": "Enniskillen Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Enniskillen Athletics Track in Enniskillen.",
+  "directionVerified": false,
+  "osmId": "relation/5390995",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Gravel"
+    }
+  ]
+}

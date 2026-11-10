@@ -1,0 +1,21 @@
+{
+  "name": "Colchester Athletics Track (Colchester Garrison Athletics Stadium)",
+  "slug": "colchester",
+  "city": "Colchester",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 140,
+  "lat": 51.881585,
+  "lng": 0.896187,
+  "metaTitle": "Colchester Athletics Track (Colchester Garrison Athletics Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Colchester Athletics Track (Colchester Garrison Athletics Stadium) in Colchester.",
+  "directionVerified": false,
+  "osmId": "relation/11528679",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Kilmarnock Athletics Track (Morton Park)",
+  "slug": "kilmarnock",
+  "city": "Kilmarnock",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 172,
+  "lat": 55.6369428,
+  "lng": -4.5216989,
+  "metaTitle": "Kilmarnock Athletics Track (Morton Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Kilmarnock Athletics Track (Morton Park) in Kilmarnock.",
+  "directionVerified": false,
+  "osmId": "way/510571643",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Compacted cinder"
+    }
+  ]
+}

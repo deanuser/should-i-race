@@ -1,0 +1,21 @@
+{
+  "name": "Worthing Athletics Track (Worthing Leisure Centre)",
+  "slug": "worthing",
+  "city": "Worthing",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 84,
+  "lat": 50.8163851,
+  "lng": -0.4070808,
+  "metaTitle": "Worthing Athletics Track (Worthing Leisure Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Worthing Athletics Track (Worthing Leisure Centre) in Worthing.",
+  "directionVerified": false,
+  "osmId": "way/993006275",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

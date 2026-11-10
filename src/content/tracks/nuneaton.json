@@ -1,0 +1,21 @@
+{
+  "name": "Nuneaton Athletics Track (The Pingles Stadium)",
+  "slug": "nuneaton",
+  "city": "Nuneaton",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 42,
+  "lat": 52.5157842,
+  "lng": -1.4642544,
+  "metaTitle": "Nuneaton Athletics Track (The Pingles Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Nuneaton Athletics Track (The Pingles Stadium) in Nuneaton.",
+  "directionVerified": false,
+  "osmId": "way/1302496044",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: No"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Bury St Edmunds Athletics Track (West Suffolk Athletics Arena)",
+  "slug": "bury-st-edmunds",
+  "city": "Bury St Edmunds",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 99,
+  "lat": 52.2509963,
+  "lng": 0.699387,
+  "metaTitle": "Bury St Edmunds Athletics Track (West Suffolk Athletics Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bury St Edmunds Athletics Track (West Suffolk Athletics Arena) in Bury St Edmunds.",
+  "directionVerified": false,
+  "osmId": "relation/9452236",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Chepstow Athletics Track",
+  "slug": "chepstow",
+  "city": "Chepstow",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 165,
+  "lat": 51.6132505,
+  "lng": -2.6515875,
+  "metaTitle": "Chepstow Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Chepstow Athletics Track in Chepstow.",
+  "directionVerified": false,
+  "osmId": "relation/12946698"
+}

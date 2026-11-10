@@ -1,0 +1,43 @@
+{
+  "name": "Carlisle Athletics Track (Sheepmount Stadium)",
+  "slug": "carlisle",
+  "city": "Carlisle",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 31,
+  "lat": 54.9028094,
+  "lng": -2.9458052,
+  "metaTitle": "Carlisle Athletics Track (Sheepmount Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Carlisle Athletics Track (Sheepmount Stadium) in Carlisle.",
+  "directionVerified": false,
+  "osmId": "relation/20103322",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Athletics track hours:\n\nMonday – Thursday: 3:00 pm – 8:30 pm\nFriday: 3:00 pm – 5:00 pm and 6:00 pm – 8:00 pm\nSaturday: 9:00 am – 3:00 pm\nSunday: 9:00 am – 2:00 pm\n\nHours can change for events and bank holidays, so check with the venue before travelling."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "The track is open for general use on a pay-as-you-go basis, or with a six-month track pass. Current prices are listed on the operator's website. Exclusive hire is available for clubs, schools and competitions."
+    },
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes\nField Facilities: Equipped for all field events.\nCertification: TrackMark certified to host competitions."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Free on-site parking with 52 spaces, including 5 disabled bays."
+    },
+    {
+      "heading": "Address",
+      "text": "Sheepmount Athletics Stadium, Mayors Drive, Carlisle, Cumbria, CA3 8XL"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the operator's Sheepmount page for prices, bookings and current opening times.",
+      "linkUrl": "https://www.better.org.uk/leisure-centre/carlisle/sheepmount-athletics-stadium",
+      "linkLabel": "Official Website"
+    }
+  ]
+}

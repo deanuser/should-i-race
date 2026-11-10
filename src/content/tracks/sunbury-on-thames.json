@@ -1,0 +1,21 @@
+{
+  "name": "Sunbury-on-Thames Athletics Track (Xcel Sports Hub)",
+  "slug": "sunbury-on-thames",
+  "city": "Sunbury-on-Thames",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 38,
+  "lat": 51.3996054,
+  "lng": -0.41137,
+  "metaTitle": "Sunbury-on-Thames Athletics Track (Xcel Sports Hub) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sunbury-on-Thames Athletics Track (Xcel Sports Hub) in Sunbury-on-Thames.",
+  "directionVerified": false,
+  "osmId": "relation/19374942",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes"
+    }
+  ]
+}

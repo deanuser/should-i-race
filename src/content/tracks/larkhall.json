@@ -1,0 +1,15 @@
+{
+  "name": "Larkhall Athletics Track",
+  "slug": "larkhall",
+  "city": "Larkhall",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 50,
+  "lat": 55.7326943,
+  "lng": -3.9753661,
+  "metaTitle": "Larkhall Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Larkhall Athletics Track in Larkhall.",
+  "directionVerified": false,
+  "osmId": "way/346025294"
+}

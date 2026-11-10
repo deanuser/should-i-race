@@ -1,0 +1,21 @@
+{
+  "name": "Quedgeley Athletics Track",
+  "slug": "quedgeley",
+  "city": "Quedgeley",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 30,
+  "lat": 51.8411971,
+  "lng": -2.2535598,
+  "metaTitle": "Quedgeley Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Quedgeley Athletics Track in Quedgeley.",
+  "directionVerified": false,
+  "osmId": "relation/16005248",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 7\nSurface: Paved"
+    }
+  ]
+}

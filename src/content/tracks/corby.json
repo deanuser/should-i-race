@@ -1,0 +1,15 @@
+{
+  "name": "Corby Athletics Track",
+  "slug": "corby",
+  "city": "Corby",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 298,
+  "lat": 52.5066001,
+  "lng": -0.7184953,
+  "metaTitle": "Corby Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Corby Athletics Track in Corby.",
+  "directionVerified": false,
+  "osmId": "way/1546296872"
+}

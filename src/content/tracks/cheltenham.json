@@ -1,0 +1,21 @@
+{
+  "name": "Cheltenham Athletics Track (Prince of Wales Stadium)",
+  "slug": "cheltenham",
+  "city": "Cheltenham",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 5,
+  "lat": 51.9109773,
+  "lng": -2.0805922,
+  "metaTitle": "Cheltenham Athletics Track (Prince of Wales Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Cheltenham Athletics Track (Prince of Wales Stadium) in Cheltenham.",
+  "directionVerified": false,
+  "osmId": "relation/2242822",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Keighley Athletics Track (UAK)",
+  "slug": "keighley",
+  "city": "Keighley",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 173,
+  "lat": 53.878536,
+  "lng": -1.916151,
+  "metaTitle": "Keighley Athletics Track (UAK) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Keighley Athletics Track (UAK) in Keighley.",
+  "directionVerified": false,
+  "osmId": "relation/13799823",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

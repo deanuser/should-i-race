@@ -1,0 +1,15 @@
+{
+  "name": "Hedon Athletics Track",
+  "slug": "hedon",
+  "city": "Hedon",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 173,
+  "lat": 53.7509205,
+  "lng": -0.1915868,
+  "metaTitle": "Hedon Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Hedon Athletics Track in Hedon.",
+  "directionVerified": false,
+  "osmId": "way/1290444499"
+}

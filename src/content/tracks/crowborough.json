@@ -1,0 +1,15 @@
+{
+  "name": "Crowborough Athletics Track",
+  "slug": "crowborough",
+  "city": "Crowborough",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 170,
+  "lat": 51.0636231,
+  "lng": 0.1679131,
+  "metaTitle": "Crowborough Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Crowborough Athletics Track in Crowborough.",
+  "directionVerified": false,
+  "osmId": "way/99018850"
+}

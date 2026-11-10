@@ -1,0 +1,21 @@
+{
+  "name": "Belfast Athletics Track",
+  "slug": "belfast",
+  "city": "Belfast",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 33,
+  "lat": 54.633897,
+  "lng": -5.9571107,
+  "metaTitle": "Belfast Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Belfast Athletics Track in Belfast.",
+  "directionVerified": false,
+  "osmId": "way/432543160",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

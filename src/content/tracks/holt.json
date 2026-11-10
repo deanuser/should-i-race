@@ -1,0 +1,15 @@
+{
+  "name": "Holt Athletics Track",
+  "slug": "holt",
+  "city": "Holt",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 87,
+  "lat": 52.9126006,
+  "lng": 1.1037916,
+  "metaTitle": "Holt Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Holt Athletics Track in Holt.",
+  "directionVerified": false,
+  "osmId": "relation/20342779"
+}

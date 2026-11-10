@@ -1,0 +1,21 @@
+{
+  "name": "Bristol Athletics Track (Whitchurch Sports Centre)",
+  "slug": "bristol",
+  "city": "Bristol",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 44,
+  "lat": 51.4113524,
+  "lng": -2.5770593,
+  "metaTitle": "Bristol Athletics Track (Whitchurch Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bristol Athletics Track (Whitchurch Sports Centre) in Bristol.",
+  "directionVerified": false,
+  "osmId": "relation/16213870",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)\nFloodlights: No"
+    }
+  ]
+}

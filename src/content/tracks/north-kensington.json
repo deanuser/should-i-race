@@ -1,0 +1,21 @@
+{
+  "name": "North Kensington Athletics Track (Linford Christie Stadium)",
+  "slug": "north-kensington",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 259,
+  "lat": 51.5192943,
+  "lng": -0.2353692,
+  "metaTitle": "North Kensington Athletics Track (Linford Christie Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for North Kensington Athletics Track (Linford Christie Stadium) in London.",
+  "directionVerified": false,
+  "osmId": "relation/3272367",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

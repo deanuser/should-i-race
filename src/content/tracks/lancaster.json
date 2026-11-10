@@ -1,0 +1,21 @@
+{
+  "name": "Lancaster Athletics Track (Salt Ayre)",
+  "slug": "lancaster",
+  "city": "Lancaster",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 275,
+  "lat": 54.0543119,
+  "lng": -2.8220646,
+  "metaTitle": "Lancaster Athletics Track (Salt Ayre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Lancaster Athletics Track (Salt Ayre) in Lancaster.",
+  "directionVerified": false,
+  "osmId": "relation/1711313",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

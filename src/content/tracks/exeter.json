@@ -1,0 +1,21 @@
+{
+  "name": "Exeter Athletics Track (Exeter Arena)",
+  "slug": "exeter",
+  "city": "Exeter",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 73,
+  "lat": 50.7375205,
+  "lng": -3.4912587,
+  "metaTitle": "Exeter Athletics Track (Exeter Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Exeter Athletics Track (Exeter Arena) in Exeter.",
+  "directionVerified": false,
+  "osmId": "relation/557996",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

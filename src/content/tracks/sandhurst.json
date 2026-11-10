@@ -1,0 +1,15 @@
+{
+  "name": "Sandhurst Athletics Track",
+  "slug": "sandhurst",
+  "city": "Sandhurst",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 116,
+  "lat": 51.3381567,
+  "lng": -0.7732847,
+  "metaTitle": "Sandhurst Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sandhurst Athletics Track in Sandhurst.",
+  "directionVerified": false,
+  "osmId": "relation/18148944"
+}

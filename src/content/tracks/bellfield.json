@@ -1,0 +1,15 @@
+{
+  "name": "Kilmarnock Athletics Track",
+  "slug": "bellfield",
+  "city": "Kilmarnock",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 263,
+  "lat": 55.598858,
+  "lng": -4.4800892,
+  "metaTitle": "Kilmarnock Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Kilmarnock Athletics Track in Kilmarnock.",
+  "directionVerified": false,
+  "osmId": "relation/15420770"
+}

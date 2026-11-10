@@ -1,0 +1,21 @@
+{
+  "name": "Sudbury Athletics Track",
+  "slug": "sudbury",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 153,
+  "lat": 51.5601315,
+  "lng": -0.3158174,
+  "metaTitle": "Sudbury Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sudbury Athletics Track in London.",
+  "directionVerified": false,
+  "osmId": "way/229099895",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Unpaved"
+    }
+  ]
+}

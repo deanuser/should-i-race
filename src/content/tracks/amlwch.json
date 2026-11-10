@@ -1,0 +1,15 @@
+{
+  "name": "Amlwch Athletics Track",
+  "slug": "amlwch",
+  "city": "Amlwch",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 82,
+  "lat": 53.4044607,
+  "lng": -4.3488829,
+  "metaTitle": "Amlwch Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Amlwch Athletics Track in Amlwch.",
+  "directionVerified": false,
+  "osmId": "way/395770051"
+}

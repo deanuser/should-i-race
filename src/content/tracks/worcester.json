@@ -1,0 +1,21 @@
+{
+  "name": "Worcester Athletics Track",
+  "slug": "worcester",
+  "city": "Worcester",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 182,
+  "lat": 52.1863855,
+  "lng": -2.1886627,
+  "metaTitle": "Worcester Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Worcester Athletics Track in Worcester.",
+  "directionVerified": false,
+  "osmId": "relation/19306375",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

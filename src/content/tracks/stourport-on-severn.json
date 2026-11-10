@@ -1,0 +1,21 @@
+{
+  "name": "Stourport-on-Severn Athletics Track (Alan Moreton Track)",
+  "slug": "stourport-on-severn",
+  "city": "Stourport-on-Severn",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 199,
+  "lat": 52.3513945,
+  "lng": -2.2748232,
+  "metaTitle": "Stourport-on-Severn Athletics Track (Alan Moreton Track) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stourport-on-Severn Athletics Track (Alan Moreton Track) in Stourport-on-Severn.",
+  "directionVerified": false,
+  "osmId": "relation/4203821",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

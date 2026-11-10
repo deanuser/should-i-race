@@ -1,0 +1,15 @@
+{
+  "name": "Mold Athletics Track",
+  "slug": "mold",
+  "city": "Mold",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 314,
+  "lat": 53.1595221,
+  "lng": -3.14353,
+  "metaTitle": "Mold Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Mold Athletics Track in Mold.",
+  "directionVerified": false,
+  "osmId": "way/874186176"
+}

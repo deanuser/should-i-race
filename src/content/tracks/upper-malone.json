@@ -1,0 +1,15 @@
+{
+  "name": "Upper Malone Athletics Track",
+  "slug": "upper-malone",
+  "city": "Upper Malone",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 131,
+  "lat": 54.5486367,
+  "lng": -5.96741,
+  "metaTitle": "Upper Malone Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Upper Malone Athletics Track in Upper Malone.",
+  "directionVerified": false,
+  "osmId": "way/466760855"
+}

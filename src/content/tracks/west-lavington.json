@@ -1,0 +1,15 @@
+{
+  "name": "West Lavington Athletics Track",
+  "slug": "west-lavington",
+  "city": "West Lavington",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 134,
+  "lat": 51.2787177,
+  "lng": -2.0021113,
+  "metaTitle": "West Lavington Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for West Lavington Athletics Track in West Lavington.",
+  "directionVerified": false,
+  "osmId": "relation/17995849"
+}

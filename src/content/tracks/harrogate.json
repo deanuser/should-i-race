@@ -1,0 +1,15 @@
+{
+  "name": "Harrogate Athletics Track",
+  "slug": "harrogate",
+  "city": "Harrogate",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 236,
+  "lat": 53.9914055,
+  "lng": -1.5985466,
+  "metaTitle": "Harrogate Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Harrogate Athletics Track in Harrogate.",
+  "directionVerified": false,
+  "osmId": "way/287527481"
+}

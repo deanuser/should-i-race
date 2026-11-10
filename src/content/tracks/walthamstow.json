@@ -1,0 +1,21 @@
+{
+  "name": "Walthamstow Athletics Track",
+  "slug": "walthamstow",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 265,
+  "lat": 51.5933256,
+  "lng": -0.0121819,
+  "metaTitle": "Walthamstow Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Walthamstow Athletics Track in London.",
+  "directionVerified": false,
+  "osmId": "relation/1865728",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

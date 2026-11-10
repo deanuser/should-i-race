@@ -1,0 +1,21 @@
+{
+  "name": "Brierley Hill Athletics Track (The Dell Stadium)",
+  "slug": "brierley-hill",
+  "city": "Brierley Hill",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 349,
+  "lat": 52.4897896,
+  "lng": -2.1352187,
+  "metaTitle": "Brierley Hill Athletics Track (The Dell Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Brierley Hill Athletics Track (The Dell Stadium) in Brierley Hill.",
+  "directionVerified": false,
+  "osmId": "relation/5651361",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

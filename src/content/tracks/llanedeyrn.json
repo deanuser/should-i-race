@@ -1,0 +1,21 @@
+{
+  "name": "Cardiff Athletics Track (National Indoor Athletics Centre)",
+  "slug": "llanedeyrn",
+  "city": "Cardiff",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 180,
+  "lat": 51.5118941,
+  "lng": -3.1615183,
+  "metaTitle": "Cardiff Athletics Track (National Indoor Athletics Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Cardiff Athletics Track (National Indoor Athletics Centre) in Cardiff.",
+  "directionVerified": false,
+  "osmId": "relation/16303110",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

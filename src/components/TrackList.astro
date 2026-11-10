@@ -1,0 +1,111 @@
+---
+/**
+ * Filterable list of track cards, grouped A–Z by town so long listings stay usable.
+ */
+import type { CollectionEntry } from "astro:content";
+import TrackCard from "./TrackCard.astro";
+import NearestTrackButton from "./NearestTrackButton.astro";
+import { trackUrl } from "../utils/tracks";
+
+interface Props {
+  tracks: CollectionEntry<"tracks">[];
+}
+
+const { tracks } = Astro.props;
+
+const sorted = [...tracks].sort(
+  (a, b) => a.data.city.localeCompare(b.data.city) || a.data.name.localeCompare(b.data.name),
+);
+
+// Only group when the list is long enough to need it.
+const grouped = sorted.length > 24;
+const groups = new Map<string, typeof sorted>();
+for (const track of sorted) {
+  const first = track.data.city.trim().charAt(0).toUpperCase();
+  const key = grouped ? (/[A-Z]/.test(first) ? first : "#") : "";
+  if (!groups.has(key)) groups.set(key, []);
+  groups.get(key)!.push(track);
+}
+---
+
+<div class="track-list">
+  <div class="flex flex-col md:flex-row md:items-center gap-4 mb-6">
+    <label class="relative flex-1 max-w-xl">
+      <span class="sr-only">Filter tracks by name or town</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input
+        type="search"
+        class="track-list-filter w-full bg-white/5 border border-white/15 focus:border-brightcyan/60 rounded-full pl-11 pr-4 py-3 text-white placeholder-slate-500 outline-none transition-colors"
+        placeholder="Filter by track or town…"
+        autocomplete="off"
+      />
+    </label>
+    <NearestTrackButton />
+  </div>
+
+  <p class="text-sm text-slate-400 mb-6">
+    <span class="track-list-count">{sorted.length}</span> of {sorted.length} tracks
+  </p>
+
+  {grouped && (
+    <nav class="flex flex-wrap gap-2 mb-10" aria-label="Jump to letter">
+      {[...groups.keys()].map((letter) => (
+        <a
+          href={`#tracks-${letter === "#" ? "other" : letter}`}
+          data-letter-link={letter}
+          class="w-9 h-9 flex items-center justify-center rounded-lg bg-deepdark border border-white/10 text-white text-sm font-bold hover:border-brightcyan/50 hover:text-brightcyan transition-colors"
+        >
+          {letter}
+        </a>
+      ))}
+    </nav>
+  )}
+
+  {[...groups.entries()].map(([letter, items]) => (
+    <section class="track-list-group mb-10 scroll-mt-28" id={letter ? `tracks-${letter === "#" ? "other" : letter}` : undefined} data-letter={letter}>
+      {letter && (
+        <h2 class="text-2xl font-black text-brightcyan mb-4 border-b border-white/5 pb-2">{letter}</h2>
+      )}
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {items.map((track) => (
+          <div class="track-list-item" data-search={`${track.data.name} ${track.data.city}`.toLowerCase()}>
+            <TrackCard name={track.data.name} city={track.data.city} trackUrl={trackUrl(track.data)} />
+          </div>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <p class="track-list-empty hidden text-slate-400 py-10 text-center">
+    No tracks match that search.
+  </p>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>(".track-list").forEach((root) => {
+    const input = root.querySelector<HTMLInputElement>(".track-list-filter")!;
+    const count = root.querySelector<HTMLElement>(".track-list-count")!;
+    const empty = root.querySelector<HTMLElement>(".track-list-empty")!;
+    const groups = [...root.querySelectorAll<HTMLElement>(".track-list-group")];
+
+    input.addEventListener("input", () => {
+      const terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+      let shown = 0;
+      for (const group of groups) {
+        let groupShown = 0;
+        for (const item of group.querySelectorAll<HTMLElement>(".track-list-item")) {
+          const text = item.dataset.search ?? "";
+          const match = terms.every((term) => text.includes(term));
+          item.classList.toggle("hidden", !match);
+          if (match) groupShown++;
+        }
+        group.classList.toggle("hidden", groupShown === 0);
+        const link = root.querySelector<HTMLElement>(`[data-letter-link="${group.dataset.letter}"]`);
+        link?.classList.toggle("opacity-30", groupShown === 0);
+        shown += groupShown;
+      }
+      count.textContent = String(shown);
+      empty.classList.toggle("hidden", shown > 0);
+    });
+  });
+</script>

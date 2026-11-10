@@ -1,0 +1,15 @@
+{
+  "name": "Glasgow Athletics Track (Crownpoint Sports Centre)",
+  "slug": "glasgow",
+  "city": "Glasgow",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 21,
+  "lat": 55.8537728,
+  "lng": -4.2228411,
+  "metaTitle": "Glasgow Athletics Track (Crownpoint Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Glasgow Athletics Track (Crownpoint Sports Centre) in Glasgow.",
+  "directionVerified": false,
+  "osmId": "relation/2518256"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Lightwater Athletics Track",
+  "slug": "lightwater",
+  "city": "Lightwater",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 171,
+  "lat": 51.3070605,
+  "lng": -0.6669191,
+  "metaTitle": "Lightwater Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Lightwater Athletics Track in Lightwater.",
+  "directionVerified": false,
+  "osmId": "relation/14500008"
+}

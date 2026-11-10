@@ -1,0 +1,21 @@
+{
+  "name": "Failsworth Athletics Track (Boggart Hole Clough)",
+  "slug": "failsworth",
+  "city": "Failsworth",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 151,
+  "lat": 53.5215849,
+  "lng": -2.1991564,
+  "metaTitle": "Failsworth Athletics Track (Boggart Hole Clough) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Failsworth Athletics Track (Boggart Hole Clough) in Failsworth.",
+  "directionVerified": false,
+  "osmId": "relation/5395753",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

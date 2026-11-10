@@ -1,0 +1,15 @@
+{
+  "name": "Lerwick Athletics Track",
+  "slug": "lerwick",
+  "city": "Lerwick",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 96,
+  "lat": 60.1546169,
+  "lng": -1.1616387,
+  "metaTitle": "Lerwick Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Lerwick Athletics Track in Lerwick.",
+  "directionVerified": false,
+  "osmId": "relation/2696246"
+}

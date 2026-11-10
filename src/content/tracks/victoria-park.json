@@ -1,0 +1,15 @@
+{
+  "name": "Aylesbury Athletics Track",
+  "slug": "victoria-park",
+  "city": "Aylesbury",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 119,
+  "lat": 51.8090824,
+  "lng": -0.7948412,
+  "metaTitle": "Aylesbury Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Aylesbury Athletics Track in Aylesbury.",
+  "directionVerified": false,
+  "osmId": "way/1544675741"
+}

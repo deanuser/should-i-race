@@ -1,0 +1,21 @@
+{
+  "name": "Shrewsbury Athletics Track",
+  "slug": "shrewsbury",
+  "city": "Shrewsbury",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 215,
+  "lat": 52.6981029,
+  "lng": -2.7203753,
+  "metaTitle": "Shrewsbury Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Shrewsbury Athletics Track in Shrewsbury.",
+  "directionVerified": false,
+  "osmId": "relation/5334851",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: No"
+    }
+  ]
+}

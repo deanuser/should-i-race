@@ -1,0 +1,21 @@
+{
+  "name": "Bridge of Allan Athletics Track",
+  "slug": "bridge-of-allan",
+  "city": "Bridge of Allan",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 359,
+  "lat": 56.1442731,
+  "lng": -3.9259888,
+  "metaTitle": "Bridge of Allan Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bridge of Allan Athletics Track in Bridge of Allan.",
+  "directionVerified": false,
+  "osmId": "relation/21142770",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 4"
+    }
+  ]
+}

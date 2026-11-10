@@ -12,6 +12,7 @@ import Navbar from "../../../components/Navbar.astro";
 import { getRelativeWind, getWindCategory, shieldWindSpeed } from "../../../utils/windLogic";
 import SubRegionListing from "../../../components/SubRegionListing.astro";
 import PartnerBanner from "../../../components/PartnerBanner.astro";
+import { trackStructuredData } from "../../../utils/tracks";
 
 const { country, region, slug } = Astro.params;
 
@@ -193,6 +194,7 @@ if (track) {
   title={track.data.metaTitle || `${track.data.name} Live Wind Conditions | Should I Race?`}
   description={track.data.metaDescription || `Check real-time wind speeds and directions at ${track.data.name}. Professional wind monitoring for sprinters to help you decide: Should I Race?`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(trackStructuredData(track.data, Astro.url.href))} />
   <Navbar />
 
   <main

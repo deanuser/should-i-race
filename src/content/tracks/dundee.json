@@ -1,0 +1,15 @@
+{
+  "name": "Dundee Athletics Track",
+  "slug": "dundee",
+  "city": "Dundee",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 90,
+  "lat": 56.484605,
+  "lng": -2.9549731,
+  "metaTitle": "Dundee Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Dundee Athletics Track in Dundee.",
+  "directionVerified": false,
+  "osmId": "relation/1401544"
+}

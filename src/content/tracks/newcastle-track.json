@@ -1,0 +1,21 @@
+{
+  "name": "Newcastle-under-Lyme Athletics Track (Newcastle Track)",
+  "slug": "newcastle-track",
+  "city": "Newcastle-under-Lyme",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 273,
+  "lat": 53.0173025,
+  "lng": -2.2357402,
+  "metaTitle": "Newcastle-under-Lyme Athletics Track (Newcastle Track) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Newcastle-under-Lyme Athletics Track (Newcastle Track) in Newcastle-under-Lyme.",
+  "directionVerified": false,
+  "osmId": "relation/2534285",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

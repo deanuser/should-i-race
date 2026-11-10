@@ -1,0 +1,21 @@
+{
+  "name": "Rugby Athletics Track",
+  "slug": "rugby",
+  "city": "Rugby",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 227,
+  "lat": 52.3656965,
+  "lng": -1.2527572,
+  "metaTitle": "Rugby Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Rugby Athletics Track in Rugby.",
+  "directionVerified": false,
+  "osmId": "relation/6185816",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

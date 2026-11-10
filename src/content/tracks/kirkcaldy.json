@@ -1,0 +1,21 @@
+{
+  "name": "Kirkcaldy Athletics Track (Stark's Park)",
+  "slug": "kirkcaldy",
+  "city": "Kirkcaldy",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 66,
+  "lat": 56.1017534,
+  "lng": -3.1716574,
+  "metaTitle": "Kirkcaldy Athletics Track (Stark's Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Kirkcaldy Athletics Track (Stark's Park) in Kirkcaldy.",
+  "directionVerified": false,
+  "osmId": "relation/4284472",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

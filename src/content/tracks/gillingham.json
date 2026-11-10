@@ -1,0 +1,21 @@
+{
+  "name": "Gillingham Athletics Track (Garrison Stadium)",
+  "slug": "gillingham",
+  "city": "Gillingham",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 337,
+  "lat": 51.3908523,
+  "lng": 0.5391585,
+  "metaTitle": "Gillingham Athletics Track (Garrison Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Gillingham Athletics Track (Garrison Stadium) in Gillingham.",
+  "directionVerified": false,
+  "osmId": "relation/18009791",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: No"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Connah's Quay Athletics Track (Deeside Stadium)",
+  "slug": "connahs-quay",
+  "city": "Connah's Quay",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 213,
+  "lat": 53.2253552,
+  "lng": -3.0764999,
+  "metaTitle": "Connah's Quay Athletics Track (Deeside Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Connah's Quay Athletics Track (Deeside Stadium) in Connah's Quay.",
+  "directionVerified": false,
+  "osmId": "relation/20623804",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Clay"
+    }
+  ]
+}

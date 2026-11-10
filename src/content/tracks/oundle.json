@@ -1,0 +1,21 @@
+{
+  "name": "Oundle Athletics Track",
+  "slug": "oundle",
+  "city": "Oundle",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 3,
+  "lat": 52.4873931,
+  "lng": -0.4843429,
+  "metaTitle": "Oundle Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Oundle Athletics Track in Oundle.",
+  "directionVerified": false,
+  "osmId": "relation/10058455",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

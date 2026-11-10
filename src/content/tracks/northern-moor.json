@@ -1,0 +1,21 @@
+{
+  "name": "Sale Athletics Track (Wythenshawe Park)",
+  "slug": "northern-moor",
+  "city": "Sale",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 16,
+  "lat": 53.4063484,
+  "lng": -2.2873274,
+  "metaTitle": "Sale Athletics Track (Wythenshawe Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sale Athletics Track (Wythenshawe Park) in Sale.",
+  "directionVerified": false,
+  "osmId": "relation/16256974",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

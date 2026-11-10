@@ -1,0 +1,15 @@
+{
+  "name": "Amesbury Athletics Track",
+  "slug": "amesbury",
+  "city": "Amesbury",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 150,
+  "lat": 51.203489,
+  "lng": -1.7678579,
+  "metaTitle": "Amesbury Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Amesbury Athletics Track in Amesbury.",
+  "directionVerified": false,
+  "osmId": "relation/17955121"
+}

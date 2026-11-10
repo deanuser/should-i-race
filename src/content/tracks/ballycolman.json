@@ -1,0 +1,21 @@
+{
+  "name": "Strabane Athletics Track",
+  "slug": "ballycolman",
+  "city": "Strabane",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 146,
+  "lat": 54.8212635,
+  "lng": -7.4595707,
+  "metaTitle": "Strabane Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Strabane Athletics Track in Strabane.",
+  "directionVerified": false,
+  "osmId": "way/263647091",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Asphalt"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Tadley Athletics Track (Aldermaston Raceway)",
+  "slug": "tadley",
+  "city": "Tadley",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 294,
+  "lat": 51.3689712,
+  "lng": -1.1540179,
+  "metaTitle": "Tadley Athletics Track (Aldermaston Raceway) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Tadley Athletics Track (Aldermaston Raceway) in Tadley.",
+  "directionVerified": false,
+  "osmId": "relation/4101084"
+}

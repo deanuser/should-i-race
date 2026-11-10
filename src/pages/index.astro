@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar.astro";
 import TrackCard from "../components/TrackCard.astro";
 import TrackExplorer from "../components/TrackExplorer.astro";
 import PartnerBanner from "../components/PartnerBanner.astro";
+import NearestTrackButton from "../components/NearestTrackButton.astro";
 
 // Fetch tracks from collections
 const allTracks = await getCollection("tracks");
@@ -123,6 +124,9 @@ const getTrackUrl = (slug: string) => {
             >How it Works</a
           >
         </div>
+        <div class="mt-6 animate-fade-in" style="animation-delay: 0.4s;">
+          <NearestTrackButton variant="hero" />
+        </div>
       </div>
     </section>
 
@@ -139,8 +143,8 @@ const getTrackUrl = (slug: string) => {
             <span class="text-4xl lg:text-5xl font-extrabold text-white mb-1"
               ><span
                 class="text-brightcyan drop-shadow-[0_0_5px_rgba(34,227,213,0.8)]"
-                >30</span
-              >+</span
+                >{allTracks.length}</span
+              ></span
             >
             <span
               class="text-xs uppercase tracking-[0.2em] text-slate-400 font-bold"

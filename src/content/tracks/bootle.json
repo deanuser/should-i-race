@@ -1,0 +1,15 @@
+{
+  "name": "Bootle Athletics Track",
+  "slug": "bootle",
+  "city": "Bootle",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 171,
+  "lat": 53.4554077,
+  "lng": -2.9409779,
+  "metaTitle": "Bootle Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bootle Athletics Track in Bootle.",
+  "directionVerified": false,
+  "osmId": "way/1556464031"
+}

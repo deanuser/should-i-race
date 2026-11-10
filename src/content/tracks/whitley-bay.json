@@ -1,0 +1,21 @@
+{
+  "name": "Whitley Bay Athletics Track (Churchill Playing Fields)",
+  "slug": "whitley-bay",
+  "city": "Whitley Bay",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 151,
+  "lat": 55.0452214,
+  "lng": -1.4592779,
+  "metaTitle": "Whitley Bay Athletics Track (Churchill Playing Fields) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Whitley Bay Athletics Track (Churchill Playing Fields) in Whitley Bay.",
+  "directionVerified": false,
+  "osmId": "way/372665069",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

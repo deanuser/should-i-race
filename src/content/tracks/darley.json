@@ -1,0 +1,15 @@
+{
+  "name": "Darley Athletics Track",
+  "slug": "darley",
+  "city": "Darley",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 113,
+  "lat": 54.015225,
+  "lng": -1.6833441,
+  "metaTitle": "Darley Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Darley Athletics Track in Darley.",
+  "directionVerified": false,
+  "osmId": "relation/2196505"
+}

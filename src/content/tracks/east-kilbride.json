@@ -1,0 +1,21 @@
+{
+  "name": "East Kilbride Athletics Track (John Wright Sports Centre)",
+  "slug": "east-kilbride",
+  "city": "East Kilbride",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 325,
+  "lat": 55.7653212,
+  "lng": -4.1624255,
+  "metaTitle": "East Kilbride Athletics Track (John Wright Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for East Kilbride Athletics Track (John Wright Sports Centre) in East Kilbride.",
+  "directionVerified": false,
+  "osmId": "relation/18917988",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

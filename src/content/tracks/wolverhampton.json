@@ -1,0 +1,21 @@
+{
+  "name": "Wolverhampton Athletics Track (Aldersley Stadium)",
+  "slug": "wolverhampton",
+  "city": "Wolverhampton",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 239,
+  "lat": 52.6047623,
+  "lng": -2.1502826,
+  "metaTitle": "Wolverhampton Athletics Track (Aldersley Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Wolverhampton Athletics Track (Aldersley Stadium) in Wolverhampton.",
+  "directionVerified": false,
+  "osmId": "relation/2524019",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

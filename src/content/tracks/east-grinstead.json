@@ -1,0 +1,21 @@
+{
+  "name": "East Grinstead Athletics Track",
+  "slug": "east-grinstead",
+  "city": "East Grinstead",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 77,
+  "lat": 51.1255612,
+  "lng": 0.0035635,
+  "metaTitle": "East Grinstead Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for East Grinstead Athletics Track in East Grinstead.",
+  "directionVerified": false,
+  "osmId": "way/95922608",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Gravel\nFloodlights: No"
+    }
+  ]
+}

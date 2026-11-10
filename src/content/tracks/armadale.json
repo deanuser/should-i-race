@@ -1,0 +1,15 @@
+{
+  "name": "Armadale Athletics Track (Armadale Stadium)",
+  "slug": "armadale",
+  "city": "Armadale",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 153,
+  "lat": 55.8982693,
+  "lng": -3.6829982,
+  "metaTitle": "Armadale Athletics Track (Armadale Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Armadale Athletics Track (Armadale Stadium) in Armadale.",
+  "directionVerified": false,
+  "osmId": "way/394887002"
+}

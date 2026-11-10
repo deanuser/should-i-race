@@ -1,0 +1,21 @@
+{
+  "name": "Lincoln Athletics Track",
+  "slug": "lincoln",
+  "city": "Lincoln",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 62,
+  "lat": 53.2475558,
+  "lng": -0.5441561,
+  "metaTitle": "Lincoln Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Lincoln Athletics Track in Lincoln.",
+  "directionVerified": false,
+  "osmId": "relation/17752267",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 7\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

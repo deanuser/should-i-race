@@ -1,0 +1,21 @@
+{
+  "name": "Elgin Athletics Track (Morriston Playing Fields)",
+  "slug": "elgin",
+  "city": "Elgin",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 287,
+  "lat": 57.6502051,
+  "lng": -3.3267649,
+  "metaTitle": "Elgin Athletics Track (Morriston Playing Fields) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Elgin Athletics Track (Morriston Playing Fields) in Elgin.",
+  "directionVerified": false,
+  "osmId": "relation/15486138",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

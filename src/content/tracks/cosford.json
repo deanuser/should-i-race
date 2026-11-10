@@ -1,0 +1,15 @@
+{
+  "name": "Cosford Athletics Track",
+  "slug": "cosford",
+  "city": "Cosford",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 150,
+  "lat": 52.6466332,
+  "lng": -2.2949094,
+  "metaTitle": "Cosford Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Cosford Athletics Track in Cosford.",
+  "directionVerified": false,
+  "osmId": "way/549395992"
+}

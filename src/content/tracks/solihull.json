@@ -1,0 +1,15 @@
+{
+  "name": "Solihull Athletics Track",
+  "slug": "solihull",
+  "city": "Solihull",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 75,
+  "lat": 52.4114709,
+  "lng": -1.7894582,
+  "metaTitle": "Solihull Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Solihull Athletics Track in Solihull.",
+  "directionVerified": false,
+  "osmId": "relation/2752860"
+}

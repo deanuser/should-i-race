@@ -1,0 +1,15 @@
+{
+  "name": "Abingdon Athletics Track",
+  "slug": "shippon",
+  "city": "Abingdon",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 95,
+  "lat": 51.684033,
+  "lng": -1.3022574,
+  "metaTitle": "Abingdon Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Abingdon Athletics Track in Abingdon.",
+  "directionVerified": false,
+  "osmId": "way/377969804"
+}

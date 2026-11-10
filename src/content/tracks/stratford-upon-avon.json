@@ -1,0 +1,15 @@
+{
+  "name": "Stratford-upon-Avon Athletics Track",
+  "slug": "stratford-upon-avon",
+  "city": "Stratford-upon-Avon",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 146,
+  "lat": 52.2012353,
+  "lng": -1.6698426,
+  "metaTitle": "Stratford-upon-Avon Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stratford-upon-Avon Athletics Track in Stratford-upon-Avon.",
+  "directionVerified": false,
+  "osmId": "relation/2893803"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Wellingborough Athletics Track",
+  "slug": "wellingborough",
+  "city": "Wellingborough",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 285,
+  "lat": 52.3133766,
+  "lng": -0.747215,
+  "metaTitle": "Wellingborough Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Wellingborough Athletics Track in Wellingborough.",
+  "directionVerified": false,
+  "osmId": "way/165066621"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bracknell Athletics Track",
+  "slug": "bracknell",
+  "city": "Bracknell",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 110,
+  "lat": 51.4011248,
+  "lng": -0.7494213,
+  "metaTitle": "Bracknell Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bracknell Athletics Track in Bracknell.",
+  "directionVerified": false,
+  "osmId": "relation/2828218"
+}

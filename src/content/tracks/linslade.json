@@ -1,0 +1,15 @@
+{
+  "name": "Linslade Athletics Track",
+  "slug": "linslade",
+  "city": "Linslade",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 81,
+  "lat": 51.9093513,
+  "lng": -0.6721503,
+  "metaTitle": "Linslade Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Linslade Athletics Track in Linslade.",
+  "directionVerified": false,
+  "osmId": "way/1457619658"
+}

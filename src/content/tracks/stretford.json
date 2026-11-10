@@ -1,0 +1,21 @@
+{
+  "name": "Stretford Athletics Track (Longford Park (Trafford AC))",
+  "slug": "stretford",
+  "city": "Stretford",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 207,
+  "lat": 53.4463239,
+  "lng": -2.289464,
+  "metaTitle": "Stretford Athletics Track (Longford Park (Trafford AC)) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stretford Athletics Track (Longford Park (Trafford AC)) in Stretford.",
+  "directionVerified": false,
+  "osmId": "relation/12824011",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 7\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Southampton Athletics Track (Southampton Sports Centre)",
+  "slug": "southampton",
+  "city": "Southampton",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 207,
+  "lat": 50.94173,
+  "lng": -1.4181496,
+  "metaTitle": "Southampton Athletics Track (Southampton Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Southampton Athletics Track (Southampton Sports Centre) in Southampton.",
+  "directionVerified": false,
+  "osmId": "relation/15449304",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

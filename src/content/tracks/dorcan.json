@@ -1,0 +1,15 @@
+{
+  "name": "Swindon Athletics Track",
+  "slug": "dorcan",
+  "city": "Swindon",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 128,
+  "lat": 51.5588763,
+  "lng": -1.7306408,
+  "metaTitle": "Swindon Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Swindon Athletics Track in Swindon.",
+  "directionVerified": false,
+  "osmId": "relation/18044054"
+}

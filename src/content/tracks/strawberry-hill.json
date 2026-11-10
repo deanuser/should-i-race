@@ -1,0 +1,21 @@
+{
+  "name": "Strawberry Hill Athletics Track (Sir Mo Farah)",
+  "slug": "strawberry-hill",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 80,
+  "lat": 51.4360388,
+  "lng": -0.3336379,
+  "metaTitle": "Strawberry Hill Athletics Track (Sir Mo Farah) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Strawberry Hill Athletics Track (Sir Mo Farah) in London.",
+  "directionVerified": false,
+  "osmId": "relation/19531680",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes"
+    }
+  ]
+}

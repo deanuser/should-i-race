@@ -1,0 +1,21 @@
+{
+  "name": "Dartford Athletics Track (Central Park Arena)",
+  "slug": "dartford",
+  "city": "Dartford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 267,
+  "lat": 51.4385352,
+  "lng": 0.2208121,
+  "metaTitle": "Dartford Athletics Track (Central Park Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Dartford Athletics Track (Central Park Arena) in Dartford.",
+  "directionVerified": false,
+  "osmId": "relation/14028823",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

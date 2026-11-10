@@ -1,0 +1,21 @@
+{
+  "name": "Omagh Athletics Track (Omagh Leisure Complex)",
+  "slug": "omagh",
+  "city": "Omagh",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 173,
+  "lat": 54.6033045,
+  "lng": -7.2969078,
+  "metaTitle": "Omagh Athletics Track (Omagh Leisure Complex) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Omagh Athletics Track (Omagh Leisure Complex) in Omagh.",
+  "directionVerified": false,
+  "osmId": "way/118253622",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

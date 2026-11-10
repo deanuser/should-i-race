@@ -1,0 +1,15 @@
+{
+  "name": "Merton Park Athletics Track",
+  "slug": "merton-park",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 118,
+  "lat": 51.4115982,
+  "lng": -0.1966385,
+  "metaTitle": "Merton Park Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Merton Park Athletics Track in London.",
+  "directionVerified": false,
+  "osmId": "way/1498401492"
+}

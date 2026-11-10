@@ -1,0 +1,15 @@
+{
+  "name": "Welwyn Garden City Athletics Track",
+  "slug": "welwyn-garden-city",
+  "city": "Welwyn Garden City",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 196,
+  "lat": 51.7915319,
+  "lng": -0.2104658,
+  "metaTitle": "Welwyn Garden City Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Welwyn Garden City Athletics Track in Welwyn Garden City.",
+  "directionVerified": false,
+  "osmId": "relation/2521526"
+}

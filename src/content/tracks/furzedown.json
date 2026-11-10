@@ -1,0 +1,21 @@
+{
+  "name": "Furzedown Athletics Track (Tooting Bec)",
+  "slug": "furzedown",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 340,
+  "lat": 51.4298035,
+  "lng": -0.1470501,
+  "metaTitle": "Furzedown Athletics Track (Tooting Bec) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Furzedown Athletics Track (Tooting Bec) in London.",
+  "directionVerified": false,
+  "osmId": "relation/4277373",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

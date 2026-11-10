@@ -1,0 +1,15 @@
+{
+  "name": "Middleham Athletics Track",
+  "slug": "middleham",
+  "city": "Middleham",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 255,
+  "lat": 54.2844828,
+  "lng": -1.7868545,
+  "metaTitle": "Middleham Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Middleham Athletics Track in Middleham.",
+  "directionVerified": false,
+  "osmId": "way/944386558"
+}

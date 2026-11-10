@@ -1,0 +1,15 @@
+{
+  "name": "Newton Aycliffe Athletics Track",
+  "slug": "newton-aycliffe",
+  "city": "Newton Aycliffe",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 248,
+  "lat": 54.611117,
+  "lng": -1.5903288,
+  "metaTitle": "Newton Aycliffe Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Newton Aycliffe Athletics Track in Newton Aycliffe.",
+  "directionVerified": false,
+  "osmId": "way/1007045569"
+}

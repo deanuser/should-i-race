@@ -1,0 +1,21 @@
+{
+  "name": "Derry/Londonderry Athletics Track (Saint Columb's Park)",
+  "slug": "derry-londonderry-athletics-track",
+  "city": "Derry/Londonderry",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 0,
+  "lat": 55.0007136,
+  "lng": -7.3134951,
+  "metaTitle": "Derry/Londonderry Athletics Track (Saint Columb's Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Derry/Londonderry Athletics Track (Saint Columb's Park) in Derry/Londonderry.",
+  "directionVerified": false,
+  "osmId": "way/165473031",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: No"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Slough Athletics Track",
+  "slug": "slough",
+  "city": "Slough",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 190,
+  "lat": 51.536871,
+  "lng": -0.6204529,
+  "metaTitle": "Slough Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Slough Athletics Track in Slough.",
+  "directionVerified": false,
+  "osmId": "way/356864043"
+}

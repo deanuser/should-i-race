@@ -1,0 +1,15 @@
+{
+  "name": "Sutton Coldfield Athletics Track",
+  "slug": "sutton-coldfield",
+  "city": "Sutton Coldfield",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 20,
+  "lat": 52.561445,
+  "lng": -1.8343636,
+  "metaTitle": "Sutton Coldfield Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sutton Coldfield Athletics Track in Sutton Coldfield.",
+  "directionVerified": false,
+  "osmId": "relation/4212521"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Grangemouth Athletics Track",
+  "slug": "skinflats",
+  "city": "Grangemouth",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 244,
+  "lat": 56.0363525,
+  "lng": -3.7366963,
+  "metaTitle": "Grangemouth Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Grangemouth Athletics Track in Grangemouth.",
+  "directionVerified": false,
+  "osmId": "way/484259803"
+}

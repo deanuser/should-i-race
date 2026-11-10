@@ -1,0 +1,15 @@
+{
+  "name": "Newbury Athletics Track (Brown's Meadow)",
+  "slug": "newbury",
+  "city": "Newbury",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 359,
+  "lat": 51.3923563,
+  "lng": -1.3420952,
+  "metaTitle": "Newbury Athletics Track (Brown's Meadow) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Newbury Athletics Track (Brown's Meadow) in Newbury.",
+  "directionVerified": false,
+  "osmId": "relation/1846810"
+}

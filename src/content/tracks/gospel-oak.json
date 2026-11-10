@@ -1,0 +1,21 @@
+{
+  "name": "Gospel Oak Athletics Track (Parliament Hill Fields)",
+  "slug": "gospel-oak",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 236,
+  "lat": 51.5571557,
+  "lng": -0.1553335,
+  "metaTitle": "Gospel Oak Athletics Track (Parliament Hill Fields) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Gospel Oak Athletics Track (Parliament Hill Fields) in London.",
+  "directionVerified": false,
+  "osmId": "relation/3272084",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

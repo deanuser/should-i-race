@@ -1,0 +1,21 @@
+{
+  "name": "Bangor Athletics Track (Bangor Sportsplex)",
+  "slug": "bangor",
+  "city": "Bangor",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 138,
+  "lat": 54.6506838,
+  "lng": -5.7101054,
+  "metaTitle": "Bangor Athletics Track (Bangor Sportsplex) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bangor Athletics Track (Bangor Sportsplex) in Bangor.",
+  "directionVerified": false,
+  "osmId": "relation/5654527",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes"
+    }
+  ]
+}

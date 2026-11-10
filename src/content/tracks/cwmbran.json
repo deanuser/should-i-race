@@ -1,0 +1,21 @@
+{
+  "name": "Cwmbrân Athletics Track (Cwmbran Stadium)",
+  "slug": "cwmbran",
+  "city": "Cwmbrân",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 349,
+  "lat": 51.6429028,
+  "lng": -3.0200852,
+  "metaTitle": "Cwmbrân Athletics Track (Cwmbran Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Cwmbrân Athletics Track (Cwmbran Stadium) in Cwmbrân.",
+  "directionVerified": false,
+  "osmId": "relation/12074550",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Asphalt\nFloodlights: Yes"
+    }
+  ]
+}

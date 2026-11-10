@@ -1,0 +1,21 @@
+{
+  "name": "Godalming Athletics Track",
+  "slug": "godalming",
+  "city": "Godalming",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 270,
+  "lat": 51.1947645,
+  "lng": -0.630021,
+  "metaTitle": "Godalming Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Godalming Athletics Track in Godalming.",
+  "directionVerified": false,
+  "osmId": "way/151308980",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

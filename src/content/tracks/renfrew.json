@@ -1,0 +1,21 @@
+{
+  "name": "Renfrew Athletics Track (Scotstoun Stadium)",
+  "slug": "renfrew",
+  "city": "Renfrew",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 289,
+  "lat": 55.8818287,
+  "lng": -4.3423171,
+  "metaTitle": "Renfrew Athletics Track (Scotstoun Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Renfrew Athletics Track (Scotstoun Stadium) in Renfrew.",
+  "directionVerified": false,
+  "osmId": "relation/1966633",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

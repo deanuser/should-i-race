@@ -1,0 +1,21 @@
+{
+  "name": "Northampton Athletics Track (Sixfields Stadium)",
+  "slug": "northampton",
+  "city": "Northampton",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 166,
+  "lat": 52.235388,
+  "lng": -0.9317722,
+  "metaTitle": "Northampton Athletics Track (Sixfields Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Northampton Athletics Track (Sixfields Stadium) in Northampton.",
+  "directionVerified": false,
+  "osmId": "way/93973593",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

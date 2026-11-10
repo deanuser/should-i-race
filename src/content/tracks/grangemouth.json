@@ -1,0 +1,15 @@
+{
+  "name": "Grangemouth Athletics Track (Grangemouth Stadium)",
+  "slug": "grangemouth",
+  "city": "Grangemouth",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 123,
+  "lat": 56.0056793,
+  "lng": -3.7074033,
+  "metaTitle": "Grangemouth Athletics Track (Grangemouth Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Grangemouth Athletics Track (Grangemouth Stadium) in Grangemouth.",
+  "directionVerified": false,
+  "osmId": "relation/5951324"
+}

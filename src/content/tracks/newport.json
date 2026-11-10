@@ -1,0 +1,21 @@
+{
+  "name": "Newport Athletics Track (Newport Stadium)",
+  "slug": "newport",
+  "city": "Newport",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 200,
+  "lat": 51.573789,
+  "lng": -2.9593942,
+  "metaTitle": "Newport Athletics Track (Newport Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Newport Athletics Track (Newport Stadium) in Newport.",
+  "directionVerified": false,
+  "osmId": "relation/20139664",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

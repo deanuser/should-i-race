@@ -1,0 +1,21 @@
+{
+  "name": "Camborne Athletics Track (Carn Brea)",
+  "slug": "camborne",
+  "city": "Camborne",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 145,
+  "lat": 50.2232674,
+  "lng": -5.2657118,
+  "metaTitle": "Camborne Athletics Track (Carn Brea) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Camborne Athletics Track (Carn Brea) in Camborne.",
+  "directionVerified": false,
+  "osmId": "relation/10357374",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

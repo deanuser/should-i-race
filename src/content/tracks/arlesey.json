@@ -1,0 +1,15 @@
+{
+  "name": "Arlesey Athletics Track",
+  "slug": "arlesey",
+  "city": "Arlesey",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 82,
+  "lat": 52.020444,
+  "lng": -0.247916,
+  "metaTitle": "Arlesey Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Arlesey Athletics Track in Arlesey.",
+  "directionVerified": false,
+  "osmId": "way/1561007299"
+}

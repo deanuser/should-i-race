@@ -1,0 +1,21 @@
+{
+  "name": "Basildon Athletics Track (Gloucester Park)",
+  "slug": "basildon",
+  "city": "Basildon",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 165,
+  "lat": 51.5787396,
+  "lng": 0.4502211,
+  "metaTitle": "Basildon Athletics Track (Gloucester Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Basildon Athletics Track (Gloucester Park) in Basildon.",
+  "directionVerified": false,
+  "osmId": "relation/3266907",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

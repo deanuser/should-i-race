@@ -1,0 +1,39 @@
+{
+  "name": "Hull Athletics Track (Costello Stadium)",
+  "slug": "hessle",
+  "city": "Hull",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 222,
+  "lat": 53.737031,
+  "lng": -0.4091314,
+  "metaTitle": "Hull Athletics Track (Costello Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Hull Athletics Track (Costello Stadium) in Hull.",
+  "directionVerified": false,
+  "osmId": "relation/364229",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Stadium opening hours:\n\nMonday – Friday: 7:30 am – 9:00 pm\nSaturday – Sunday: 9:00 am – 3:00 pm\n\nLast admission is 45 minutes before closing. Hours can change for events and bank holidays, so check with the venue before travelling."
+    },
+    {
+      "heading": "Entry Price",
+      "text": "Prices from 1 January 2026:\n\nAdult track session: £7.40\nJunior track session: £4.80\nSpectator: £2.00 adult, £1.00 junior\nTrack hire: £82 per hour"
+    },
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes\nSurface: Refurbished synthetic track, reopened in August 2025.\nCertification: TrackMark accredited."
+    },
+    {
+      "heading": "Address",
+      "text": "Costello Stadium, Anlaby Park Road North, Hull, HU4 6XQ"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the Hull leisure website for Costello Stadium activities, prices and opening times.",
+      "linkUrl": "https://www.liveithull.co.uk/leisure-centres/costello-stadium/2",
+      "linkLabel": "Official Website"
+    }
+  ]
+}

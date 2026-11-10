@@ -1,0 +1,39 @@
+{
+  "name": "Mile End Athletics Track (Mile End Stadium)",
+  "slug": "limehouse",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 158,
+  "lat": 51.5190309,
+  "lng": -0.0334116,
+  "metaTitle": "Mile End Athletics Track (Mile End Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Mile End Athletics Track (Mile End Stadium) in London.",
+  "directionVerified": false,
+  "osmId": "relation/3272211",
+  "trackInfo": [
+    {
+      "heading": "Opening Times",
+      "text": "Leisure centre opening hours:\n\nMonday – Friday: 6:00 am – 10:00 pm\nSaturday – Sunday: 8:00 am – 6:00 pm\nBank Holidays: 9:00 am – 9:00 pm\n\nThe stadium is sometimes closed on weekday daytimes for school sports days. Hours can change for events and bank holidays, so check with the venue before travelling."
+    },
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes\nField Facilities: Javelin and hammer.\nSpectator Seating: Grandstand beside the track."
+    },
+    {
+      "heading": "Parking Details",
+      "text": "Accessible parking is available. Mile End and Limehouse are the nearest stations."
+    },
+    {
+      "heading": "Address",
+      "text": "Mile End Park Leisure Centre and Stadium, 190 Burdett Road, London, E3 4HL"
+    },
+    {
+      "heading": "Website",
+      "text": "Visit the Be Well website for track bookings, prices and current opening times.",
+      "linkUrl": "https://be-well.org.uk/mile-end-leisure-centre-and-stadium",
+      "linkLabel": "Official Website"
+    }
+  ]
+}

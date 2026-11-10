@@ -1,0 +1,21 @@
+{
+  "name": "Southfields Athletics Track (Wimbledon Park)",
+  "slug": "southfields",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 139,
+  "lat": 51.4383526,
+  "lng": -0.2079992,
+  "metaTitle": "Southfields Athletics Track (Wimbledon Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Southfields Athletics Track (Wimbledon Park) in London.",
+  "directionVerified": false,
+  "osmId": "relation/4195383",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Wakefield Athletics Track (Thornes Park Stadium)",
+  "slug": "wakefield",
+  "city": "Wakefield",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 6,
+  "lat": 53.675698,
+  "lng": -1.5159227,
+  "metaTitle": "Wakefield Athletics Track (Thornes Park Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Wakefield Athletics Track (Thornes Park Stadium) in Wakefield.",
+  "directionVerified": false,
+  "osmId": "relation/6262057",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

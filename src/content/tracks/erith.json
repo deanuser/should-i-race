@@ -1,0 +1,21 @@
+{
+  "name": "Erith Athletics Track",
+  "slug": "erith",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 170,
+  "lat": 51.4764003,
+  "lng": 0.1798574,
+  "metaTitle": "Erith Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Erith Athletics Track in London.",
+  "directionVerified": false,
+  "osmId": "relation/19456614",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

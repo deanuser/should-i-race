@@ -1,0 +1,21 @@
+{
+  "name": "St Ives Athletics Track (St. Ivo Outdoor Complex)",
+  "slug": "st-ives",
+  "city": "St Ives",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 12,
+  "lat": 52.3375068,
+  "lng": -0.0942496,
+  "metaTitle": "St Ives Athletics Track (St. Ivo Outdoor Complex) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for St Ives Athletics Track (St. Ivo Outdoor Complex) in St Ives.",
+  "directionVerified": false,
+  "osmId": "relation/18952409",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

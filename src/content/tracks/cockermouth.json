@@ -1,0 +1,15 @@
+{
+  "name": "Cockermouth Athletics Track",
+  "slug": "cockermouth",
+  "city": "Cockermouth",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 294,
+  "lat": 54.6517471,
+  "lng": -3.347303,
+  "metaTitle": "Cockermouth Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Cockermouth Athletics Track in Cockermouth.",
+  "directionVerified": false,
+  "osmId": "way/293875564"
+}

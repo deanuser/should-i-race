@@ -1,0 +1,15 @@
+{
+  "name": "Leeds Athletics Track",
+  "slug": "leeds",
+  "city": "Leeds",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 156,
+  "lat": 53.764532,
+  "lng": -1.5410484,
+  "metaTitle": "Leeds Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Leeds Athletics Track in Leeds.",
+  "directionVerified": false,
+  "osmId": "relation/2135713"
+}

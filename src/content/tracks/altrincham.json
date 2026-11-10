@@ -1,0 +1,21 @@
+{
+  "name": "Altrincham Athletics Track (Altrincham & District Athletic Club)",
+  "slug": "altrincham",
+  "city": "Altrincham",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 270,
+  "lat": 53.3988782,
+  "lng": -2.3217611,
+  "metaTitle": "Altrincham Athletics Track (Altrincham & District Athletic Club) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Altrincham Athletics Track (Altrincham & District Athletic Club) in Altrincham.",
+  "directionVerified": false,
+  "osmId": "relation/1979",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Paved\nFloodlights: Yes"
+    }
+  ]
+}

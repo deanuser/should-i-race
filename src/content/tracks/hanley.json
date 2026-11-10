@@ -1,0 +1,21 @@
+{
+  "name": "Hanley Athletics Track (Northwood Stadium Track)",
+  "slug": "hanley",
+  "city": "Hanley",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 133,
+  "lat": 53.0265608,
+  "lng": -2.1599133,
+  "metaTitle": "Hanley Athletics Track (Northwood Stadium Track) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Hanley Athletics Track (Northwood Stadium Track) in Hanley.",
+  "directionVerified": false,
+  "osmId": "relation/3422811",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Asphalt"
+    }
+  ]
+}

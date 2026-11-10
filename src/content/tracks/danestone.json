@@ -1,0 +1,21 @@
+{
+  "name": "Aberdeen Athletics Track (Balgownie Playing Fields)",
+  "slug": "danestone",
+  "city": "Aberdeen",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 356,
+  "lat": 57.1814666,
+  "lng": -2.1232315,
+  "metaTitle": "Aberdeen Athletics Track (Balgownie Playing Fields) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Aberdeen Athletics Track (Balgownie Playing Fields) in Aberdeen.",
+  "directionVerified": false,
+  "osmId": "relation/8845804",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

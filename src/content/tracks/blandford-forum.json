@@ -1,0 +1,15 @@
+{
+  "name": "Blandford Forum Athletics Track",
+  "slug": "blandford-forum",
+  "city": "Blandford Forum",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 272,
+  "lat": 50.8776463,
+  "lng": -2.1090344,
+  "metaTitle": "Blandford Forum Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Blandford Forum Athletics Track in Blandford Forum.",
+  "directionVerified": false,
+  "osmId": "way/498666363"
+}

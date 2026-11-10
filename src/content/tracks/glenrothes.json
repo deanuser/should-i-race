@@ -1,0 +1,15 @@
+{
+  "name": "Glenrothes Athletics Track",
+  "slug": "glenrothes",
+  "city": "Glenrothes",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 2,
+  "lat": 56.1838014,
+  "lng": -3.1735786,
+  "metaTitle": "Glenrothes Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Glenrothes Athletics Track in Glenrothes.",
+  "directionVerified": false,
+  "osmId": "relation/3499139"
+}

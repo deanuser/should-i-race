@@ -1,0 +1,21 @@
+{
+  "name": "Rotherhithe Athletics Track (Southwark Park Sports and Athletics Centre)",
+  "slug": "rotherhithe",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 211,
+  "lat": 51.4931605,
+  "lng": -0.050498,
+  "metaTitle": "Rotherhithe Athletics Track (Southwark Park Sports and Athletics Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Rotherhithe Athletics Track (Southwark Park Sports and Athletics Centre) in London.",
+  "directionVerified": false,
+  "osmId": "relation/7816064",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

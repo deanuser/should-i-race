@@ -1,0 +1,21 @@
+{
+  "name": "Marlborough Athletics Track",
+  "slug": "marlborough",
+  "city": "Marlborough",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 94,
+  "lat": 51.4135659,
+  "lng": -1.739388,
+  "metaTitle": "Marlborough Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Marlborough Athletics Track in Marlborough.",
+  "directionVerified": false,
+  "osmId": "relation/17637505",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Clay\nFloodlights: No"
+    }
+  ]
+}

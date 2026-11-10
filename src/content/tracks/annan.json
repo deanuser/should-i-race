@@ -1,0 +1,15 @@
+{
+  "name": "Annan Athletics Track (Everholm Stadium)",
+  "slug": "annan",
+  "city": "Annan",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 2,
+  "lat": 54.9919693,
+  "lng": -3.2645173,
+  "metaTitle": "Annan Athletics Track (Everholm Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Annan Athletics Track (Everholm Stadium) in Annan.",
+  "directionVerified": false,
+  "osmId": "relation/5576695"
+}

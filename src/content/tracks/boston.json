@@ -1,0 +1,15 @@
+{
+  "name": "Boston Athletics Track (Princess Royal Sports Arena)",
+  "slug": "boston",
+  "city": "Boston",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 274,
+  "lat": 52.977888,
+  "lng": -0.0697082,
+  "metaTitle": "Boston Athletics Track (Princess Royal Sports Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Boston Athletics Track (Princess Royal Sports Arena) in Boston.",
+  "directionVerified": false,
+  "osmId": "relation/2538912"
+}

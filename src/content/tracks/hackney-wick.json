@@ -1,0 +1,21 @@
+{
+  "name": "Hackney Wick Athletics Track (Victoria Park)",
+  "slug": "hackney-wick",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 305,
+  "lat": 51.5387928,
+  "lng": -0.0315084,
+  "metaTitle": "Hackney Wick Athletics Track (Victoria Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Hackney Wick Athletics Track (Victoria Park) in London.",
+  "directionVerified": false,
+  "osmId": "relation/7153030",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Fine gravel"
+    }
+  ]
+}

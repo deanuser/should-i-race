@@ -1,0 +1,21 @@
+{
+  "name": "Bingham Athletics Track",
+  "slug": "bingham",
+  "city": "Bingham",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 91,
+  "lat": 52.9462152,
+  "lng": -0.9510091,
+  "metaTitle": "Bingham Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bingham Athletics Track in Bingham.",
+  "directionVerified": false,
+  "osmId": "relation/7333250",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Asphalt\nFloodlights: Yes"
+    }
+  ]
+}

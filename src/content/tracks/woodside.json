@@ -1,0 +1,21 @@
+{
+  "name": "Woodside Athletics Track (Croydon Sports Arena)",
+  "slug": "woodside",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 149,
+  "lat": 51.3934111,
+  "lng": -0.0605893,
+  "metaTitle": "Woodside Athletics Track (Croydon Sports Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Woodside Athletics Track (Croydon Sports Arena) in London.",
+  "directionVerified": false,
+  "osmId": "relation/19274084",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (rubber)\nFloodlights: Yes"
+    }
+  ]
+}

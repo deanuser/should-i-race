@@ -1,0 +1,21 @@
+{
+  "name": "Mansfield Athletics Track (Berry Hill Park)",
+  "slug": "mansfield",
+  "city": "Mansfield",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 81,
+  "lat": 53.1287084,
+  "lng": -1.1788454,
+  "metaTitle": "Mansfield Athletics Track (Berry Hill Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Mansfield Athletics Track (Berry Hill Park) in Mansfield.",
+  "directionVerified": false,
+  "osmId": "relation/14238097",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes"
+    }
+  ]
+}

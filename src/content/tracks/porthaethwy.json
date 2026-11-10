@@ -1,0 +1,15 @@
+{
+  "name": "Porthaethwy Athletics Track",
+  "slug": "porthaethwy",
+  "city": "Porthaethwy",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 54,
+  "lat": 53.2161128,
+  "lng": -4.1755716,
+  "metaTitle": "Porthaethwy Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Porthaethwy Athletics Track in Porthaethwy.",
+  "directionVerified": false,
+  "osmId": "way/52929330"
+}

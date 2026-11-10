@@ -1,0 +1,21 @@
+{
+  "name": "Ashton-under-Lyne Athletics Track (Roy Oldham Sports Village)",
+  "slug": "ashton-under-lyne",
+  "city": "Ashton-under-Lyne",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 268,
+  "lat": 53.493176,
+  "lng": -2.1131258,
+  "metaTitle": "Ashton-under-Lyne Athletics Track (Roy Oldham Sports Village) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Ashton-under-Lyne Athletics Track (Roy Oldham Sports Village) in Ashton-under-Lyne.",
+  "directionVerified": false,
+  "osmId": "relation/1752663",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

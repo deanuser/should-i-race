@@ -1,0 +1,15 @@
+{
+  "name": "Sandy Athletics Track",
+  "slug": "sandy",
+  "city": "Sandy",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 338,
+  "lat": 52.1389397,
+  "lng": -0.2885712,
+  "metaTitle": "Sandy Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sandy Athletics Track in Sandy.",
+  "directionVerified": false,
+  "osmId": "way/669590056"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ormskirk Athletics Track",
+  "slug": "ormskirk",
+  "city": "Ormskirk",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 13,
+  "lat": 53.5561156,
+  "lng": -2.8674749,
+  "metaTitle": "Ormskirk Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Ormskirk Athletics Track in Ormskirk.",
+  "directionVerified": false,
+  "osmId": "relation/3173211",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes"
+    }
+  ]
+}

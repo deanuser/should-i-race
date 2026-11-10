@@ -1,0 +1,21 @@
+{
+  "name": "Litherland Athletics Track",
+  "slug": "litherland",
+  "city": "Litherland",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 318,
+  "lat": 53.4789994,
+  "lng": -2.9868012,
+  "metaTitle": "Litherland Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Litherland Athletics Track in Litherland.",
+  "directionVerified": false,
+  "osmId": "relation/16349258",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Southbury Athletics Track (The Queen Elizabeth Stadium)",
+  "slug": "southbury",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 93,
+  "lat": 51.6593367,
+  "lng": -0.0638386,
+  "metaTitle": "Southbury Athletics Track (The Queen Elizabeth Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Southbury Athletics Track (The Queen Elizabeth Stadium) in London.",
+  "directionVerified": false,
+  "osmId": "relation/15411147",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

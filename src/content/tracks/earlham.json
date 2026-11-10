@@ -1,0 +1,15 @@
+{
+  "name": "Norwich Athletics Track",
+  "slug": "earlham",
+  "city": "Norwich",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 184,
+  "lat": 52.6248387,
+  "lng": 1.24213,
+  "metaTitle": "Norwich Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Norwich Athletics Track in Norwich.",
+  "directionVerified": false,
+  "osmId": "relation/1707272"
+}

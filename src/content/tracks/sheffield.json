@@ -1,0 +1,15 @@
+{
+  "name": "Sheffield Athletics Track (Woodbourn Road Stadium)",
+  "slug": "sheffield",
+  "city": "Sheffield",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 22,
+  "lat": 53.3894335,
+  "lng": -1.4328278,
+  "metaTitle": "Sheffield Athletics Track (Woodbourn Road Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sheffield Athletics Track (Woodbourn Road Stadium) in Sheffield.",
+  "directionVerified": false,
+  "osmId": "relation/14212962"
+}

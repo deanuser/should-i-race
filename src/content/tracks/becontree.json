@@ -1,0 +1,21 @@
+{
+  "name": "Becontree Athletics Track (Jim Peters Stadium)",
+  "slug": "becontree",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 93,
+  "lat": 51.5467822,
+  "lng": 0.111343,
+  "metaTitle": "Becontree Athletics Track (Jim Peters Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Becontree Athletics Track (Jim Peters Stadium) in London.",
+  "directionVerified": false,
+  "osmId": "relation/17242856",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

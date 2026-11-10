@@ -1,0 +1,15 @@
+{
+  "name": "Horsham Athletics Track",
+  "slug": "horsham",
+  "city": "Horsham",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 26,
+  "lat": 51.0651723,
+  "lng": -0.3598898,
+  "metaTitle": "Horsham Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Horsham Athletics Track in Horsham.",
+  "directionVerified": false,
+  "osmId": "relation/6173659"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bebington Athletics Track",
+  "slug": "bebington",
+  "city": "Bebington",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 138,
+  "lat": 53.3579185,
+  "lng": -3.0098115,
+  "metaTitle": "Bebington Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bebington Athletics Track in Bebington.",
+  "directionVerified": false,
+  "osmId": "way/253051871"
+}

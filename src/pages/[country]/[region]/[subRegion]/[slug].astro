@@ -15,6 +15,7 @@ import {
   shieldWindSpeed,
 } from "../../../../utils/windLogic";
 import PartnerBanner from "../../../../components/PartnerBanner.astro";
+import { trackStructuredData } from "../../../../utils/tracks";
 
 const { country, region, subRegion, slug } = Astro.params;
 
@@ -188,6 +189,7 @@ const currentWindCategory = getWindCategory(
   title={track.data.metaTitle || `${track.data.name} Wind Conditions | Should I Race?`}
   description={track.data.metaDescription || `Live & 5 day forcast wind directions checker for ${track.data.name}`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(trackStructuredData(track.data, Astro.url.href))} />
   <Navbar />
 
   <main

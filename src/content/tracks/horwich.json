@@ -1,0 +1,15 @@
+{
+  "name": "Horwich Athletics Track",
+  "slug": "horwich",
+  "city": "Horwich",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 299,
+  "lat": 53.5797969,
+  "lng": -2.5423158,
+  "metaTitle": "Horwich Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Horwich Athletics Track in Horwich.",
+  "directionVerified": false,
+  "osmId": "relation/7906735"
+}

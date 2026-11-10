@@ -1,0 +1,15 @@
+{
+  "name": "Ayr Athletics Track (Dam Park Stadium)",
+  "slug": "ayr",
+  "city": "Ayr",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 288,
+  "lat": 55.4584254,
+  "lng": -4.6190511,
+  "metaTitle": "Ayr Athletics Track (Dam Park Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Ayr Athletics Track (Dam Park Stadium) in Ayr.",
+  "directionVerified": false,
+  "osmId": "relation/14010338"
+}

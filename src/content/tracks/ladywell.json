@@ -1,0 +1,15 @@
+{
+  "name": "Ladywell Athletics Track (Ladywell Sports Arena)",
+  "slug": "ladywell",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 20,
+  "lat": 51.4510753,
+  "lng": -0.0215647,
+  "metaTitle": "Ladywell Athletics Track (Ladywell Sports Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Ladywell Athletics Track (Ladywell Sports Arena) in London.",
+  "directionVerified": false,
+  "osmId": "relation/8218580"
+}

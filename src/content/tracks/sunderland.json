@@ -1,0 +1,15 @@
+{
+  "name": "Sunderland Athletics Track",
+  "slug": "sunderland",
+  "city": "Sunderland",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 251,
+  "lat": 54.8961071,
+  "lng": -1.3922819,
+  "metaTitle": "Sunderland Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sunderland Athletics Track in Sunderland.",
+  "directionVerified": false,
+  "osmId": "way/732472171"
+}

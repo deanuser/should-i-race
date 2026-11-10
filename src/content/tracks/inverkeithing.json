@@ -1,0 +1,21 @@
+{
+  "name": "Inverkeithing Athletics Track (Ballast Bank)",
+  "slug": "inverkeithing",
+  "city": "Inverkeithing",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 125,
+  "lat": 56.0282124,
+  "lng": -3.3921011,
+  "metaTitle": "Inverkeithing Athletics Track (Ballast Bank) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Inverkeithing Athletics Track (Ballast Bank) in Inverkeithing.",
+  "directionVerified": false,
+  "osmId": "relation/8376092",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Compacted cinder"
+    }
+  ]
+}

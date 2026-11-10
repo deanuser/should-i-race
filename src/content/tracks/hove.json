@@ -1,0 +1,21 @@
+{
+  "name": "Hove Athletics Track (Withdean Stadium)",
+  "slug": "hove",
+  "city": "Hove",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 270,
+  "lat": 50.8521802,
+  "lng": -0.1593265,
+  "metaTitle": "Hove Athletics Track (Withdean Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Hove Athletics Track (Withdean Stadium) in Hove.",
+  "directionVerified": false,
+  "osmId": "way/17162299",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

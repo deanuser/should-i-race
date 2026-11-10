@@ -1,0 +1,21 @@
+{
+  "name": "Harrow Weald Athletics Track (Bannister Outdoor Sports Centre)",
+  "slug": "harrow-weald",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 250,
+  "lat": 51.6112202,
+  "lng": -0.3516982,
+  "metaTitle": "Harrow Weald Athletics Track (Bannister Outdoor Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Harrow Weald Athletics Track (Bannister Outdoor Sports Centre) in London.",
+  "directionVerified": false,
+  "osmId": "relation/14028718",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

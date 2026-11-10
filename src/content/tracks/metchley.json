@@ -1,0 +1,15 @@
+{
+  "name": "Metchley Athletics Track",
+  "slug": "metchley",
+  "city": "Birmingham",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 161,
+  "lat": 52.455821,
+  "lng": -1.9242675,
+  "metaTitle": "Metchley Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Metchley Athletics Track in Birmingham.",
+  "directionVerified": false,
+  "osmId": "relation/9370925"
+}

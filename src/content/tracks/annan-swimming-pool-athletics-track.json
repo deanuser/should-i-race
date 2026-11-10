@@ -1,0 +1,15 @@
+{
+  "name": "Annan Athletics Track",
+  "slug": "annan-swimming-pool-athletics-track",
+  "city": "Annan",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 157,
+  "lat": 54.9833373,
+  "lng": -3.2575881,
+  "metaTitle": "Annan Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Annan Athletics Track in Annan.",
+  "directionVerified": false,
+  "osmId": "way/1127372485"
+}

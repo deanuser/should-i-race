@@ -1,0 +1,15 @@
+{
+  "name": "Ipswich Athletics Track (Northgate Sports Centre)",
+  "slug": "ipswich",
+  "city": "Ipswich",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 56,
+  "lat": 52.0730025,
+  "lng": 1.1783325,
+  "metaTitle": "Ipswich Athletics Track (Northgate Sports Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Ipswich Athletics Track (Northgate Sports Centre) in Ipswich.",
+  "directionVerified": false,
+  "osmId": "way/25044441"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Kirkintilloch Athletics Track",
+  "slug": "kirkintilloch",
+  "city": "Kirkintilloch",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 87,
+  "lat": 55.9403325,
+  "lng": -4.1328123,
+  "metaTitle": "Kirkintilloch Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Kirkintilloch Athletics Track in Kirkintilloch.",
+  "directionVerified": false,
+  "osmId": "relation/6981593"
+}

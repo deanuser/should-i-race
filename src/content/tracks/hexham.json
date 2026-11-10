@@ -1,0 +1,21 @@
+{
+  "name": "Hexham Athletics Track (Wentworth Leisure Centre)",
+  "slug": "hexham",
+  "city": "Hexham",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 201,
+  "lat": 54.9723257,
+  "lng": -2.0959483,
+  "metaTitle": "Hexham Athletics Track (Wentworth Leisure Centre) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Hexham Athletics Track (Wentworth Leisure Centre) in Hexham.",
+  "directionVerified": false,
+  "osmId": "relation/8379587",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

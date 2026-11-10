@@ -1,0 +1,15 @@
+{
+  "name": "Stockport Athletics Track (Woodbank Stadium)",
+  "slug": "stockport",
+  "city": "Stockport",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 207,
+  "lat": 53.4082601,
+  "lng": -2.1304057,
+  "metaTitle": "Stockport Athletics Track (Woodbank Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stockport Athletics Track (Woodbank Stadium) in Stockport.",
+  "directionVerified": false,
+  "osmId": "relation/14419831"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Cumnock Athletics Track",
+  "slug": "cumnock",
+  "city": "Cumnock",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 113,
+  "lat": 55.4545427,
+  "lng": -4.2786192,
+  "metaTitle": "Cumnock Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Cumnock Athletics Track in Cumnock.",
+  "directionVerified": false,
+  "osmId": "way/845003216"
+}

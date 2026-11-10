@@ -1,0 +1,21 @@
+{
+  "name": "Milnrow Athletics Track (Kingsway Park Athletics Arena)",
+  "slug": "milnrow",
+  "city": "Milnrow",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 151,
+  "lat": 53.60583,
+  "lng": -2.1348506,
+  "metaTitle": "Milnrow Athletics Track (Kingsway Park Athletics Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Milnrow Athletics Track (Kingsway Park Athletics Arena) in Milnrow.",
+  "directionVerified": false,
+  "osmId": "relation/18903721",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

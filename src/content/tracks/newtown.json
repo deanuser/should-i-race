@@ -1,0 +1,21 @@
+{
+  "name": "Newtown Athletics Track",
+  "slug": "newtown",
+  "city": "Newtown",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 252,
+  "lat": 52.5069161,
+  "lng": -3.3265086,
+  "metaTitle": "Newtown Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Newtown Athletics Track in Newtown.",
+  "directionVerified": false,
+  "osmId": "relation/16235233",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

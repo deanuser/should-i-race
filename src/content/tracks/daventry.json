@@ -1,0 +1,15 @@
+{
+  "name": "Daventry Athletics Track",
+  "slug": "daventry",
+  "city": "Daventry",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 204,
+  "lat": 52.2479154,
+  "lng": -1.1599574,
+  "metaTitle": "Daventry Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Daventry Athletics Track in Daventry.",
+  "directionVerified": false,
+  "osmId": "way/478285349"
+}

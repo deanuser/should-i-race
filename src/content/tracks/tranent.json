@@ -1,0 +1,21 @@
+{
+  "name": "Tranent Athletics Track (East Lothian Athletics Arena)",
+  "slug": "tranent",
+  "city": "Tranent",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 335,
+  "lat": 55.9544029,
+  "lng": -2.9618744,
+  "metaTitle": "Tranent Athletics Track (East Lothian Athletics Arena) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Tranent Athletics Track (East Lothian Athletics Arena) in Tranent.",
+  "directionVerified": false,
+  "osmId": "way/426403997",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

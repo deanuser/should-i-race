@@ -1,0 +1,21 @@
+{
+  "name": "Marlow Athletics Track",
+  "slug": "marlow",
+  "city": "Marlow",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 150,
+  "lat": 51.5818712,
+  "lng": -0.7490025,
+  "metaTitle": "Marlow Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Marlow Athletics Track in Marlow.",
+  "directionVerified": false,
+  "osmId": "relation/17497098",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nFloodlights: Yes"
+    }
+  ]
+}

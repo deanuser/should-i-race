@@ -1,0 +1,21 @@
+{
+  "name": "Eastbourne Athletics Track (Eastbourne Sports Park)",
+  "slug": "eastbourne",
+  "city": "Eastbourne",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 74,
+  "lat": 50.7907123,
+  "lng": 0.2724226,
+  "metaTitle": "Eastbourne Athletics Track (Eastbourne Sports Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Eastbourne Athletics Track (Eastbourne Sports Park) in Eastbourne.",
+  "directionVerified": false,
+  "osmId": "relation/7168301",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

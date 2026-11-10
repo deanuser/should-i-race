@@ -1,0 +1,21 @@
+{
+  "name": "Greenford Athletics Track (Perivale Park)",
+  "slug": "greenford",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 343,
+  "lat": 51.532488,
+  "lng": -0.3374498,
+  "metaTitle": "Greenford Athletics Track (Perivale Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Greenford Athletics Track (Perivale Park) in London.",
+  "directionVerified": false,
+  "osmId": "relation/13517023",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

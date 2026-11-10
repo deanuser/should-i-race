@@ -1,0 +1,21 @@
+{
+  "name": "Macclesfield Athletics Track",
+  "slug": "macclesfield",
+  "city": "Macclesfield",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 341,
+  "lat": 53.2681297,
+  "lng": -2.165134,
+  "metaTitle": "Macclesfield Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Macclesfield Athletics Track in Macclesfield.",
+  "directionVerified": false,
+  "osmId": "relation/16742376",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

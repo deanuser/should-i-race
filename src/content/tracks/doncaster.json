@@ -1,0 +1,21 @@
+{
+  "name": "Doncaster Athletics Track (Eco-Power Stadium)",
+  "slug": "doncaster",
+  "city": "Doncaster",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 241,
+  "lat": 53.5110298,
+  "lng": -1.1162891,
+  "metaTitle": "Doncaster Athletics Track (Eco-Power Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Doncaster Athletics Track (Eco-Power Stadium) in Doncaster.",
+  "directionVerified": false,
+  "osmId": "relation/9042008",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6"
+    }
+  ]
+}

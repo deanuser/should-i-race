@@ -1,0 +1,21 @@
+{
+  "name": "Giffnock Athletics Track (Alix Jamieson Stadium)",
+  "slug": "giffnock",
+  "city": "Giffnock",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 240,
+  "lat": 55.8352641,
+  "lng": -4.2829071,
+  "metaTitle": "Giffnock Athletics Track (Alix Jamieson Stadium) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Giffnock Athletics Track (Alix Jamieson Stadium) in Giffnock.",
+  "directionVerified": false,
+  "osmId": "relation/3365611",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

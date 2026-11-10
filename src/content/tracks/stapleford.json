@@ -1,0 +1,15 @@
+{
+  "name": "Stapleford Athletics Track",
+  "slug": "stapleford",
+  "city": "Stapleford",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 1,
+  "lat": 52.9394541,
+  "lng": -1.246307,
+  "metaTitle": "Stapleford Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stapleford Athletics Track in Stapleford.",
+  "directionVerified": false,
+  "osmId": "relation/6023424"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Leigh Athletics Track",
+  "slug": "leigh",
+  "city": "Leigh",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 200,
+  "lat": 53.4895157,
+  "lng": -2.5279737,
+  "metaTitle": "Leigh Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Leigh Athletics Track in Leigh.",
+  "directionVerified": false,
+  "osmId": "relation/8875509",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic\nFloodlights: Yes"
+    }
+  ]
+}

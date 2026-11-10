@@ -1,0 +1,15 @@
+{
+  "name": "Corbets Tey Athletics Track",
+  "slug": "corbets-tey",
+  "city": "London",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 64,
+  "lat": 51.5471653,
+  "lng": 0.2555954,
+  "metaTitle": "Corbets Tey Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Corbets Tey Athletics Track in London.",
+  "directionVerified": false,
+  "osmId": "way/855203805"
+}

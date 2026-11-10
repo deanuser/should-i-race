@@ -1,0 +1,15 @@
+{
+  "name": "Stonehouse Athletics Track (Station Park)",
+  "slug": "stonehouse",
+  "city": "Stonehouse",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 222,
+  "lat": 55.7001249,
+  "lng": -3.9883205,
+  "metaTitle": "Stonehouse Athletics Track (Station Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stonehouse Athletics Track (Station Park) in Stonehouse.",
+  "directionVerified": false,
+  "osmId": "way/359386505"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Clayton-le-Moors Athletics Track (Wilson Playing Fields)",
+  "slug": "clayton-le-moors",
+  "city": "Clayton-le-Moors",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 15,
+  "lat": 53.7817513,
+  "lng": -2.380731,
+  "metaTitle": "Clayton-le-Moors Athletics Track (Wilson Playing Fields) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Clayton-le-Moors Athletics Track (Wilson Playing Fields) in Clayton-le-Moors.",
+  "directionVerified": false,
+  "osmId": "relation/2725261",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

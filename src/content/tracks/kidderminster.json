@@ -1,0 +1,15 @@
+{
+  "name": "Kidderminster Athletics Track",
+  "slug": "kidderminster",
+  "city": "Kidderminster",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 145,
+  "lat": 52.4122336,
+  "lng": -2.2841639,
+  "metaTitle": "Kidderminster Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Kidderminster Athletics Track in Kidderminster.",
+  "directionVerified": false,
+  "osmId": "way/331406450"
+}

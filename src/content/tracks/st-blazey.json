@@ -1,0 +1,21 @@
+{
+  "name": "St Blazey Athletics Track",
+  "slug": "st-blazey",
+  "city": "St Blazey",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 343,
+  "lat": 50.35374,
+  "lng": -4.7026253,
+  "metaTitle": "St Blazey Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for St Blazey Athletics Track in St Blazey.",
+  "directionVerified": false,
+  "osmId": "relation/18442939",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Asphalt\nFloodlights: Yes"
+    }
+  ]
+}

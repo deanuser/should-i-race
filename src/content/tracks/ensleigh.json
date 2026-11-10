@@ -1,0 +1,21 @@
+{
+  "name": "Bath Athletics Track",
+  "slug": "ensleigh",
+  "city": "Bath",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 218,
+  "lat": 51.4099266,
+  "lng": -2.3796289,
+  "metaTitle": "Bath Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bath Athletics Track in Bath.",
+  "directionVerified": false,
+  "osmId": "relation/3835031",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Burton upon Trent Athletics Track (Shobnall Leisure Complex)",
+  "slug": "shobnall",
+  "city": "Burton upon Trent",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 26,
+  "lat": 52.8117868,
+  "lng": -1.6555859,
+  "metaTitle": "Burton upon Trent Athletics Track (Shobnall Leisure Complex) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Burton upon Trent Athletics Track (Shobnall Leisure Complex) in Burton upon Trent.",
+  "directionVerified": false,
+  "osmId": "way/166260640",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

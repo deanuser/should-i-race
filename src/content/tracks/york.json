@@ -1,0 +1,21 @@
+{
+  "name": "York Athletics Track",
+  "slug": "york",
+  "city": "York",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 159,
+  "lat": 53.9438016,
+  "lng": -1.0545836,
+  "metaTitle": "York Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for York Athletics Track in York.",
+  "directionVerified": false,
+  "osmId": "way/828582543",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

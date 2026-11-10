@@ -1,0 +1,21 @@
+{
+  "name": "Bearsden Athletics Track (Knightswood Park)",
+  "slug": "knightswood",
+  "city": "Bearsden",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 16,
+  "lat": 55.8968897,
+  "lng": -4.3521219,
+  "metaTitle": "Bearsden Athletics Track (Knightswood Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bearsden Athletics Track (Knightswood Park) in Bearsden.",
+  "directionVerified": false,
+  "osmId": "way/32028849",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Unpaved"
+    }
+  ]
+}

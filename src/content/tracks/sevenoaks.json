@@ -1,0 +1,15 @@
+{
+  "name": "Sevenoaks Athletics Track",
+  "slug": "sevenoaks",
+  "city": "Sevenoaks",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 328,
+  "lat": 51.2648637,
+  "lng": 0.1982429,
+  "metaTitle": "Sevenoaks Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sevenoaks Athletics Track in Sevenoaks.",
+  "directionVerified": false,
+  "osmId": "way/4940953"
+}

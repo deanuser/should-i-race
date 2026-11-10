@@ -1,0 +1,15 @@
+{
+  "name": "Kirkwall Athletics Track",
+  "slug": "kirkwall",
+  "city": "Kirkwall",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 216,
+  "lat": 58.9824684,
+  "lng": -2.975249,
+  "metaTitle": "Kirkwall Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Kirkwall Athletics Track in Kirkwall.",
+  "directionVerified": false,
+  "osmId": "relation/2755781"
+}

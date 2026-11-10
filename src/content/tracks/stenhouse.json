@@ -1,0 +1,21 @@
+{
+  "name": "Edinburgh Athletics Track (Saughton Sports Complex)",
+  "slug": "stenhouse",
+  "city": "Edinburgh",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 298,
+  "lat": 55.933916,
+  "lng": -3.2544593,
+  "metaTitle": "Edinburgh Athletics Track (Saughton Sports Complex) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Edinburgh Athletics Track (Saughton Sports Complex) in Edinburgh.",
+  "directionVerified": false,
+  "osmId": "relation/13557041",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

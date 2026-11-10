@@ -1,0 +1,21 @@
+{
+  "name": "Bury Athletics Track (Bury Athletic Club)",
+  "slug": "bury",
+  "city": "Bury",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 254,
+  "lat": 53.5872681,
+  "lng": -2.2919941,
+  "metaTitle": "Bury Athletics Track (Bury Athletic Club) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bury Athletics Track (Bury Athletic Club) in Bury.",
+  "directionVerified": false,
+  "osmId": "relation/16624666",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

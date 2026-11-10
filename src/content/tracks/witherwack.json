@@ -1,0 +1,15 @@
+{
+  "name": "Witherwack Athletics Track",
+  "slug": "witherwack",
+  "city": "Sunderland",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 116,
+  "lat": 54.9402722,
+  "lng": -1.4094523,
+  "metaTitle": "Witherwack Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Witherwack Athletics Track in Sunderland.",
+  "directionVerified": false,
+  "osmId": "way/727514534"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Perth Athletics Track",
+  "slug": "perth",
+  "city": "Perth",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 235,
+  "lat": 56.4103846,
+  "lng": -3.4427204,
+  "metaTitle": "Perth Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Perth Athletics Track in Perth.",
+  "directionVerified": false,
+  "osmId": "relation/812235",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

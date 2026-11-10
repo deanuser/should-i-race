@@ -1,0 +1,21 @@
+{
+  "name": "Brentwood Athletics Track",
+  "slug": "brentwood",
+  "city": "Brentwood",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 55,
+  "lat": 51.6196555,
+  "lng": 0.3133562,
+  "metaTitle": "Brentwood Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Brentwood Athletics Track in Brentwood.",
+  "directionVerified": false,
+  "osmId": "relation/18197262",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Clay"
+    }
+  ]
+}

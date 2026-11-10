@@ -1,0 +1,15 @@
+{
+  "name": "Great Yarmouth Athletics Track (EastStand)",
+  "slug": "great-yarmouth",
+  "city": "Great Yarmouth",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 4,
+  "lat": 52.6126095,
+  "lng": 1.7361469,
+  "metaTitle": "Great Yarmouth Athletics Track (EastStand) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Great Yarmouth Athletics Track (EastStand) in Great Yarmouth.",
+  "directionVerified": false,
+  "osmId": "relation/2397917"
+}

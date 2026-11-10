@@ -1,0 +1,15 @@
+{
+  "name": "Whitehaven Athletics Track",
+  "slug": "whitehaven",
+  "city": "Whitehaven",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 152,
+  "lat": 54.5332001,
+  "lng": -3.5569464,
+  "metaTitle": "Whitehaven Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Whitehaven Athletics Track in Whitehaven.",
+  "directionVerified": false,
+  "osmId": "way/118751199"
+}

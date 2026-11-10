@@ -1,0 +1,15 @@
+{
+  "name": "Brecon Athletics Track (Penlan)",
+  "slug": "brecon",
+  "city": "Brecon",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 257,
+  "lat": 51.9553648,
+  "lng": -3.3808782,
+  "metaTitle": "Brecon Athletics Track (Penlan) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Brecon Athletics Track (Penlan) in Brecon.",
+  "directionVerified": false,
+  "osmId": "way/89062853"
+}

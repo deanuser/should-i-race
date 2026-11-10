@@ -1,0 +1,15 @@
+{
+  "name": "Shirley Athletics Track",
+  "slug": "shirley",
+  "city": "Shirley",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 316,
+  "lat": 52.437745,
+  "lng": -1.832489,
+  "metaTitle": "Shirley Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Shirley Athletics Track in Shirley.",
+  "directionVerified": false,
+  "osmId": "relation/1319538"
+}

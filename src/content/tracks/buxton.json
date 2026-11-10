@@ -1,0 +1,15 @@
+{
+  "name": "Buxton Athletics Track",
+  "slug": "buxton",
+  "city": "Buxton",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 245,
+  "lat": 53.2487513,
+  "lng": -1.9187878,
+  "metaTitle": "Buxton Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Buxton Athletics Track in Buxton.",
+  "directionVerified": false,
+  "osmId": "relation/14001738"
+}

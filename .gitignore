@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # Local Netlify folder
 .netlify
+
+# track import script: downloaded OSM data and review reports
+scripts/.cache/
+scripts/output/

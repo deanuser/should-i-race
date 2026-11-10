@@ -1,0 +1,15 @@
+{
+  "name": "Ripon Athletics Track",
+  "slug": "ripon",
+  "city": "Ripon",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 185,
+  "lat": 54.1379067,
+  "lng": -1.5332403,
+  "metaTitle": "Ripon Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Ripon Athletics Track in Ripon.",
+  "directionVerified": false,
+  "osmId": "way/1090849831"
+}

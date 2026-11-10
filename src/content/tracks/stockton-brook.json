@@ -1,0 +1,15 @@
+{
+  "name": "Stockton Brook Athletics Track",
+  "slug": "stockton-brook",
+  "city": "Stockton Brook",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 205,
+  "lat": 53.0689184,
+  "lng": -2.1174779,
+  "metaTitle": "Stockton Brook Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Stockton Brook Athletics Track in Stockton Brook.",
+  "directionVerified": false,
+  "osmId": "relation/15772607"
+}

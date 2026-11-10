@@ -1,0 +1,21 @@
+{
+  "name": "Birmingham Athletics Track",
+  "slug": "selly-park",
+  "city": "Birmingham",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 68,
+  "lat": 52.4471679,
+  "lng": -1.9229821,
+  "metaTitle": "Birmingham Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Birmingham Athletics Track in Birmingham.",
+  "directionVerified": false,
+  "osmId": "relation/5884151",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Gravel"
+    }
+  ]
+}

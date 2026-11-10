@@ -1,0 +1,21 @@
+{
+  "name": "Dumbarton Athletics Track (Posties Park)",
+  "slug": "dumbarton",
+  "city": "Dumbarton",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 120,
+  "lat": 55.9399106,
+  "lng": -4.5708646,
+  "metaTitle": "Dumbarton Athletics Track (Posties Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Dumbarton Athletics Track (Posties Park) in Dumbarton.",
+  "directionVerified": false,
+  "osmId": "relation/3075014",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nFloodlights: Yes"
+    }
+  ]
+}

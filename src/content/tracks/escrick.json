@@ -1,0 +1,15 @@
+{
+  "name": "Escrick Athletics Track",
+  "slug": "escrick",
+  "city": "Escrick",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 170,
+  "lat": 53.8712865,
+  "lng": -1.0396481,
+  "metaTitle": "Escrick Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Escrick Athletics Track in Escrick.",
+  "directionVerified": false,
+  "osmId": "way/810252509"
+}

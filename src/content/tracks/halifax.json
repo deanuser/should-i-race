@@ -1,0 +1,21 @@
+{
+  "name": "Halifax Athletics Track (Spring Hall)",
+  "slug": "halifax",
+  "city": "Halifax",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 180,
+  "lat": 53.7126337,
+  "lng": -1.8572899,
+  "metaTitle": "Halifax Athletics Track (Spring Hall) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Halifax Athletics Track (Spring Hall) in Halifax.",
+  "directionVerified": false,
+  "osmId": "relation/11993227",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)"
+    }
+  ]
+}

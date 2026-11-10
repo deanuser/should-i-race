@@ -1,0 +1,15 @@
+{
+  "name": "Guisborough Athletics Track",
+  "slug": "guisborough",
+  "city": "Guisborough",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 151,
+  "lat": 54.5419839,
+  "lng": -1.0425757,
+  "metaTitle": "Guisborough Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Guisborough Athletics Track in Guisborough.",
+  "directionVerified": false,
+  "osmId": "way/237838498"
+}

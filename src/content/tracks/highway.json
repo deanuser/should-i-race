@@ -1,0 +1,15 @@
+{
+  "name": "Maidenhead Athletics Track",
+  "slug": "highway",
+  "city": "Maidenhead",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 277,
+  "lat": 51.5174914,
+  "lng": -0.7508694,
+  "metaTitle": "Maidenhead Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Maidenhead Athletics Track in Maidenhead.",
+  "directionVerified": false,
+  "osmId": "relation/18007526"
+}

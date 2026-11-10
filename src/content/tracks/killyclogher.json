@@ -1,0 +1,21 @@
+{
+  "name": "Omagh Athletics Track (Youth Sport Omagh)",
+  "slug": "killyclogher",
+  "city": "Omagh",
+  "region": "northern-ireland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 213,
+  "lat": 54.6089923,
+  "lng": -7.2563712,
+  "metaTitle": "Omagh Athletics Track (Youth Sport Omagh) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Omagh Athletics Track (Youth Sport Omagh) in Omagh.",
+  "directionVerified": false,
+  "osmId": "way/124468003",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8"
+    }
+  ]
+}

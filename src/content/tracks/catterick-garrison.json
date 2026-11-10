@@ -1,0 +1,15 @@
+{
+  "name": "Catterick Garrison Athletics Track",
+  "slug": "catterick-garrison",
+  "city": "Catterick Garrison",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 1,
+  "lat": 54.3723239,
+  "lng": -1.7398779,
+  "metaTitle": "Catterick Garrison Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Catterick Garrison Athletics Track in Catterick Garrison.",
+  "directionVerified": false,
+  "osmId": "relation/19602333"
+}

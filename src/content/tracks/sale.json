@@ -1,0 +1,21 @@
+{
+  "name": "Sale Athletics Track (Sale Harriers - Crossford Bridge)",
+  "slug": "sale",
+  "city": "Sale",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 93,
+  "lat": 53.4330745,
+  "lng": -2.312363,
+  "metaTitle": "Sale Athletics Track (Sale Harriers - Crossford Bridge) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Sale Athletics Track (Sale Harriers - Crossford Bridge) in Sale.",
+  "directionVerified": false,
+  "osmId": "relation/17692099",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Paved"
+    }
+  ]
+}

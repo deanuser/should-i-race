@@ -1,0 +1,15 @@
+{
+  "name": "Portsmouth Athletics Track",
+  "slug": "portsea",
+  "city": "Portsmouth",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 312,
+  "lat": 50.7941518,
+  "lng": -1.1007217,
+  "metaTitle": "Portsmouth Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Portsmouth Athletics Track in Portsmouth.",
+  "directionVerified": false,
+  "osmId": "relation/2279984"
+}

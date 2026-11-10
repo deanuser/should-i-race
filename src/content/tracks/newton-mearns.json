@@ -1,0 +1,15 @@
+{
+  "name": "Newton Mearns Athletics Track",
+  "slug": "newton-mearns",
+  "city": "Newton Mearns",
+  "region": "scotland",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 221,
+  "lat": 55.7865223,
+  "lng": -4.325804,
+  "metaTitle": "Newton Mearns Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Newton Mearns Athletics Track in Newton Mearns.",
+  "directionVerified": false,
+  "osmId": "relation/9947057"
+}

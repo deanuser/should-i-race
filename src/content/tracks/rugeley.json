@@ -1,0 +1,15 @@
+{
+  "name": "Rugeley Athletics Track",
+  "slug": "rugeley",
+  "city": "Rugeley",
+  "region": "england",
+  "subRegion": "midlands",
+  "country": "uk",
+  "trackDirection": 55,
+  "lat": 52.7499407,
+  "lng": -1.9229705,
+  "metaTitle": "Rugeley Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Rugeley Athletics Track in Rugeley.",
+  "directionVerified": false,
+  "osmId": "way/490316428"
+}

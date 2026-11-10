@@ -1,0 +1,21 @@
+{
+  "name": "Bolton Athletics Track (Leverhulme Park)",
+  "slug": "bolton",
+  "city": "Bolton",
+  "region": "england",
+  "subRegion": "north",
+  "country": "uk",
+  "trackDirection": 41,
+  "lat": 53.5741701,
+  "lng": -2.395691,
+  "metaTitle": "Bolton Athletics Track (Leverhulme Park) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Bolton Athletics Track (Leverhulme Park) in Bolton.",
+  "directionVerified": false,
+  "osmId": "relation/7741281",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 8\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

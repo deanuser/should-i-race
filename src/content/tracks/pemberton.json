@@ -1,0 +1,21 @@
+{
+  "name": "Llanelli Athletics Track (Pemberton Track)",
+  "slug": "pemberton",
+  "city": "Llanelli",
+  "region": "wales",
+  "subRegion": "all",
+  "country": "uk",
+  "trackDirection": 304,
+  "lat": 51.6818377,
+  "lng": -4.129538,
+  "metaTitle": "Llanelli Athletics Track (Pemberton Track) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Llanelli Athletics Track (Pemberton Track) in Llanelli.",
+  "directionVerified": false,
+  "osmId": "relation/8870425",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nSurface: Compacted cinder\nFloodlights: Yes"
+    }
+  ]
+}

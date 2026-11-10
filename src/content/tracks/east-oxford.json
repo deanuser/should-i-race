@@ -1,0 +1,15 @@
+{
+  "name": "Oxford Athletics Track",
+  "slug": "east-oxford",
+  "city": "Oxford",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 271,
+  "lat": 51.7532336,
+  "lng": -1.2259649,
+  "metaTitle": "Oxford Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Oxford Athletics Track in Oxford.",
+  "directionVerified": false,
+  "osmId": "relation/12274798"
+}

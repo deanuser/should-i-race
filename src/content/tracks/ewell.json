@@ -1,0 +1,21 @@
+{
+  "name": "Ewell Athletics Track (Poole Road)",
+  "slug": "ewell",
+  "city": "Ewell",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 212,
+  "lat": 51.3579114,
+  "lng": -0.2644045,
+  "metaTitle": "Ewell Athletics Track (Poole Road) | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Ewell Athletics Track (Poole Road) in Ewell.",
+  "directionVerified": false,
+  "osmId": "relation/17580491",
+  "trackInfo": [
+    {
+      "heading": "Track Details",
+      "text": "Length: 400m oval\nLanes: 6\nSurface: Synthetic (tartan)\nFloodlights: Yes"
+    }
+  ]
+}

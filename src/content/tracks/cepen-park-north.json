@@ -1,0 +1,15 @@
+{
+  "name": "Chippenham Athletics Track",
+  "slug": "cepen-park-north",
+  "city": "Chippenham",
+  "region": "england",
+  "subRegion": "south",
+  "country": "uk",
+  "trackDirection": 320,
+  "lat": 51.4684461,
+  "lng": -2.1289467,
+  "metaTitle": "Chippenham Athletics Track | Info & Wind Speed",
+  "metaDescription": "Check live wind speed and track information for Chippenham Athletics Track in Chippenham.",
+  "directionVerified": false,
+  "osmId": "relation/18020697"
+}
